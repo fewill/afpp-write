@@ -1,0 +1,8 @@
+*.txt
+*.pdf
+*.docx
+*.xlsx
+*.png
+*.html
+.claude/
+
