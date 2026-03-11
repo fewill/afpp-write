@@ -1,0 +1,1162 @@
+Nacha’s AFPP
+Certification Program
+Item Development Guidelines
+
+February 9 & 11, 2026
+Presented By:
+
+Joseph Caramagno, Principal
+Consultant
+
+HumRRO Headquarters: 66 Canal Center Plaza, Suite 700, Alexandria, VA 22314-1578 | Phone: 703.549.3611 | www.humrro.org
+
+Item Development Schedule
+Task
+Item Writer Training
+
+Schedule
+Feb 9
+
+Receive KSA
+Assignments
+Write Items
+
+&
+
+Feb 11
+
+Feb 11
+Feb 11
+
+to
+
+●
+
+Draft 7 new items of varying levels of
+difficulty and complexity.
+
+●
+
+Your topic assignments will be randomly
+selected for you by HumRRO.
+
+●
+
+Review your assignment and begin writing
+items ASAP – don’t wait until the last week.
+
+●
+
+Contact HumRRO if you have questions or
+encounter obstacles.
+
+Mar 11
+
+HumRRO Review
+
+Mar 11
+
+to
+
+Mar 17
+
+Revise Items
+
+Mar 17
+
+to
+
+Mar 27
+
+Technical Review
+Meeting
+
+Apr 1
+
+to
+
+Apr 2
+
+Drafting an Item
+
+Item Writing Assignments
+Sample Item Writing Assignment
+
+AFPP Exam Blueprint Domains
+Faster
+Payments
+Operations and
+Process Flows
+
+Fundamentals
+of Faster
+Payments
+
+Technology
+Considerations
+for Enabling
+Faster
+Payments
+
+Faster
+Payments Risk
+Management
+
+Governance
+Framework
+
+KSAs
+
+# of
+Items
+
+1003:Attributes of faster payments solutions/
+mechanisms based on platform
+
+1
+
+2002:Settlement types, applications, and
+processes ​
+
+2
+
+3001:Types of risks present in faster
+payments ​
+
+2
+
+5003:Error resolution protections, rights, and
+liabilities of payers and payees​
+
+2
+
+Just Sufficiently Qualified Candidate (2025)
+●
+
+●
+
+●
+
+●
+
+The JSQ candidate for the AFPP certification is proficient in the
+payments industry with a comprehensive knowledge of faster
+payment methods in the U.S., an understanding of and experience
+in faster payments network rails, and a broad knowledge of
+concepts that relate to the payments system as a whole.
+The individual has a detailed working knowledge of fundamental
+faster payments concepts, including how payments systems
+operate, technology capabilities, the application of ISO standards,
+and the laws, rules, and regulations that govern faster payments.
+The candidate can be relied upon to provide sound guidance on
+the responsible use of faster payments networks in compliance with
+applicable laws.
+The JSQ has at least 2 years of experience in the payments industry.
+
+Multiple-Choice Item Format
+The 3 Basic Types of Items
+
+Factual
+Which payment rail requires Sending
+Participants to maintain balances in
+a Prefunded Balance Account at the
+Federal Reserve Bank of New York?
+
+Procedural
+
+Conditional
+
+Which is the last step in the flow of
+faster payments?
+
+When is a sending financial institution
+liable for refunding a non-consumer
+sender for a Request for Return of
+funds sent on their behalf?
+
+ Clearing
+
+ FedNow
+
+ Routing
+
+ RTP
+
+ Posting
+
+ Visa Direct
+
+ The transaction is related to
+fraud.
+ The transaction was sent in error.
+ The requested funds are
+received.
+
+6
+
+Drafting an Item
+Step 1. Select one of the KSAs from your
+assignment and decide what to focus on.
+My Item Writing Assignment
+What Should I Focus On?
+# of
+Items
+
+FACTS
+• What types of protections are available to payers
+• What is the difference between error resolution
+rights for payers vs. payees
+
+KSAs
+
+1003:Attributes of faster payments solutions/
+mechanisms based on platform
+
+1
+
+PROCEDURES
+• How is a particular protection for payees
+implemented
+
+2002:Settlement types, applications, and
+processes ​
+
+2
+
+3001:Types of risks present in faster
+payments ​
+
+2
+
+5003:Error
+resolutionprotections,
+protections,
+rights,
+5003:Error resolution
+rights,
+and
+and
+liabilities
+of payers
+and payees​
+liabilities
+of payers
+and payees​
+
+2
+
+CONDITIONS
+• When does a particular error resolution protection
+apply to payers
+• Under what conditions do payees have liability
+
+7
+
+Drafting an Item
+Step 1. Select one of the KSAs from your
+assignment and decide what to focus on.
+Step 2. Find an authorized source reference
+and search for usable content.
+●
+
+Find an authorized reference (see end of
+this slide deck for approved references).
+
+●
+
+Search for chapters or sections that
+align with the KSA.
+
+●
+
+Search for passages of text that align
+with your chosen focus (i.e., facts,
+procedures, conditions).
+
+8
+
+Drafting an Item
+Step 1. Review your item writing assignment
+and select one of the KSAs.
+Step 2. Find an authorized source reference
+and search for usable content.
+
+Step 3. Look for passages that express
+defensible statements related to the KSA and
+your chosen focus.
+●
+
+A defensible statement is one that is
+supported by fact, law, or logical reasoning.
+– Defensible: “Social media use can negatively
+affect mental health.”
+– Indefensible: “Social media use is destroying
+our souls.”
+
+§ 4A-303. ERRONEOUS EXECUTION OF PAYMENT ORDER.
+(a) A receiving bank that (i) executes the payment order of the sender by
+issuing a payment order in an amount greater than the amount of the
+sender's order, or (ii) issues a payment order in execution of the sender's
+order and then issues a duplicate order, is entitled to payment of the
+amount of the sender's order under Section 4A-402(c) if that subsection is
+otherwise satisfied. The bank is entitled to recover from the beneficiary of
+the erroneous order the excess payment received to the extent allowed by
+the law governing mistake and restitution.
+(b) A receiving bank that executes the payment order of the sender by
+issuing a payment order in an amount less than the amount of the sender's
+order is entitled to payment of the amount of the sender's order under
+Section 4A-402(c) if (i) that subsection is otherwise satisfied and (ii) the
+bank corrects its mistake by issuing an additional payment order for the
+benefit of the beneficiary of the sender's order. If the error is not corrected,
+the issuer of the erroneous order is entitled to receive or retain payment
+from the sender of the order it accepted only to the extent of the amount of
+the erroneous order. This subsection does not apply if the receiving bank
+executes the sender's payment order by issuing a payment order in an
+amount less than the amount of the sender's order for the purpose of
+obtaining payment of its charges for services and expenses pursuant to
+instruction of the sender.
+
+9
+
+Drafting an Item
+Step 1. Review your item writing assignment
+and select one of the KSAs.
+Step 2. Find an authorized source reference
+and search for usable content.
+
+Step 3. Look for passages that express
+defensible statements related to the KSA and
+your chosen focus.
+Step 4. Transform the passage(s) into a
+question stem and keyed response.
+
+§ 4A-303. ERRONEOUS EXECUTION OF PAYMENT ORDER.
+(a) A receiving bank that (i) executes the payment order of the sender by
+issuing a payment order in an amount greater than the amount of the
+sender's order, or (ii) issues a payment order in execution of the sender's
+order and then issues a duplicate order, is entitled to payment of the
+amount of the sender's order under Section 4A-402(c) if that subsection is
+otherwise satisfied. The bank is entitled to recover from the beneficiary of
+the erroneous order the excess payment received to the extent allowed by
+the law governing mistake and restitution.
+
+(b) A receiving bank that executes the payment order of the sender by
+issuing a payment order in an amount less than the amount of the sender's
+order is entitled to payment of the amount of the sender's order under
+Section 4A-402(c) if (i) that subsection is otherwise satisfied and (ii) the
+bank corrects its mistake by issuing an additional payment order for the
+benefit of the beneficiary of the sender's order. If the error is not corrected,
+the issuer of the erroneous order is entitled to receive or retain payment
+from the sender of the order it accepted only to the extent of the amount of
+According
+to UCC
+Article
+4A, a sending
+financial
+the erroneous
+order.
+This subsection
+does not apply
+if the receiving bank
+executes
+sender's a
+payment
+order byorder
+issuing in
+a payment
+institution
+thattheissues
+payment
+an order in an
+than the amount of the sender's order for the purpose of
+amountamount
+lessless
+than
+the
+amount
+ofservices
+the payer’s
+order
+obtaining
+payment
+of its
+charges for
+and expenses
+pursuant to
+instruction
+of the sender.
+is entitled
+to payment
+from the payer if it:
+
+ sends an additional payment order to the
+payee.
+
+10
+
+Drafting an Item
+Step 1. Review your item writing assignment
+and select one of the KSAs.
+Step 2. Find an authorized source reference
+and search for usable content.
+
+Step 3. Look for passages that express
+defensible statements related to the KSA and
+your chosen focus.
+
+According to UCC Article 4A, a sending financial
+institution that issues a payment order in an
+amount less than the amount of the payer’s order
+is entitled to payment from the payer if it:
+ sends an additional payment order to the
+payee.
+ refunds the difference to the payer.
+ recovers the payment from the payee.
+
+Step 4. Transform the passage(s) into a
+question stem and keyed response.
+Step 5. Add distractors that answer the
+question but are incorrect responses.
+
+11
+
+A Few Examples
+
+2006.4: Identify barriers and solutions to cross-border interoperability of faster payments rails
+Barriers to cross-border payments
+Screening procedure barriers
+AML and sanctions screening represent obstacles to cross-border interoperability of
+Faster Payments systems. This is because receiving institutions have to trust that
+screening and onboarding procedures in other markets are accurate and meet the same
+requirements as in the home market. Furthermore, the nature of Faster Payments means
+that time to verify transactions is limited, meaning that automation is key as well as a
+source of risk. A lack of universal AML and sanctions compliance requirements across
+jurisdictions, varying regulatory approaches and onboarding requirements, and fears of
+reputational/financial loss by FIs lead to significant risk in the processing of cross-border
+payments.
+Fragmentation in International Data Standards
+International data standards present significant barriers to cross-border faster payments,
+primarily arising from fragmentation and uncertainty within data frameworks. One
+significant challenge lies in the inconsistency across jurisdictions regarding the
+implementation of rules and standards. This fragmentation extends to jurisdiction-specific
+requirements for messaging formats and legal documentation, resulting in manual
+interventions and higher rates of payment rejections. Moreover, payment service providers
+grapple with balancing various obligations under different data frameworks, such as
+regulatory and supervisory requirements, third-party provider usage, and data security and
+privacy mandates.
+
+Foreign exchange barriers
+Foreign exchange can present obstacles to cross-border instant payments due to currency
+conversion costs, transparency concerns, tight SLAs, fluctuations in exchange rates, and
+FX market operating hours, among other factors. These factors collectively increase the
+cost, uncertainty, and risk associated with these transactions as well as potentially
+harming the end user experience. Currency conversions can introduce hurdles to payment
+fulfillment due to the additional transaction costs involved, fluctuating exchange rates, and
+desire to conclude relationships with FX service providers.
+
+Why do AML and sanctions screening represent
+obstacles to cross-border interoperability of faster
+payments systems?
+a. Lack of uniform compliance requirements
+across jurisdictions*
+b. Fragmentation of international data standards
+frameworks
+c. Fluctuations in foreign exchange rates and
+market operating hours
+
+1001.3: Describe the impact and benefits of faster payments for stakeholders
+Impact and benefit of Faster Payments for stakeholders
+Request-for-Payment
+Request-for-payment is a type of non-payment message enabling
+businesses or individuals to initiate a request that the recipient initiate an
+instant credit transfer. Unlike with a direct debit, an RfP still gives the
+recipient of the RfP (the sender of the payment) control as to a) whether
+the transaction is accepted or not and b) the timing of said payment. The
+FedNow and RTP networks provide RfP functionality, although the two are
+not interoperable between the networks.
+This functionality provides several benefits, including greater convenience
+and flexibility for consumers in paying their bills – including the ability to
+avoid late payments – or requesting funds from friends or family. For
+billers, RfPs enable a sort of account validation when setting up a new
+business relationship (if the account does not exist, the RfP will not work
+and if the account does not belong to the intended payee, the RfP is
+unlikely to be accepted). They also do not require mandates to be set up or
+held onto because the recipient of the RfP has complete control as to if and
+when the payment is made. Billers also benefit from straight-throughprocessing (STP) and enhanced reconciliation due to the RfP message
+itself.
+
+What benefit does an RfP provide to a payer that a
+direct debit does NOT provide?
+a. Automation of the payment process
+b. Establishment of authorization mandates
+c. Control over transaction acceptance*
+
+3001.2: Describe the cross-channel risks present in faster payments
+Types of risks present in Faster Payments
+Operational risks present in Faster Payments
+Operational risk is the risk of financial loss and undermined user confidence resulting from
+the failure of internal processes and systems because of human error or external events.
+Operational risk poses a huge challenge because of the need for continuous system
+availability 24/7/365. This imposes significant demands on operational reliability for Faster
+Payments and participants. Speed, on the other hand, magnifies the impact of any
+operational incidents leading to delays or interruptions in Faster Payment services, and
+these interruptions are immediately noticeable to end users. The repercussions of an
+operational incident in Faster Payments may manifest much sooner in comparison to
+traditional retail payments, where service interruptions or slowdowns could go unnoticed.
+Cross-channel risks present in Faster Payments
+Due to the speed of faster payments, processes related to payments within banks speed
+up as well. Nevertheless, banks have multiple departments that are involved in handling
+payment processing, so even though a bank has the technology to connect to a payment
+rail and process faster payments for its customers, risks could arise from other
+departments’ processes not being adjusted to keep up with that speed. Key departments
+that could be impacted are compliance and risk management, operations, IT, treasury
+services and customer service.
+Liquidity risks present in Faster Payments
+Faster payment systems and their participants are susceptible to liquidity risks arising from
+the possibility of a counterparty, whether a participant or another entity, lacking adequate
+funds to settle their financial obligations. Liquidity risks in Faster Payment systems depend
+on the type of settlement model being used by the system. For systems such as FedNow
+and RTP, which utilize real-time settlement, liquidity risk is minimum because settlement is
+pre-funded and each transaction is settled in real time during payment processing. Same
+Day ACH FI relies on deferred net settlement so there is liquidity risk that builds up
+between the settlement cycles. Liquidity is primarily required at the end of each settlement
+cycle, introducing potential risks if inter-PSP settlement occurs beyond normal business
+hours.
+
+Which risk does a financial institution incur if it
+updates its technology to access a faster
+payments rail but does not update its customer
+service processes?
+a. Operational
+b. Cross-channel*
+c. Liquidity
+
+Refining and Improving an Item
+
+Pose a complete, unambiguous question.
+●
+
+Use a complete question format and avoid the incomplete sentence format. Most of the text you write should
+appear in the stem (not the response options).
+– Do NOT try to trick the test taker with complex or confusing clauses and sentence structures.
+
+●
+
+Avoid the use of negatively phrased questions unless absolutely necessary.
+
+●
+
+Fill-in-the-blank and True/False questions are NOT allowed.
+
+Sender, Sending Participant, and _____ are NOT:
+ Receiving Participant; involved in the Same Day
+ACH process flow.
+
+ Originator; required to execute agreements with
+each RDFI.
+ Operator; owners of settlement accounts at the
+Federal Reserve.
+
+Which participant is involved in the Same Day ACH
+process flow?
+ Sending Participant
+
+ Operator
+ Receiving FI
+
+Make sure the stem is easy to read and understand.
+●
+
+Use active voice.
+
+●
+
+Be direct and concise. Use short sentences and familiar terminology.
+
+●
+
+Write from the 3rd person perspective.
+– Use generic position titles (e.g., risk manager, board of directors, leadership); do NOT use “he” or “she”.
+
+Focusing on a series of questions, gaining a holistic fraudulent
+events view sophisticatedly applied across the industry, the
+FraudClassifier model has key advantages. Which of the
+following do you think is a key advantage of the model?
+
+The key advantage of the FraudClassifier℠ model is the ability to
+classify fraud independently of payment type, characteristics,
+and:
+
+ Independent fraud classification by payment type,
+characteristics, and channel
+
+ product.
+
+ Independent fraud classification by payment type,
+characteristics, and product
+ Independent fraud classification by payment type,
+characteristics, and sender
+
+ channel.
+ sender.
+
+Make sure the responses are properly structured.
+●
+
+Write responses that are logical answers to the specific question you’re asking. Do NOT include responses that
+are silly, absurd, impractical, ridiculous, or fake.
+
+●
+
+Make the responses equal in length and grammatical structure.
+
+●
+
+Ensure there is only one correct response.
+– Ensure they do not cover overlapping content.
+– Vary the position of the correct response.
+
+When can a receiving financial institution use an Accept Without
+Posting response to an instant credit transfer sent to one of its
+customer accounts?
+
+o The receiving financial institution's system requires more time to
+post funds in its core banking system because its
+communication system is disrupted by a passing asteroid.
+
+o If the recipient is not entitled.
+o When the sending or receiving routing or account number is on
+the financial institution's negative list
+
+When can a receiving financial institution use an Accept Without
+Posting response to an instant credit transfer sent to one of its
+customer accounts?
+ The receiving financial institution's system requires more
+time to post funds in its core banking system.
+ The identified recipient is not entitled or permitted to receive
+the payment for legal or compliance reasons.
+ The sending or receiving routing or account number is on the
+financial institution's negative list.
+
+Avoid questions that focus on trivial topics or opinions.
+●
+
+Write questions that test relevant and important topics.
+– WHO, WHAT, WHEN: Facts, useful definitions of terms, critical dates or time frames, monetary limits, significant
+events, etc.
+
+– HOW: Proper sequences of actions or behaviors, the next or first step in a process, the most effective technique to
+use for a given objective/task, etc.
+– WHY, SO WHAT: The value of different pieces of information relative to a cause/objective, the rationale for doing
+something in a particular way, the legal basis for a policy or task, etc.
+Which network rules set has the MOST rules on
+authorizations?
+
+According to the Nacha Operating Rules, what must an
+ODFI’s Origination Agreement include?
+
+ FedNow
+
+ Fees assessed for entries originated
+
+ Nacha Operating Rules
+
+ Restrictions on types of entries originated
+
+ RTP
+
+ Processing schedules for entries originated
+
+Nacha Style Guidelines
+
+Nacha Style Guidelines
+Word Usage
+●
+
+Use mitigate in relation to risk rather than “prevent”.​
+
+●
+
+Use financial institution instead of specific types of financial institutions (e.g., bank, credit union),
+unless the type has a bearing on the correct response.​
+
+●
+
+Use should instead of “would,” “could,” “might,” or “may.”
+
+Formatting
+●
+
+Use italics to emphasize FFIEC source references that are included in the stem. For example:​
+– According to the FFIEC IT Examination Handbook: Retail Payment Systems Booklet…​
+
+●
+
+Write the word “not” in all capital letters (i.e., NOT).
+
+●
+
+Do NOT use underlining or boldface type.
+
+●
+
+NEW! Do NOT use the registered trademark or copyright symbols (e.g., RTP®, FedNow®)
+22
+
+Nacha Style Guidelines
+Citations
+●
+
+Cite the source in the stem if the answer varies depending on which source or
+perspective one takes.
+– Example: “According to Operating Circular 4,…”
+
+●
+
+If using a citation to the FFIEC IT Examination Handbook, identify the specific booklet.
+– Example: “According to the FFIEC IT Examination Handbook: Retail Payment Systems
+Booklet…​”
+
+●
+
+When referencing the Nacha Operating Rules in an item, always write the full name.
+– Do NOT use shortened versions such as ACH Rules or Nacha Rules.​
+
+23
+
+AFPP Dimensions, Knowledge
+Statements, and Knowledge
+Objectives
+
+1000: Fundamentals of Faster Payments
+●
+
+1001: Knowledge of the types, applications, and impact of faster payments rails (e.g., individual and organizational benefits,
+economic benefits, financial inclusion)
+– Describe the types, features, and applications of U.S. faster payments network rails (e.g., ACH, TCH RTP Network, FRB FedNow, debit
+card networks)
+– Identify uses cases (e.g., payroll, disbursements, bill pay, claims) that are a good fit for faster payments types (e.g., P2P, B2C, C2B,
+B2B, G2C, C2G, B2G, A2A)
+– Describe the impact and benefits of faster payments for stakeholders (e.g., speed of settlement, availability of funds, predictability,
+efficiency, security, enriched payment data, 24/7/365, additional functional capabilities such as request for payment and request for
+information)
+– Distinguish between instant/immediate and same-day payments
+– Describe end-user funds availability timing and corresponding interbank settlement methods for each faster payment rail
+– Explain the relevance of irrevocability of final funds for each faster payment rail
+– Identify the factors that impact the adoption and application of faster payments solutions (e.g., customer base, vendor relationships,
+existing technology, current and future products and services, ubiquity, interoperability, corporate culture/goals, reporting and financial
+institution reconciliation)
+– Distinguish between payer authorization requirements by rail
+– Explain the purpose and benefits of confirmation of payee
+– Explain the usage of message types (i.e., value or non-value)
+– Explain how faster payments impact end-user cash flow management
+– Explain how faster payments impact financial institution liquidity management
+– Describe the points of financial institution liquidity management in correspondent/respondent relationships
+
+1000: Fundamentals of Faster Payments
+●
+
+1002: Knowledge of the roles, responsibilities, and requirements of faster payments stakeholders (e.g., network
+operators, financial institutions, correspondents, bankers banks, corporate credit unions, third parties, value added
+services, merchants, consumers, regulators, core processors)
+– Identify the roles and responsibilities of faster payments stakeholders
+
+– Describe the eligibility requirements of faster payments stakeholders based on network (e.g., ACH, FedNow, RTP, Card Networks)
+– Describe the relationships between faster payments stakeholders
+●
+
+1003: Knowledge of the attributes of faster payments solutions/mechanisms based on platform (e.g., push vs. pull,
+messaging, dollar limits, SLAs)
+– Differentiate between faster payments rails that allow credit push only versus credit push and debit pull
+– List the types of messaging capabilities for each faster payments rail
+– Differentiate between the dollar limits for each faster payments rail
+– Describe the network service level agreements applicable to faster payments
+
+●
+
+1004: Knowledge of the types and functions of participation
+– Describe the different types of participation by rail
+– Distinguish the message types required to be supported depending on the manner in which the financial institution participates in the
+network (e.g., receive only must certify for receiving PACS.008)
+
+2000: Faster Payments Operations and Process Flows
+●
+
+2001:Financial institutions’ procedures for payment processing via faster payments networks/platforms
+– Identify the requirements by rail for financial institutions prior to receiving/originating transactions
+– Identify the steps involved in faster payments transactions by network rail
+– Describe the processes required for message validation (e.g., digital signature validation, schema validation)
+
+●
+
+2002:Settlement types, applications, and processes
+– Identify faster payments rails settlement types/methods (e.g., Real-Time Gross, deferred)
+– Describe how faster payments settlement types/methods impact payments stakeholders and systems
+– Identify faster payments rails’ requirements for end-user funds availability
+– Describe the impact of faster payments settlement types on reconciliation of Fed/Joint accounts
+– Differentiate between accounting cycles by rail
+
+●
+
+2003:Factors that impact message acceptance and rejection
+– Explain how status responses from receiving financial institutions increase payment completion rates
+– Identify the points of failure in the payment flow (e.g., at the sending financial institution, network operator, receiving financial institution)
+– List the factors that cause a faster payment to fail
+
+– Identify methods or techniques for mitigating message rejections and failures
+– Identify the responsibilities of sending financial institutions when receiving message rejections and failures
+
+2000: Faster Payments Operations and Process Flows
+●
+
+2004:Exception handling processes for faster payment rails
+– Identify the ways payments/messages lead to the build-out of exception processes
+– Identify tools offered by faster payments rails to enable exception processing in a reasonable amount of time (e.g.,
+messages, alerts, notifications)
+– Identify methods faster payments rails use to aggregate exceptions data and identify patterns
+– Identify methods faster payments rails use to reduce exception processing
+– Explain when and why receiving financial institutions allow accept without posting responses
+– Identify the allowable time frames for resolving accept without posting responses
+
+– Compare the procedures for implementing requests for returns across faster payments rails
+– Explain when and why financial institutions allow requests for returns and reversals
+– Identify the allowable time frames for processing requests for returns
+– Identify the methods faster payments rails use to create, record, and retain information needed for post-transaction
+exception evaluation (e.g., payment tracing, incident tracking)
+
+2000: Faster Payments Operations and Process Flows
+●
+
+2005:Types and purposes of back-office systems and functions for processing payments (e.g., OFAC screening, fraud
+control, AML compliance, deposit systems)
+– Describe how faster payments rails impact OFAC screening processes
+– Describe how faster payments rails impact AML compliance processes
+– Describe how faster payments rails impact fraud detection processes
+– Describe how faster payments rails impact deposit systems
+– Describe the reporting requirements necessary to process faster payments
+– Identify types of back-office systems' controls for processing faster payments
+– Identify back-office systems needed to meet audit (or reconciliation) requirements
+
+●
+
+2006:Interoperability considerations regarding foreign and domestic payment systems
+– Explain interoperability differences across faster payments rails
+– Identify faster payments rails that allow cross-border payments
+– Identify the data fields, format, and standards required for interoperability of foreign and domestic payments systems
+– Identify barriers and solutions to cross-border interoperability of faster payments rails
+– Identify risk factors related to cross-border payments (e.g., terrorism financing, currency fluctuations, infrastructure stability)
+
+2000: Faster Payments Operations and Process Flows
+●
+
+2007:Types of user transparency and notifications provided by faster payments networks/platforms stakeholders
+– Identify the types and functions of status messages
+– Identify the remittance information provided by faster payments rails
+– Describe the remittance information disclosure requirements for faster payments rails
+
+●
+
+2008:Payment network process flows by participation level
+– Differentiate payment process flows by rail
+– Distinguish between clearing and settlement processes by rail
+
+●
+
+2009:Availability, permissible maintenance windows, and outage notifications by network
+– Define the availability expectations for accessing faster payments rails
+– Identify system maintenance and outage notification requirements
+– Describe straight through processing expectations of faster payment rails and implications of transaction rejects (e.g., transaction
+timeouts)
+
+●
+
+2010:Procedures for reporting fraudulent and/or suspicious activity related to faster payments
+– Identify which faster payments rails require reporting to stakeholders for fraud
+– Identify methods and messages used for reporting fraud (e.g., Cam56 for RTP/FedNow, return codes)
+– Identify the different fraud classifications with available messages
+– Identify faster payments rails’ requirements and options for reporting suspicious activity
+
+3000: FASTER PAYMENTS RISK MANAGEMENT
+●
+
+3001:Types of risks present in faster payments
+– Describe the operational risks present in faster payments
+– Describe the cross-channel risks present in faster payments
+– Describe the compliance risks present in faster payments
+– Describe the fraud risks present in faster payments
+– Describe the liquidity risks present in faster payments
+– Describe the technology risks present in faster payments
+– Describe the credit risks present in faster payments
+
+●
+
+3002:Types and application of internal controls
+– Identify commercially reasonable methods and techniques used to detect fraud (e.g., trend analysis, machine learning, predictive and
+behavioral modeling, anomalous transaction detection, enhanced due diligence, confirmation of payee)
+– Describe the application of fraud detection and mitigation techniques for different types of fraud
+– Identify types and applications of internal controls used to mitigate risk related to faster payments
+– Identify barriers to the implementation of internal controls for faster payments
+– Identify limitations of internal controls for mitigating types of faster payments risks
+– Describe how service disruptions impact faster payments system integrity
+– Identify risk assessment methodologies applicable to faster payments
+– Explain the use of process flows in risk assessment for faster payments
+– Identify the reasons for implementing prefunding requirements
+
+3000: FASTER PAYMENTS RISK MANAGEMENT
+●
+
+3003:Customer onboarding programs, policies, and procedures
+– Explain why customer onboarding programs are important for managing risk related to faster payments
+– List the elements of a customer identification program (CIP)
+
+– Describe the responsibilities of parties involved in a customer identification program (CIP)
+– Identify additional requirements for faster payment customers that use Request for Payment functionality
+●
+
+3004:Types and applications of authentication channels and methods for transactions performed via faster
+payments solutions
+– Identify the types of authentication methods used for faster payments transactions
+
+– List the parties involved in faster payments transactions who need to be authenticated
+– Compare the features and functions of authentication types by faster payments rail
+
+4000: TECHNOLOGY CONSIDERATIONS FOR ENABLING FASTER PAYMENTS
+●
+
+4001:Types and purposes of technology components of faster payments networks/platforms
+– List the critical technology components of faster payments rails
+– Describe the purpose and function of an application programming interface (API) in the context of faster payments
+– Explain the concept of directory as it relates to faster payments
+– Identify methods for protecting data in transit and at rest (e.g., tokenization, encryption)
+– Identify methods for connecting with faster payments platforms (e.g., direct, via third parties)
+– Identify the purposes, functions, and benefits of directories used to support faster payments
+– Compare the use of directories for faster payments with other industries (e.g., email and mobile phone networks)
+– Explain the need for governance around directories that support faster payments
+– Describe security considerations related to the use of directories (e.g., data, data mining, access)
+
+●
+
+4002:Purpose and application of messaging standards for faster payments platforms
+– Define ISO 20022 and its application to faster payments
+– Define ISO 8583 and its use for push to card
+– Identify the messaging standards used with faster payments rails
+– Identify the value and non-value messages within each faster payment rail
+
+4000: TECHNOLOGY CONSIDERATIONS FOR ENABLING FASTER PAYMENTS
+●
+
+4003:ISO 20022 message categories and usage
+– Explain the purpose of the two key components of ISO 20022 (i.e., message structure, data dictionary)
+– Differentiate between value, non-value, system, and reporting message types
+
+– Identify the messages financial institutions must accept to participate in instant payment rails
+●
+
+4004:Faster payments overlay and value-added services
+– Identify types of value-added and overlay services for faster payments
+– List examples and characteristics of value-added and overlay services
+– Describe how value-added and overlay services support faster payments rails
+
+5000: GOVERNANCE FRAMEWORK
+●
+
+5001:Rules and guidance applicable to faster payments networks/platforms
+– Identify rule sets that govern faster payments rails
+– Compare and contrast the Real-Time Payments and FedNow rules
+– Identify which faster payments stakeholders have responsibility for PCI/DSS rule compliance
+– Explain the relevance of FFIEC guidance to faster payments
+– Explain the requirements set forth by each rule set applicable to faster payments
+
+●
+
+5002:Laws and regulations applicable to faster payments networks/platforms
+– The interaction between private sector rules and other banking regulations
+– Identify the payment rails governed by laws and regulations applicable to faster payments
+– Identify the party responsible for governance of laws and regulations applicable to faster payments
+– Differentiate between consumer and non-consumer regulations
+– Compare and contrast private rule sets and federal regulation
+– Describe the objectives of the data privacy laws
+– Describe the obligations of faster payments stakeholders (by payment rail) under data privacy laws
+– Explain the application of the Bank Secrecy Act and Anti-Money Laundering regulations to faster payments
+– Explain the hierarchy of rules and regulations by payment rail
+
+5000: GOVERNANCE FRAMEWORK
+●
+
+5003:Error resolution protections, rights, and liabilities of payers and payees
+– Explain the liability of a payer for a misdirected payment
+– Differentiate the applicability of error resolution protections under Regulation E and UCC4A
+
+– Explain the liabilities and error resolution responsibilities of the sending and receiving financial institutions
+– Define an error on a faster payment
+●
+
+5004:The role of client/customer agreements and disclosures with respect to faster payments products and
+services
+– Identify the required agreements for each payment rail
+
+– Identify the required disclosures for each payment rail
+– Describe the roles of agreements among faster payments stakeholders
+– Describe the roles of disclosures among faster payments stakeholders
+– Compare warranties and indemnities by rail and rule set
+
+Authorized Source Material
+
+Authorized Source Material
+AFPP Handbook
+● FedNow® Service Operating Procedures
+(frbservices.org)
+● FFIEC BSA/AML Examination Manual
+● FFIEC IT Examination Handbook
+● ISO 4217:2015(en) Codes for the
+representation of currencies
+● ISO 8583-1:2003(en) Financial transaction
+card originated messages
+● ISO 8601-2:2019(en) Date and time
+● Nacha Operating Rules
+● OC4, OC8
+● PCI DSS Quick Reference Guide
+●
+
+Regulation E, J
+● The Clearing House: Introduction to the
+RTP® System
+● The Clearing House: RTP® Participation
+and Operation Rules
+● Treasury: Sanctions Compliance Guidance
+for Instant Payment Systems
+● U.S. Faster Payments Council: Glossary of
+terms
+● UCC Article 4A
+● Visa Core Rules
+●
+
+38
+
+Reporting Source References
+Every item MUST have at least one
+approved reference recorded in the item
+bank.
+● Include as many of the following as
+possible:
+●
+
+– Document title
+– Author(s)
+– Publication year
+– Page number(s)
+
+– Other location information (e.g., chapter,
+section, paragraph, etc.)
+
+For example:
+
+AFPP Handbook (2024). Nacha.
+2006.2 Cross-border payments through
+Faster Payments rails
+Table labeled: Status of payment rails in
+terms of cross border payments availability
+p. 105
+
+– URL
+
+39
+
+Using the HumRRO Item Bank
+
+HumRRO Item Banking Platform
+URL: https://ib-platform.humrro.org
+●
+
+Your username is your email address (the
+one we have on file).
+
+●
+
+First-time users will receive an email with
+instructions to set a new password.
+
+●
+
+Contact HumRRO if you have any trouble.
+
+●
+
+3 incorrect login attempts will lock your
+account.
+
+41
+
+HumRRO Item Banking Platform
+
+Getting Started
+● From the My Projects menu, select
+NACHA AFPP, then select the NACHA
+AFPP item bank.
+●
+
+From the ItemBank menu, select Edit
+Items.
+
+●
+
+From the Create Item screen, click the
+Add Item button.
+
+42
+
+HumRRO Item Banking Platform
+
+Leave the default selections
+Select “Multiple Choice”
+
+Ignore these fields
+
+Select your assigned KSA and the
+Dimension field will automatically populate
+
+43
+
+HumRRO Item Banking Platform
+
+Type your stem question here
+
+Response options go here
+
+Response options go here
+44
+
+HumRRO Item Banking Platform
+Ignore these fields
+Select the
+radio button
+next to the
+correct
+answer
+
+Response options go here
+
+Response options go here
+
+Response options go here
+
+Click the Save button. Do NOT click Save and Exit
+45
+
+HumRRO Item Banking Platform
+
+Click the Add References button
+46
+
+HumRRO Item Banking Platform
+
+Type your reference here, then click the Save
+References button
+
+47
+
+HumRRO Item Banking Platform
+
+NOW you should click Save and Exit
+
+

@@ -1,0 +1,140 @@
+Item ID
+
+700007(1, 0)
+Drafted:3/5/2024
+
+Gor
+700006(1, 0)
+
+Drafted:3/10/2023
+Gor
+
+700010(1, 0)
+Drafted:3/6/2024
+
+Gor
+
+700005(1, 0)
+Drafted:3/10/2023
+
+Gor
+700004(1, 0)
+
+Drafted:3/10/2023
+Gor
+
+700003(1, 0)
+Drafted:3/10/2023
+Gor
+
+700002(1, 0)
+Drafted:3/10/2023
+Gor
+
+700001(0, 1)
+Drafted:3/9/2023
+Gor
+
+Stem Y KSA Y
+
+According to Operating Circular 8, which party
+must follow the FedNow Service Operating...
+
+Which international messaging standard is
+used by push-to-card payments?
+
+Which message is sent by the receiving
+financial institution when it intends to accept...
+
+Which self-describing, international payment
+instruction message format is used by instan...
+
+Which method is used to verify the integrity of
+transactions transmitted via FedNow?
+
+Which is a benefit that directory services
+provide to faster payments rails?
+
+Which is a required function of a directory for
+faster payments rails?
+
+Here is the stem.
+
+5004: The role of client/customer agreements
+and disclosures
+
+4002: The purpose and application of
+messaging standards for
+
+2007: Types of user transparency and
+remittance information
+
+4002: The purpose and application of
+messaging standards for
+
+4001: The types and purposes of technology
+components of fas
+
+4001: The types and purposes of technology
+components of fas,
+
+4001: The types and purposes of technology
+components of fas
+
+4001: The types and purposes of technology
+components of fas,
+
+Review Status
+
+Ready to Test
+
+Must Drop or Revise
+
+Drafted
+
+Ready to Test
+
+Ready to Test
+
+Must Drop or Revise
+
+Ready to Test
+
+Sample Item
+
+Y Author
+
+Bradley Wilkes
+
+Bradley Wilkes
+
+Bradley Wilkes
+
+Bradley Wilkes
+
+Bradley Wilkes
+
+Bradley Wilkes
+
+Bradley Wilkes
+
+Bradley Wilkes
+
+Y Stem Changed Date +
+
+12/10/2024 02:18 PM
+
+11/05/2024 07:27 AM
+
+03/06/2024 12:21 PM
+
+02/14/2024 08:16 AM
+
+02/14/2024 07:24 AM
+
+02/14/2024 07:16 AM
+
+02/14/2024 07:14 AM
+
+03/09/2023 09:04 AM
+
