@@ -1,0 +1,161 @@
+I want to draft test questions, 3 for each of the three basic types. Here is the information for the questions test question.  
+
+The KSA for these question is: 
+
+
+3000: FASTER PAYMENTS RISK MANAGEMENT
+  3003:Customer onboarding programs, policies, and procedures
+  – Explain why customer onboarding programs are important for managing risk related to faster payments
+  – List the elements of a customer identification program (CIP)
+  – Describe the responsibilities of parties involved in a customer identification program (CIP)
+  – Identify additional requirements for faster payment customers that use Request for Payment functionality
+
+
+The test question must have the following characteristics:
+
+It must be in the multiple choice format with a maximum of three choices. Only one choice can be true. The other two choices
+are referred two as distractors. 
+
+The process for drafting the question is as follows:
+
+    Step 1: Select information in the sourc material releated to our KSA. 
+    Step 2: Select a Focus: Factual, Procedural, or Conditional. Search chapters or sections that aling with the KSA. 
+            Search for passages of text that align with the chosen focus. 
+    Step 3: Look for statements that express defensible statements related to the KSA and the chosen focus. 
+            A defensible statement is supported by fact, law, or logical reasoning 
+                defensible: "social media use can negatively affect mental health"
+                indefensible: "social media use is destroying our souls"
+    Step 4: Transform the passages into a question stem and keyed response. 
+    Step 5: Add distractors that answer the question but a incorrect responses. 
+
+
+Questions can be one of three basic types: Factual, Procedural, or Conditional. 
+
+    Factual Example:
+        Which payment rail requires Sending Participants to maintain balances in a Prefunded Balance Account at the Federal Reserve Bank of New York?
+             FedNow
+             RTP
+             Visa Direct
+
+    Procedural Example: 
+        Which is the last step in the flow of faster payments?
+             Clearing
+             Routing
+             Posting
+
+    Conditional Example:
+        When is a sending financial institution liable for refunding a non-consumer sender for a Request for Return of funds sent on their behalf?
+             The transaction is related to fraud.
+             The transaction was sent in error.
+             The requested funds are received.
+
+We will use the 2026-AFPP-HANDBOOK-FINAL.txt in this directory as the "source document" for the question. 
+
+We want to determine what to focus on for the question: Facts, Procedures, or Conditions.
+
+  Facts: 
+
+  Procedures:
+
+  Conditions:
+
+Refining and Improving Items
+
+    Pose a complete, unambiguous question.
+        Use a complete question format and avoid the incomplete sentence format. Most of the text you write should
+    appear in the stem (not the response options).
+        Do NOT try to trick the test taker with complex or confusing clauses and sentence structures.
+        Avoid the use of negatively phrased questions unless absolutely necessary.
+        Fill-in-the-blank and True/False questions are NOT allowed.
+
+        A good example: 
+            Which participant is involved in the Same Day ACH process flow?
+                 Sending Participant
+                 Operator
+                 Receiving FI
+        
+        A bad example:
+            Sender, Sending Participant, and _____ are NOT:
+                 Receiving Participant; involved in the Same Day ACH process flow.
+                 Originator; required to execute agreements with each RDFI.
+                 Operator; owners of settlement accounts at the Federal Reserve.
+
+    Make sure the stem is easy to read and understand.
+        Use active voice.
+        Write from the 3rd person perspective.
+            Use generic position titles (e.g., risk manager, board of directors, leadership); do NOT use “he” or “she”.
+
+        A good example: 
+          The key advantage of the FraudClassifier℠ model is the ability to classify fraud independently of payment type, characteristics, and:
+             channel.
+             product.
+             sender.
+
+        A bad example: 
+          Focusing on a series of questions, gaining a holistic fraudulent events view sophisticatedly applied across the industry, the FraudClassifier model has key advantages. Which of the following do you think is a key advantage of the model?
+             Independent fraud classification by payment type,characteristics, and channel
+             Independent fraud classification by payment type, characteristics, and product
+             Independent fraud classification by payment type, characteristics, and sender
+
+    Make sure the responses are properly structured.
+        Write responses that are logical answers to the specific question you’re asking. Do NOT include responses that are silly, absurd, impractical, ridiculous, or fake.
+        Make the responses equal in length and grammatical structure.
+        Ensure there is only one correct response.
+            Ensure they do not cover overlapping content.
+            Vary the position of the correct response.
+
+        A good example:
+            When can a receiving financial institution use an Accept Without Posting response to an instant credit transfer sent to one of its customer accounts?
+               The receiving financial institution's system requires more time to post funds in its core banking system.
+               The identified recipient is not entitled or permitted to receive the payment for legal or compliance reasons.
+               The sending or receiving routing or account number is on the financial institution's negative list.
+
+        A bad example: 
+            When can a receiving financial institution use an Accept Without Posting response to an instant credit transfer sent to one of its customer accounts?
+               The receiving financial institution's system requires more time to post funds in its core banking system because its communication system is disrupted by a passing asteroid.
+               If the recipient is not entitled.
+               When the sending or receiving routing or account number is on the financial institution's negative list
+
+    Avoid questions that focus on trivial topics or opinions.
+        Write questions that test relevant and important topics.
+            WHO, WHAT, WHEN: Facts, useful definitions of terms, critical dates or time frames, monetary limits, significantevents, etc.
+            HOW: Proper sequences of actions or behaviors, the next or first step in a process, the most effective technique to use for a given objective/task, etc.
+            WHY, SO WHAT: The value of different pieces of information relative to a cause/objective, the rationale for doing something in a particular way, the legal basis for a policy or task, etc.
+
+        A good example:
+          According to the Nacha Operating Rules, what must an ODFI’s Origination Agreement include?
+             Fees assessed for entries originated
+             Restrictions on types of entries originated
+             Processing schedules for entries originated
+
+        A bad example:
+          Which network rules set has the MOST rules on authorizations?
+             FedNow
+             Nacha Operating Rules
+             RTP
+
+    NACHA Style Guidlines: 
+        Word Usage
+            Use mitigate in relation to risk rather than “prevent”.​
+            Use financial institution instead of specific types of financial institutions (e.g., bank, credit union), unless the type has a bearing on the correct response.​
+            Use should instead of “would,” “could,” “might,” or “may.”
+        Formatting
+            Use italics to emphasize FFIEC source references that are included in the stem. For example:​
+                According to the FFIEC IT Examination Handbook: Retail Payment Systems Booklet…​
+            Write the word “not” in all capital letters (i.e., NOT).
+            Do NOT use underlining or boldface type.
+            NEW! Do NOT use the registered trademark or copyright symbols (e.g., RTP®, FedNow®)
+        Citations
+            Cite the source in the stem if the answer varies depending on which source or perspective one takes.
+                Example: “According to Operating Circular 4,…”
+            If using a citation to the FFIEC IT Examination Handbook, identify the specific booklet.
+                Example: “According to the FFIEC IT Examination Handbook: Retail Payment Systems Booklet…​”
+            When referencing the Nacha Operating Rules in an item, always write the full name.
+                Do NOT use shortened versions such as ACH Rules or Nacha Rules.​
+
+
+Reporting Source References
+    Every item MUST have at least one approved reference recorded in the item bank.
+        For example:
+            AFPP Handbook (2024). Nacha. 2006.2 Cross-border payments through Faster Payments rails Table labeled: Status of payment rails in terms of cross border payments availability p. 105
+

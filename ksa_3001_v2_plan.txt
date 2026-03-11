@@ -1,0 +1,586 @@
+Plan: Draft 9 Test Questions for KSA 3001 (v2)
+================================================
+
+KSA: 3001 — Types of Risks Present in Faster Payments
+Parent KSA: 3000 — Faster Payments Risk Management
+
+Sub-competencies to test:
+  – Describe the operational risks present in faster payments
+  – Describe the cross-channel risks present in faster payments
+  – Describe the compliance risks present in faster payments
+  – Describe the fraud risks present in faster payments
+  – Describe the liquidity risks present in faster payments
+  – Describe the technology risks present in faster payments
+  – Describe the credit risks present in faster payments
+
+Source documents:
+  Primary:   /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+  Secondary: /home/fewill/code/afpp-write/ffiec_itbooklet_retailpaymentsystems.txt
+  Secondary: /home/fewill/code/afpp-write/instant_payment_systems_compliance_guidance_brochure.pdf
+  Secondary: /home/fewill/code/afpp-write/Glossary of Terms _ Faster Payments Council.txt
+  (PCIDSS, OC4, OC8, Reg J, Reg E, Visa rules, RTP rules: not material to this KSA)
+
+Output files (per prompt):
+  Plan:  ksa_3003_plan_v2.txt   ← this file
+  Draft: ksa_3003_draft_v2.txt
+
+Question distribution:
+  Factual:     2 JSQ  +  1 SQ  =  3 questions
+  Procedural:  2 JSQ  +  1 SQ  =  3 questions
+  Conditional: 1 JSQ  +  2 SQ  =  3 questions
+                                   -----------
+  Total:                           9 questions
+
+Correct answer distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SOURCE MATERIAL SUMMARY
+---------------------------------------------------------------------------
+
+SECTION A: Operational Risk
+  Source: AFPP Handbook, lines 7605–7619
+
+  - Definition: "operational risk represents the amount of loss related to
+    unintentional errors, which may result in delayed, duplicated, or
+    otherwise erroneous payments." (line 7605–7606)
+  - Broader definition: risk arising from deficiencies in information
+    systems, internal processes, human error, management failures, or
+    external events that result in reduction, deterioration, or breakdown
+    of services. (lines 7606–7608)
+  - Unique FP challenge: 24/7/365 continuous availability requirement makes
+    operational incidents uniquely severe. (line 7609)
+  - Speed magnification: "Speed magnifies the impact of any operational
+    incidents leading to delays or interruptions in Faster Payment services,
+    and these interruptions are immediately noticeable to end users."
+    (lines 7610–7611)
+  - "A Faster Payment system being unavailable for a few minutes can cause
+    many payments to fail; the consequences of operational downtime can
+    therefore have even more serious implications than with traditional
+    systems." (lines 7615–7617)
+  - "Faster payment systems are subject to fraud and security risks, forming
+    a large subset of operational risks." (line 7619)
+
+  Source: FFIEC IT Examination Handbook: Retail Payment Systems Booklet,
+          lines 1986–1987:
+  - "Operational risk is the risk of loss resulting from inadequate or
+    failed internal processes, people and systems, or external events."
+
+SECTION B: Cross-Channel Risk
+  Source: AFPP Handbook, lines 7622–7635
+
+  - Definition: "Cross-channel risk occurs when the movement of fraudulent
+    or illegal payment transactions from one payments channel to another is
+    met with inconsistent risk management practices and lack of information
+    sharing across payment channels about fraud." (lines 7622–7624)
+  - Increased exposure: an FI offering faster payment products alongside
+    traditional payment products (checks, wire transfers) faces increased
+    cross-channel risk due to multiple channels available. (lines 7632–7633)
+  - Speed enablement: "The speed and finality of faster payments reduce the
+    time available for fraud detection and prevention. This can make it
+    easier for fraudsters to potentially move funds quickly through different
+    channels before an institution can review and detect suspicious
+    activity." (lines 7633–7635)
+
+  Source: FPC Glossary, lines 235–236:
+  - "Occurs when the movement of fraudulent or illegal payment transactions
+    from one payments channel to another (e.g., check payments to ACH) is
+    met with inconsistent risk management practices and lack of information
+    sharing across payment channels about fraud."
+
+SECTION C: Compliance Risk
+  Source: AFPP Handbook, lines 7637–7648
+
+  - Primary driver: "The major factor contributing to this increase in
+    compliance risks arises from the increased speed of most types of Faster
+    Payments." (lines 7638–7639)
+  - Concerns: insufficient time for AML, KYC due diligence, fraud
+    prevention; automation creates its own risks. (lines 7639–7641)
+  - Window problem: "The high velocity of Faster Payments provides a smaller
+    window of opportunity for stakeholders to conduct thorough due diligence
+    and real-time monitoring, potentially increasing the risk of non-compliance
+    and fraud." (lines 7641–7643)
+  - Balance: FIs must navigate between account holder expectations and
+    regulatory requirements around financial crime controls. (lines 7644–7646)
+  - Penalties: "Penalties for non-compliance can include fines, suspension,
+    and even exit of the FI from the Faster Payment systems." (lines 7647–7648)
+
+  Source: FFIEC Booklet, lines 1961–1984:
+  - For domestic ACH, the ODFI is responsible for verifying the originator is
+    not an OFAC blocked party; the RDFI is responsible for verifying the
+    receiver is not a blocked party. (lines 1961–1969, 1975–1978)
+
+  Source: OFAC Compliance Communiqué (instant_payment_systems_compliance_
+          guidance_brochure.pdf), page 2:
+  - "Domestic instant payment systems — i.e., those in which all transactions
+    involve only accounts maintained at U.S. banks, excluding foreign
+    correspondent accounts — generally pose a lower risk of sanctions exposure
+    than instant payment systems that permit cross-border transactions."
+
+SECTION D: Fraud Risk
+  Source: AFPP Handbook, lines 7650–7686
+
+  - Definition: "Fraud risk is the risk that a payment transaction will be
+    initiated or altered in an attempt to misdirect or misappropriate funds."
+    (lines 7650–7651)
+  - Sources: dissatisfied/dishonest employees, third-party processors,
+    originating company personnel, or outside parties (cyber thieves,
+    fraudsters). (lines 7651–7653)
+  - Three common fraud scenarios: (lines 7654–7668)
+    1. End-user manipulation resulting in a payment instruction sent to
+       the fraudster by a payer acting in good faith — credit-push fraud.
+    2. Fraudster obtains payer/payee's sensitive payment data and initiates
+       an unauthorized payment.
+    3. Modification of a payment attribute (account number, amount, name)
+       of a genuine instruction intercepted in transit.
+  - Speed amplification: "the end-to-end speed of Faster Payments, especially
+    the immediate availability of funds, makes Faster Payments more lucrative
+    and susceptible to fraud risk than traditional payments." (lines 7672–7673)
+  - FraudClassifier model — three classification questions: (lines 7674–7686)
+    (1) Whether an authorized or unauthorized party initiated the payment
+    (2) How the fraud was executed
+    (3) What tactic was used to commit fraud
+
+  Source: FPC Glossary, lines 43–44 (APP Fraud):
+  - "When fraudsters deceive consumers or individuals at a business to send
+    them a payment under false pretenses to an FI account controlled by the
+    fraudster. Typically involves social engineering attacks and scams."
+
+SECTION E: Liquidity Risk
+  Source: AFPP Handbook, lines 7697–7711
+
+  - Definition: "Liquidity risk is the current and potential risk to earnings
+    or capital arising from a financial institution's inability to meet its
+    obligations when they come due." (lines 7697–7698)
+  - Settlement model dependency (lines 7700–7711):
+    • FedNow and RTP: real-time settlement, pre-funded — liquidity risk is
+      MINIMAL; each transaction settled in real time. (lines 7701–7703)
+    • Mastercard Send and Visa Direct: prefunded, same-day/next-day
+      settlement — liquidity risk is MITIGATED as funds are blocked at time
+      of processing. (lines 7703–7705)
+    • Same Day ACH: deferred net settlement — LIQUIDITY RISK BUILDS UP
+      between settlement cycles. (lines 7705–7706)
+  - Mitigation tools: prefunding, liquidity pools, collateral agreements,
+    liquidity providers. (lines 7708–7710)
+
+SECTION F: Technology Risk
+  Source: AFPP Handbook, lines 7713–7728
+
+  - Definition: "Technology risk refers to any potential for technology
+    failures to disrupt business." (line 7713)
+  - Six specific types of technology risk:
+    1. External attacks (cyber-attacks) — loss/theft of sensitive data,
+       damage to operating technologies, integrity of the system.
+    2. Programming mistakes — operational errors and unplanned downtime
+       during system updates.
+    3. Human error — in building and maintaining IT systems.
+    4. Electricity/power outages — technology systems vulnerable.
+    5. Processing overload — theoretical possibility system reaches
+       processing limits, unable to fulfill speed requirements.
+    6. Outsourced infrastructure risk — system owners who outsource
+       infrastructure operations face all above risks even if not directly
+       connected to the system owner. (lines 7727–7728)
+
+  Source: FPC Glossary, lines 823–824:
+  - "Any potential for technology failures to disrupt a business or
+    individual such as information security incidents or service outages."
+
+SECTION G: Credit Risk
+  Source: AFPP Handbook, lines 7730–7769
+
+  - Definition: "Credit risk is the risk that a party to a transaction will
+    not be able to provide the necessary funds, as contracted, for settlement
+    to take place on the scheduled date." (lines 7730–7731)
+  - ODFIs carry the greatest credit risk; losses generally arise from
+    originator failure or bankruptcy. (lines 7740–7741)
+  - Same Day ACH ODFI credit exposure range:
+    "The ODFI's credit risk can range from 2 banking days (items that cannot
+    be posted) to 60 calendar days (disputed ACH debit entries)." (lines
+    7755–7756)
+  - ACH debits compound credit risk: "Since ACH debits are generally sent on
+    a recurring basis, the credit risk associated with them can compound
+    making ACH debits a higher risk than credit entries." (lines 7757–7758)
+  - RTP and FedNow — NO credit risk for RECEIVING a credit payment:
+    "There is no credit risk associated with receiving an RTP or FedNow
+    credit payment as both networks require funds be made available to the
+    account holder by the receiving institution upon receipt of a Message
+    Status Report." (lines 7767–7769)
+  - RTP/FedNow origination services credit risk: providers can manage using
+    a "good funds model" — debit sender's account before transmitting payment
+    into the network. (lines 7761–7765)
+
+  Source: FFIEC Booklet, lines 1821–1832:
+  - ACH ODFIs: typical credit exposure of 3 days for credits; 60-day
+    exposure for debits due to return potential.
+  - RDFI's credit risk is minimal because it has the right to return items
+    within NACHA guidelines.
+
+
+---------------------------------------------------------------------------
+THE 9 QUESTIONS
+---------------------------------------------------------------------------
+
+----- FACTUAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q1 — Factual / JSQ
+Sub-competency: Describe the operational risks present in faster payments
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Understanding that the 24/7/365 availability requirement makes
+even brief interruptions immediately visible to end users — unlike
+traditional payments — is foundational knowledge for a 2-year faster
+payments practitioner.
+
+Stem:
+  Which characteristic of faster payment systems causes operational
+  incidents to have a more immediate and severe impact than in traditional
+  retail payment systems?
+
+Responses:
+  A. The requirement for continuous 24/7/365 availability means that even
+     a brief service interruption causes payments to fail and is immediately
+     noticeable to end users
+  B. The requirement for participants to maintain prefunded settlement
+     balances means any operational incident immediately reduces available
+     liquidity across the entire network
+  C. The requirement for mutual message signing and encryption means that
+     any technology failure must be escalated to the network operator before
+     transactions can resume
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, "Operational risk" section, lines 7609–7618.
+
+---
+
+Q2 — Factual / JSQ
+Sub-competency: Describe the fraud risks present in faster payments
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Recognizing credit-push fraud — where a payer acts in good
+faith after being manipulated by a fraudster — is working knowledge for
+a 2-year faster payments practitioner handling fraud inquiries.
+
+Stem:
+  Which type of fraud occurs when a fraudster deceives a payer into
+  voluntarily sending a payment to an account controlled by the fraudster?
+
+Responses:
+  A. Third-party fraud, in which a fraudster intercepts and modifies a
+     genuine payment instruction after it has been submitted to the network
+  B. Credit-push fraud, in which the payer acts in good faith after being
+     manipulated into issuing a payment instruction bound for the fraudster
+  C. Account takeover fraud, in which a fraudster gains unauthorized access
+     to the payer's account credentials to initiate a payment without the
+     payer's knowledge
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, "Fraud risk" section, lines 7654–7655. Also: Glossary of Terms,
+Faster Payments Council, "Authorized Push Payments Fraud (APP)" definition,
+lines 43–44.
+
+---
+
+Q3 — Factual / SQ
+Sub-competency: Describe the technology risks present in faster payments
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: Knowing that outsourced infrastructure operations constitute a
+distinct and named category of technology risk — one that exposes the
+system owner even without a direct connection to the failure — requires
+detailed knowledge of the Handbook's six-type technology risk taxonomy
+beyond 2-year working knowledge.
+
+Stem:
+  Which of the following is identified as a distinct type of technology
+  risk in faster payment systems?
+
+Responses:
+  A. The risk that participants fail to maintain minimum prefunded balance
+     requirements during periods of peak transaction volume, causing
+     payment rejections across the network
+  B. The risk that encryption key compromise during mandatory key rotation
+     exposes transaction data to unauthorized access by the network operator
+  C. The risk that a technology failure affecting an outsourced
+     infrastructure provider disrupts the faster payment system even when
+     the system owner is not directly connected to the failure
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, "Technology risk" section, lines 7713–7728.
+
+----- PROCEDURAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q4 — Procedural / JSQ
+Sub-competency: Describe the compliance risks present in faster payments
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing the consequences of non-compliance — fines, suspension,
+or removal from the faster payment system — is standard practitioner-level
+knowledge encountered in compliance program management.
+
+Stem:
+  Which consequences may a financial institution face for failing to comply
+  with applicable faster payment system regulations and requirements?
+
+Responses:
+  A. Fines, suspension from participation, or removal from the faster
+     payment system entirely
+  B. Mandatory conversion of all pending faster payments to traditional
+     payment instruments pending a regulatory corrective action plan
+  C. Automatic enrollment in a supervised remediation program administered
+     by the payment network operator and the primary federal regulator
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, "Compliance risk" section, lines 7647–7648.
+
+---
+
+Q5 — Procedural / JSQ
+Sub-competency: Describe the liquidity risks present in faster payments
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that Same Day ACH is the faster payment rail most
+exposed to liquidity risk because it uses deferred net settlement — unlike
+FedNow and RTP which settle in real time — is working knowledge for a
+2-year payments practitioner.
+
+Stem:
+  Which faster payment rail is most exposed to liquidity risk because it
+  relies on deferred net settlement?
+
+Responses:
+  A. FedNow, because participants must manage Master Account balances at
+     the Federal Reserve throughout each settlement cycle to avoid overnight
+     overdrafts
+  B. Same Day ACH, because liquidity risk builds up between settlement
+     cycles rather than being eliminated through real-time settlement
+  C. RTP, because Funding Participants must prefund a Prefunded Balance
+     Account that may become insufficient during high-volume processing
+     periods
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, "Liquidity risk" section, lines 7700–7709.
+
+---
+
+Q6 — Procedural / SQ
+Sub-competency: Describe the credit risks present in faster payments
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The specific range of an ODFI's credit exposure in Same Day
+ACH — 2 banking days for items that cannot be posted to 60 calendar days
+for disputed ACH debit entries — requires detailed knowledge of ACH return
+timeframes beyond 2-year working knowledge.
+
+Stem:
+  What is the range of credit exposure for an Originating Depository
+  Financial Institution in the Same Day ACH network?
+
+Responses:
+  A. From the time of file submission to the time of settlement, typically
+     4 to 8 hours depending on the processing window used
+  B. From 1 banking day for items returned due to insufficient funds to
+     30 calendar days for disputed Same Day ACH credit entries
+  C. From 2 banking days for items that cannot be posted to 60 calendar
+     days for disputed ACH debit entries
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, "Credit risk" section, lines 7755–7756. Also: FFIEC IT
+Examination Handbook: Retail Payment Systems Booklet, "Credit Risk"
+section, lines 1821–1832.
+
+----- CONDITIONAL QUESTIONS (1 JSQ + 2 SQ) -----
+
+Q7 — Conditional / JSQ
+Sub-competency: Describe the cross-channel risks present in faster payments
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The condition that triggers increased cross-channel risk —
+offering faster payments alongside traditional payment products with
+inconsistent fraud detection practices — is a clear, single-rule condition
+a 2-year practitioner should be able to apply.
+
+Stem:
+  Under what condition is a financial institution most exposed to
+  cross-channel risk in its faster payments operations?
+
+Responses:
+  A. When the financial institution offers faster payment products alongside
+     traditional payment products and applies inconsistent fraud detection
+     practices across those payment channels
+  B. When the financial institution processes payments for customers in
+     multiple geographic regions and cannot synchronize fraud monitoring
+     within the required faster payment response window
+  C. When the financial institution uses a third-party service provider for
+     faster payment processing while directly managing its traditional
+     payment channels in-house
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, "Cross-channel risk" section, lines 7622–7635.
+
+---
+
+Q8 — Conditional / SQ
+Sub-competency: Describe the compliance risks present in faster payments
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The OFAC guidance that domestic instant payment systems pose
+lower sanctions risk than cross-border systems — specifically because all
+accounts are maintained at U.S. financial institutions, excluding foreign
+correspondent accounts — requires knowledge of the specific OFAC
+Compliance Communiqué, a regulatory nuance beyond 2-year working knowledge.
+
+Stem:
+  According to OFAC guidance, under what condition does an instant payment
+  system generally pose a lower risk of sanctions exposure?
+
+Responses:
+  A. When all transactions are subject to real-time automated OFAC
+     screening by both the sending and receiving financial institutions
+     before funds are made available to the account holder
+  B. When all transactions involve only accounts maintained at U.S.
+     financial institutions, excluding foreign correspondent accounts
+  C. When the instant payment system restricts transaction values to
+     amounts below the threshold at which OFAC reporting obligations
+     are triggered for participating financial institutions
+
+Answer: B
+
+Source: OFAC Compliance Communiqué. Sanctions Compliance Guidance for
+Instant Payment Systems (September 2022), "Domestic vs. Cross-Border
+Payment Systems" section, page 2.
+
+---
+
+Q9 — Conditional / SQ
+Sub-competency: Describe the credit risks present in faster payments
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The rule that a financial institution receiving a FedNow or RTP
+credit payment faces NO credit risk — because both networks require funds
+to be made available upon receipt of the Message Status Report — requires
+synthesis of settlement model characteristics and credit risk concepts
+across multiple payment rails, characteristic of a 5-year practitioner.
+
+Stem:
+  Under what condition does a financial institution that receives a FedNow
+  or RTP credit payment face credit risk?
+
+Responses:
+  A. When the receiving financial institution posts funds to the account
+     holder before receiving the final Message Status Report confirming
+     settlement
+  B. When the sending financial institution's intraday overdraft capacity
+     is exhausted and the Federal Reserve temporarily suspends its ability
+     to send value messages
+  C. A receiving financial institution does NOT face credit risk upon
+     receipt of a FedNow or RTP credit payment, because both networks
+     require funds to be made available to the account holder upon receipt
+     of the Message Status Report
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, "Credit risk" section, lines 7767–7769.
+
+
+---------------------------------------------------------------------------
+CORRECT ANSWER POSITIONS
+---------------------------------------------------------------------------
+
+Q1: A  |  Q2: B  |  Q3: C
+Q4: A  |  Q5: B  |  Q6: C
+Q7: A  |  Q8: B  |  Q9: C
+
+Distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SKILL RATING AND COVERAGE MAP
+---------------------------------------------------------------------------
+
+           JSQ             SQ
+Factual:   Q1, Q2          Q3
+Procedural: Q4, Q5         Q6
+Conditional: Q7            Q8, Q9
+
+Sub-competency coverage:
+  Operational risk:   Q1 (JSQ/Recall)     — 24/7/365 availability & speed magnification
+  Fraud risk:         Q2 (JSQ/Recall)     — credit-push / APP fraud definition
+  Technology risk:    Q3 (SQ/Recall)      — outsourced infrastructure as distinct risk type
+  Compliance risk:    Q4 (JSQ/App)        — penalties for non-compliance
+                      Q8 (SQ/Analysis)    — OFAC domestic vs. cross-border sanctions risk
+  Liquidity risk:     Q5 (JSQ/App)        — Same Day ACH deferred net settlement exposure
+  Credit risk:        Q6 (SQ/App)         — ODFI exposure range: 2 banking days to 60 calendar days
+                      Q9 (SQ/Analysis)    — No credit risk for receiving FedNow/RTP credit payment
+  Cross-channel risk: Q7 (JSQ/Analysis)   — inconsistent controls across faster + traditional channels
+
+
+---------------------------------------------------------------------------
+STYLE COMPLIANCE CHECKLIST
+---------------------------------------------------------------------------
+
+[ ] Complete question format — no fill-in-the-blank, no true/false
+[ ] Active voice, 3rd person throughout
+[ ] "Financial institution" used — no "bank" or "credit union"
+[ ] "NOT" in all caps — Q9 correct answer uses "NOT"
+[ ] No trademark symbols
+[ ] No bold or underline in responses
+[ ] Responses equal in length and grammatical structure
+[ ] Correct answer positions varied: A(3), B(3), C(3)
+[ ] Only one defensible correct answer per question
+[ ] No trivial, absurd, or overlapping distractors
+[ ] Every question includes Skill Rating block, Cognitive Level, Rationale
+[ ] Every question has at least one approved source reference
+[ ] FFIEC source cited with full booklet name (Q6)
+[ ] OFAC source cited with full document name (Q8)
+
+
+---------------------------------------------------------------------------
+EXECUTION STEPS
+---------------------------------------------------------------------------
+
+1. Write questions to /home/fewill/code/afpp-write/ksa_3003_draft_v2.txt
+   with:
+   - Question number and type label
+   - Skill Rating block (Skill Rating / Cognitive Level / Rationale)
+   - Stem
+   - Three response options (A, B, C)
+   - Answer key notation
+   - Formatted source citation
+
+2. Review against the style compliance checklist and apply corrections.
+
+
+---------------------------------------------------------------------------
+APPROVED REFERENCE FORMAT
+---------------------------------------------------------------------------
+
+  AFPP Handbook (2026). Nacha. [Chapter]. [Section label]. lines [range].
+
+  FFIEC:
+    FFIEC IT Examination Handbook: Retail Payment Systems Booklet.
+    [Section heading], lines [range].
+
+  OFAC:
+    OFAC Compliance Communiqué. Sanctions Compliance Guidance for Instant
+    Payment Systems (September 2022). [Section heading], page [#].
+
+  FPC Glossary:
+    Glossary of Terms, Faster Payments Council. "[Term]" definition,
+    lines [range].
+
+---------------------------------------------------------------------------

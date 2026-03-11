@@ -1,0 +1,437 @@
+Plan: Draft 9 Test Questions for KSA 3003
+=========================================
+
+KSA: 3003 — Customer Onboarding Programs, Policies, and Procedures
+Parent KSA: 3000 — Faster Payments Risk Management
+
+Sub-competencies to test:
+  – Explain why customer onboarding programs are important for managing risk
+    related to faster payments
+  – List the elements of a customer identification program (CIP)
+  – Describe the responsibilities of parties involved in a CIP
+  – Identify additional requirements for faster payment customers that use
+    Request for Payment functionality
+
+Source document: /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+Prompt: /home/fewill/code/afpp-write/question_3001_prompt_v1
+
+
+---------------------------------------------------------------------------
+SOURCE MATERIAL SUMMARY
+---------------------------------------------------------------------------
+
+SECTION A: Why Onboarding Programs Are Important for Faster Payments Risk
+  Lines: 8185–8210
+  Section heading: "Importance of onboarding programs for managing risk
+  related to Faster Payments"
+
+  Key passages:
+  - "Knowing your customer/member is vital for financial institutions to
+    provide products and services." (line 8186)
+  - "Proper onboarding of account holders is vital for financial institutions
+    and third parties in order to minimize these risks." (line 8195)
+  - "As Faster Payment methods, especially those that are irrevocable, are
+    easier to abuse by fraudsters, the number of cases can increase
+    significantly and thus the legal risks and costs along with them."
+    (lines 8198–8200)
+  - FIs can be penalized by financial regulators for non-compliance. (line 8198)
+  - Proper onboarding supports fraud prevention and mitigation. (line 8209)
+  - Related: "Faster Payments systems rely on FIs to verify customers against
+    the OFAC sanctions list during onboarding and at regular intervals."
+    (line 6469)
+
+SECTION B: CIP Elements
+  Lines: 8211–8257
+  Section heading: "Customer Identification Program (CIP)"
+
+  Legal authority:
+  - USA PATRIOT Act requires FIs to have a written CIP. (lines 8214–8218)
+  - BSA sets minimum requirements; CIP must be appropriate for institution's
+    size and type. (line 8218)
+
+  Three core CIP requirements (lines 8219–8231):
+  1. Verify the identity of any person seeking to open an account.
+  2. Maintain records of the information used to verify the person's identity.
+  3. Consult government known or suspected terrorist lists to determine whether
+     the person appears on any such list.
+
+  Verification — information collected (lines 8235–8237):
+  - Name, date of birth, address, and identification number
+    (e.g., Social Security number for U.S. citizens)
+  - Government-issued ID (passport, driver's license)
+  - FIs may also verify without documents (contact, credit agencies,
+    references from other FIs)
+
+  Record retention (lines 8245–8247):
+  - Records must be kept for five years after an account is closed.
+  - Governed by 31 CFR 1010.430.
+
+  Government list comparison (lines 8252–8257):
+  - FIs must check new customers against OFAC SDN List and government
+    terrorist lists within a reasonable time following account opening.
+  - After account opening, FIs must periodically re-check account holders
+    against OFAC's SDN List (separate ongoing requirement from initial CIP).
+
+SECTION C: Responsibilities of Parties in a CIP
+  Lines: 8265–8290
+  Table 55: "Faster Payments Stakeholder Responsibilities in the Customer
+  Identification Program"
+
+  Financial institution (lines 8272–8281):
+  - Set an appropriate CIP based on size and type of business
+  - Obtain person's information upon account opening
+  - Verify identity through risk-based procedures
+  - File a suspicious activity report upon CIP failure
+  - Comply with record-keeping requirements
+  - Cross-check registered account against government lists
+  - Provide adequate notice before verification procedures
+  - When relying on another FI for a person's information, ensure that FI is
+    regulated by a federal regulator and has adequate AML procedures
+  - Ensure third-party providers adhere to CIP
+
+  Third-party (lines 8284–8285):
+  - Carry out services to FIs, regardless of data collection or management,
+    according to the FI's CIP
+
+  Customer (lines 8289–8290):
+  - Share required information upon account opening
+  - Update information upon changes
+
+SECTION D: Additional Requirements for RfP Customers
+  Lines: 8292–8306
+  Section heading: "Additional requirements for Faster Payment customers that
+  use Request-for-Payment functionality"
+
+  Key passages:
+  - Specific requirements apply to RTP users of the Request for Payment service.
+    (line 8294)
+  - TCH requires participants that send RfP messages to ensure the sender has a
+    legitimate purpose to request funds. (lines 8294–8296)
+  - Legitimate purpose — non-consumer sender: "The message is initiated by a
+    non-consumer sender and is sent for a current sale or transaction, or the
+    amount is due, owed, or otherwise agreed to be paid to the sender."
+    (lines 8300–8301)
+  - Legitimate purpose — consumer sender: "The message is initiated by a
+    consumer sender to a receiver who is known to the sender and who is
+    reasonably expected to receive the request from the sender."
+    (lines 8305–8306)
+
+
+---------------------------------------------------------------------------
+THE 9 QUESTIONS
+---------------------------------------------------------------------------
+
+----- FACTUAL QUESTIONS (3) -----
+
+Q1 — Factual (Legal basis for CIP)
+Sub-competency: List the elements of a CIP
+
+Stem:
+  Which federal law requires financial institutions to maintain a written
+  customer identification program?
+
+Responses:
+  A. The USA PATRIOT Act
+  B. The Electronic Funds Transfer Act
+  C. The Dodd-Frank Wall Street Reform and Consumer Protection Act
+
+Answer: A
+
+Rationale: Lines 8214–8218 state: "Under the USA PATRIOT Act, financial
+institutions are required to have a customer identification program (CIP)..."
+The EFTA and Dodd-Frank govern different areas and do not establish the CIP
+requirement.
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+  "Customer Identification Program (CIP)" section, lines 8214–8218.
+
+---
+
+Q2 — Factual (Record retention requirement)
+Sub-competency: List the elements of a CIP
+
+Stem:
+  How long must a financial institution retain the records used to verify a
+  customer's identity after the customer's account is closed?
+
+Responses:
+  A. Three years
+  B. Five years
+  C. Seven years
+
+Answer: B
+
+Rationale: Lines 8245–8247 state the five-year post-closure retention
+requirement. Three years (EFTA standard) and seven years are plausible
+period lengths that do not match the CIP record-keeping rule.
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+  "Record keeping and retention" subsection, lines 8245–8247. Regulatory
+  basis: 31 CFR 1010.430.
+
+---
+
+Q3 — Factual (Customer responsibility in CIP)
+Sub-competency: Describe the responsibilities of parties involved in a CIP
+
+Stem:
+  According to the 2026 AFPP Handbook, which party is responsible for sharing
+  required identity information upon account opening as part of a customer
+  identification program?
+
+Responses:
+  A. The third-party service provider
+  B. The financial institution
+  C. The customer
+
+Answer: C
+
+Rationale: Table 55 (lines 8289–8290) lists customer responsibilities as
+sharing required information upon account opening and updating it upon changes.
+The FI collects and verifies; the third-party performs services under the FI's
+CIP; the customer provides the information.
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+  Table 55: "Faster Payments Stakeholder Responsibilities in the Customer
+  Identification Program," lines 8289–8290.
+
+----- PROCEDURAL QUESTIONS (3) -----
+
+Q4 — Procedural (First step in identity verification)
+Sub-competency: List the elements of a CIP
+
+Stem:
+  Which is the first step a financial institution should take when verifying
+  a customer's identity as part of a customer identification program?
+
+Responses:
+  A. Collect the person's name, date of birth, address, and identification number
+  B. Compare the person's information against the OFAC Specially Designated
+     Nationals List
+  C. File a suspicious activity report if the person's information cannot be
+     confirmed
+
+Answer: A
+
+Rationale: Lines 8235–8237 state that "the first step in this process is to
+collect the person's name, date of birth, address, and identification number."
+Comparing against the OFAC SDN List and filing a SAR are subsequent steps
+that follow initial collection and verification.
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+  "Verification" subsection, lines 8235–8237.
+
+---
+
+Q5 — Procedural (Ongoing OFAC list-checking after account opening)
+Sub-competency: List the elements of a CIP
+
+Stem:
+  After a customer account is established, what should a financial institution
+  do to fulfill its ongoing obligation related to government sanctions lists?
+
+Responses:
+  A. Collect updated identification documents from the account holder annually
+  B. Periodically check account holders against the OFAC Specially Designated
+     Nationals List
+  C. File a suspicious activity report for each account that has not been
+     updated within the prior year
+
+Answer: B
+
+Rationale: Lines 8255–8257 state that "once an account is established, FIs
+must periodically check account holders against OFAC's SDN List, which is a
+separate requirement from the CIP." Annual document collection and blanket
+SAR filing are not the requirement.
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+  "Comparison with government lists" subsection, lines 8255–8257.
+
+---
+
+Q6 — Procedural (Third-party due diligence by FI)
+Sub-competency: Describe the responsibilities of parties involved in a CIP
+
+Stem:
+  When a financial institution relies on another financial institution to
+  collect customer identification program information, what should the
+  relying institution verify?
+
+Responses:
+  A. That the other financial institution participates in the same faster
+     payments network as the relying institution
+  B. That the other financial institution is regulated by a federal regulator
+     and has adequate anti-money laundering procedures
+  C. That the other financial institution has filed its annual audit report
+     with the applicable network operator
+
+Answer: B
+
+Rationale: Table 55 (lines 8279–8281) states that when relying on another FI,
+the institution should "ensure that it is regulated by a federal regulator and
+has adequate AML procedures." Network participation and audit filing are not
+the conditions stated for this reliance.
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+  Table 55: "Faster Payments Stakeholder Responsibilities in the Customer
+  Identification Program," lines 8279–8281.
+
+----- CONDITIONAL QUESTIONS (3) -----
+
+Q7 — Conditional (When FI must file a SAR related to CIP)
+Sub-competency: Describe the responsibilities of parties involved in a CIP
+
+Stem:
+  Under what condition is a financial institution required to file a suspicious
+  activity report in connection with its customer identification program?
+
+Responses:
+  A. The customer identification program fails
+  B. The customer initiates a faster payment transaction of more than $10,000
+  C. The customer declines to update personal information after account opening
+
+Answer: A
+
+Rationale: Table 55 (lines 8273–8274) lists "File suspicious activity report
+upon CIP failure" as a financial institution responsibility. Transaction
+amounts and information update refusals are not the specified trigger.
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+  Table 55: "Faster Payments Stakeholder Responsibilities in the Customer
+  Identification Program," line 8273.
+
+---
+
+Q8 — Conditional (Why faster payments heighten onboarding risk)
+Sub-competency: Explain why onboarding programs are important for managing
+risk related to faster payments
+
+Stem:
+  Why does the irrevocable nature of faster payment transactions make proper
+  customer onboarding especially important for managing risk?
+
+Responses:
+  A. Irrevocable transactions reduce the number of available payment rails,
+     requiring more rigorous network registration
+  B. Irrevocable transactions are more easily abused by fraudsters, increasing
+     the legal risks and costs associated with fraud cases
+  C. Irrevocable transactions require financial institutions to verify customer
+     identity more frequently than reversible payment types
+
+Answer: B
+
+Rationale: Lines 8198–8200 state: "As Faster Payment methods, especially those
+that are irrevocable, are easier to abuse by fraudsters, the number of cases
+can increase significantly and thus the legal risks and costs along with them."
+The irrevocability is the condition that elevates fraud risk — not network
+availability or verification frequency.
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+  "Importance of onboarding programs for managing risk related to Faster
+  Payments" section, lines 8198–8200.
+
+---
+
+Q9 — Conditional (Legitimate purpose for non-consumer RfP sender)
+Sub-competency: Identify additional requirements for faster payment customers
+that use Request for Payment functionality
+
+Stem:
+  Under what condition does a non-consumer sender satisfy the legitimate
+  purpose requirement for sending a Request for Payment message on the RTP
+  network?
+
+Responses:
+  A. The message is sent for a current sale or transaction, or the amount is
+     due, owed, or otherwise agreed to be paid to the sender
+  B. The message is initiated to a receiver who is known to the sender and who
+     is reasonably expected to receive the request
+  C. The message is accompanied by a signed origination agreement between the
+     sending and receiving financial institutions
+
+Answer: A
+
+Rationale: Lines 8300–8301 state the non-consumer sender condition: "The
+message is initiated by a non-consumer sender and is sent for a current sale
+or transaction, or the amount is due, owed, or otherwise agreed to be paid to
+the sender." Response B describes the consumer sender condition (lines 8305–
+8306). Response C is a plausible distractor but not stated in the source.
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+  "Additional requirements for Faster Payment customers that use
+  Request-for-Payment functionality," lines 8300–8301.
+
+
+---------------------------------------------------------------------------
+CORRECT ANSWER POSITIONS
+---------------------------------------------------------------------------
+
+Q1: A  |  Q2: B  |  Q3: C
+Q4: A  |  Q5: B  |  Q6: B
+Q7: A  |  Q8: B  |  Q9: A
+
+Distribution: A (4), B (4), C (1)
+Note: Q3 is the sole C — consider swapping Q9's answer to C position if
+greater variety is preferred at the draft stage.
+
+
+---------------------------------------------------------------------------
+STYLE COMPLIANCE CHECKLIST
+---------------------------------------------------------------------------
+
+[ ] Complete question format — no fill-in-the-blank, no true/false
+[ ] Active voice, 3rd person throughout
+[ ] "Financial institution" used — no "bank" or "credit union"
+[ ] "NOT" in all caps where used (currently none needed)
+[ ] No trademark symbols
+[ ] No bold or underline in responses
+[ ] Responses equal in length and grammatical structure
+[ ] Correct answer position varied across questions
+[ ] Only one defensible correct answer per question
+[ ] No trivial, absurd, or overlapping distractors
+[ ] Every question has an approved source reference recorded
+
+
+---------------------------------------------------------------------------
+EXECUTION STEPS
+---------------------------------------------------------------------------
+
+1. Read handbook sections at the line ranges cited above to confirm each
+   fact is accurately stated before drafting.
+
+2. Write the 9 questions to /home/fewill/code/afpp-write/question_3001_draft.txt
+   with:
+   - Question number and type label
+   - Stem
+   - Three response options (labeled A, B, C)
+   - Answer key notation
+   - Formatted source citation matching the approved reference format
+
+3. Review against the style compliance checklist and apply corrections.
+
+4. Optionally adjust correct answer positions to achieve A(3) / B(3) / C(3)
+   distribution if desired.
+
+
+---------------------------------------------------------------------------
+APPROVED REFERENCE FORMAT (from prompt)
+---------------------------------------------------------------------------
+
+  AFPP Handbook (2026). Nacha. [Chapter/Section]. [Table or subsection label
+  if applicable]. [Approximate page or line range].
+
+  Example used in this plan:
+    AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management,
+    Table 55: "Faster Payments Stakeholder Responsibilities in the Customer
+    Identification Program," lines 8289–8290.
+
+---------------------------------------------------------------------------
