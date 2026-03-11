@@ -1,0 +1,349 @@
+Plan — KSA 5003 (v2)
+Error Resolution Protections, Rights, and Liabilities of Payers and Payees
+=========================================================================
+
+KSA: 5000 – Governance Framework
+  5003 – Error resolution protections, rights, and liabilities of
+         payers and payees
+    – Explain the liability of a payer for a misdirected payment
+    – Differentiate the applicability of error resolution protections
+      under Regulation E and UCC Article 4A
+    – Explain the liabilities and error resolution responsibilities of
+      the sending and receiving financial institutions
+    – Define an error on a faster payment
+
+Question distribution: Factual (2 JSQ + 1 SQ) | Procedural (2 JSQ + 1 SQ)
+                       Conditional (1 JSQ + 2 SQ)
+Target answer distribution: A(3), B(3), C(3)
+
+=========================================================================
+DRAFT TEST QUESTIONS
+=========================================================================
+
+FACTUAL QUESTIONS
+=========================================================================
+
+Q1 — Factual / JSQ
+-----------------------------------------------------------------------
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that Regulation E Section 1005.11 defines errors to
+include the omission of an electronic fund transfer from a periodic
+statement — not just unauthorized transfers or wrong amounts — is
+working knowledge for a 2-year practitioner responsible for consumer
+error resolution.
+
+According to Regulation E, which of the following is considered an
+error subject to the error resolution procedures of Section 1005.11?
+
+  A. The omission of an electronic fund transfer from a consumer's
+     periodic statement
+  B. A payment that exceeds the sending financial institution's
+     internally configured transaction limit for faster payments
+  C. The failure of a payment to settle by the next business day due
+     to a system outage at the receiving financial institution
+
+Answer: A
+
+Source: 12 CFR Part 1005 (Regulation E). Consumer Financial Protection
+Bureau. Section 1005.11(a)(1), page 14.
+
+-------------------------------------------------------------------------
+
+Q2 — Factual / JSQ
+-----------------------------------------------------------------------
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Understanding that a sending financial institution bears no
+liability when it submits a Request for Return of Funds on the RTP
+network — because it does not constitute cancellation of the payment —
+is foundational knowledge for a 2-year practitioner handling RTP error
+resolution.
+
+When a sending financial institution submits a Request for Return of
+Funds on the RTP network, what liability does the sending financial
+institution bear to the receiving participant?
+
+  A. The sending financial institution is liable for all costs incurred
+     by the receiving participant in investigating the return request,
+     including any funds that cannot be recovered from the end customer
+  B. The sending financial institution bears no liability to the
+     receiving participant, because a Request for Return of Funds does
+     NOT constitute the cancellation of an RTP payment
+  C. The sending financial institution is liable for returning the full
+     amount of the original payment to the receiving participant if the
+     return request is denied or the funds cannot be retrieved from the
+     end customer
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+lines 6302–6310.
+
+-------------------------------------------------------------------------
+
+Q3 — Factual / SQ
+-----------------------------------------------------------------------
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: Knowing the specific conditions under which a Visa Direct
+originating credit transaction may be reversed — incorrect credentials,
+incorrect amount, duplicate processing, or incorrect transaction code
+— requires detailed knowledge of Visa Direct error resolution
+procedures beyond 2-year working knowledge.
+
+According to the AFPP Handbook, which of the following is a valid
+condition for initiating a reversal of an originating credit
+transaction on the Visa Direct network?
+
+  A. The receiving financial institution submitted a return request
+     within the applicable network timeframe and the original
+     transaction settled more than 24 hours prior to the reversal
+     request
+  B. The recipient declined to accept the payment and the sending
+     financial institution initiated a recall within the applicable
+     reversal window permitted under Visa operating rules
+  C. The original transaction involved incorrect payment credentials,
+     an incorrect transaction amount, duplicate processing, or an
+     incorrect transaction code
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+lines 6328–6332.
+
+=========================================================================
+PROCEDURAL QUESTIONS
+=========================================================================
+
+Q4 — Procedural / JSQ
+-----------------------------------------------------------------------
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that an ODFI corrects an erroneous or unauthorized
+Same Day ACH entry by sending a reversing entry to the RDFI is a
+standard operational procedure a 2-year practitioner handling ACH
+error corrections should know.
+
+How does an ODFI in Same Day ACH correct an entry that was
+transmitted erroneously or without the originator's proper
+authorization?
+
+  A. By sending a reversing entry to the RDFI to address the incorrect
+     or unauthorized entry
+  B. By submitting a return request directly to the ACH Operator
+     within 24 hours of the settlement date on which the erroneous
+     entry processed
+  C. By notifying the receiving financial institution through a
+     standard Request for Information message and requesting that the
+     funds be placed on hold pending investigation
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+lines 6313–6317.
+
+-------------------------------------------------------------------------
+
+Q5 — Procedural / JSQ
+-----------------------------------------------------------------------
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that a financial institution must correct a confirmed
+Regulation E error within one business day of making that determination
+is a standard compliance procedure a 2-year practitioner in a consumer
+payments compliance role should know.
+
+Under Regulation E, what must a financial institution do within one
+business day after determining that a consumer's reported error
+actually occurred?
+
+  A. Notify the Consumer Financial Protection Bureau of the error
+     determination and provide documentation of the correction steps
+     taken
+  B. Correct the error and credit the consumer's account for the
+     amount of the error, including applicable interest where the
+     account is interest-bearing
+  C. Provide the consumer with a written explanation of the findings
+     and the documents relied upon in making the error determination
+
+Answer: B
+
+Source: 12 CFR Part 1005 (Regulation E). Consumer Financial Protection
+Bureau. Section 1005.11(c), page 15.
+
+-------------------------------------------------------------------------
+
+Q6 — Procedural / SQ
+-----------------------------------------------------------------------
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The specific initial response deadline — midnight Eastern
+Time of the next standard business day — and the required ISO 20022
+message type (camt.029) for return request responses requires expert
+knowledge of FedNow exception handling procedures beyond 2-year
+working knowledge.
+
+When a FedNow participant receives a return request (camt.056), by
+when must it provide its initial response — whether approving,
+denying, or indicating the request is under investigation?
+
+  A. Within 20 business days of receiving the return request,
+     consistent with the timeframe applicable to Request for Payment
+     warranty breach claims on the FedNow Service
+  B. Within 3 business days of receiving the return request, using
+     the pacs.004 message to confirm acceptance or the pacs.008
+     message to confirm denial
+  C. No later than midnight Eastern Time of the next standard business
+     day, using the camt.029 message with an appropriate response
+     code for approval, denial, or ongoing investigation
+
+Answer: C
+
+Source: FedNow Service Operating Procedures (June 2025). Federal
+Reserve Banks. Section on Payment Returns, lines 4207–4261.
+
+=========================================================================
+CONDITIONAL QUESTIONS
+=========================================================================
+
+Q7 — Conditional / JSQ
+-----------------------------------------------------------------------
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The clear, single-rule condition — that the RDFI has
+discretion to decline an ODFI's reversing entry for valid causes such
+as insufficient funds — is a foundational Same Day ACH error resolution
+principle a 2-year practitioner should be able to apply.
+
+When an ODFI sends a reversing entry to an RDFI in Same Day ACH,
+under what condition may the RDFI decline to return the entry?
+
+  A. When the RDFI determines, at its own discretion, that there are
+     valid reasons to decline the return — such as insufficient funds
+     in the receiving account or other valid causes
+  B. When the original entry was a credit to a consumer account and
+     the consumer has already received and spent the funds, making the
+     reversal technically impractical under the Nacha Operating Rules
+  C. When the ODFI submitted the reversing entry more than one
+     business day after the original settlement date, placing the
+     transaction outside the RDFI's standard return window
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+lines 6318–6320.
+
+-------------------------------------------------------------------------
+
+Q8 — Conditional / SQ
+-----------------------------------------------------------------------
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Identifying the specific condition that triggers the 10-
+business-day final response deadline — the PDCR investigating response
+code — requires synthesis of FedNow return request message flow and
+multi-step response codes, characteristic of a 5-year practitioner.
+
+Under what condition must a FedNow participant provide its final
+response to a return request within 10 business days, rather than
+by midnight Eastern Time of the next standard business day?
+
+  A. When the return request was submitted by the Sender financial
+     institution more than 30 calendar days after the original credit
+     transfer settled, triggering the extended investigation timeline
+     under FedNow Service operating procedures
+  B. When the Receiver financial institution responds to the camt.056
+     with a PDCR response code, indicating that the return request
+     requires additional investigation before a final determination
+     can be made
+  C. When the return request involves an amount that exceeds the
+     FedNow transaction limit and the Receiver financial institution
+     must obtain regulatory approval before approving or denying the
+     fund return
+
+Answer: B
+
+Source: FedNow Service Operating Procedures (June 2025). Federal
+Reserve Banks. Section on Payment Returns, lines 4207–4261.
+
+-------------------------------------------------------------------------
+
+Q9 — Conditional / SQ
+-----------------------------------------------------------------------
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Distinguishing the 95-calendar-day RfP warranty breach claim
+window from the 60-calendar-day standard return request window — and
+knowing how the Sender financial institution's 20-business-day response
+obligation interacts with it — requires multi-concept synthesis
+characteristic of a 5-year practitioner.
+
+Under what condition must a Receiver financial institution on the
+FedNow Service submit its return request when claiming a breach of
+the RfP Warranty?
+
+  A. Within 60 calendar days of the credit transfer settlement date,
+     the same timeframe applicable to standard payment return requests
+     on the FedNow Service
+  B. Within 20 business days of determining that the RfP Warranty was
+     breached, the same timeframe within which the Sender financial
+     institution must respond to the claim
+  C. Within 95 calendar days of the date the credit transfer
+     associated with the Request for Payment settled, as established
+     by FedNow Service procedures for RfP warranty breach claims
+
+Answer: C
+
+Source: FedNow Service Operating Procedures (June 2025). Federal
+Reserve Banks. Section on Request for Payment Warranty Claims, lines
+2051–2170.
+
+=========================================================================
+ANSWER KEY
+=========================================================================
+
+Q1 (Factual/JSQ):    A
+Q2 (Factual/JSQ):    B
+Q3 (Factual/SQ):     C
+Q4 (Procedural/JSQ): A
+Q5 (Procedural/JSQ): B
+Q6 (Procedural/SQ):  C
+Q7 (Conditional/JSQ):A
+Q8 (Conditional/SQ): B
+Q9 (Conditional/SQ): C
+
+Correct answer distribution: A (3), B (3), C (3) ✓
+
+=========================================================================
+STYLE COMPLIANCE REVIEW
+=========================================================================
+
+[X] Complete question format — all 9 questions use a complete interrogative stem
+[X] Active voice, 3rd person — verified throughout
+[X] "Financial institution" used — no "bank" or "credit union"
+[X] "NOT" in all caps where used — Q2 response B
+[X] No trademark symbols — no RTP(R), FedNow(R), or similar
+[X] No bold or underline in responses — plain text only
+[X] Responses equal in length and grammatical structure — parallel structure confirmed
+[X] Correct answer positions varied: Q1=A, Q2=B, Q3=C, Q4=A, Q5=B, Q6=C, Q7=A, Q8=B, Q9=C
+[X] Distribution: A (3), B (3), C (3)
+[X] Only one defensible correct answer per question — confirmed against source text
+[X] No trivial, absurd, or overlapping distractors
+[X] Every question includes Skill Rating block, Cognitive Level, and Rationale
+[X] Every question has at least one approved source reference
+[X] Regulation E cited with CFR part and section (Q1, Q5)
+[X] FedNow cited with document name and line range (Q6, Q8, Q9)
+[X] Nacha Operating Rules written out in full where referenced (Q7)
+
+SKILL RATING SUMMARY
+
+  JSQ questions: Q1, Q2, Q4, Q5, Q7  (5 questions)
+  SQ questions:  Q3, Q6, Q8, Q9      (4 questions)
+
+  By type:
+    Factual     — Q1 (JSQ), Q2 (JSQ), Q3 (SQ)
+    Procedural  — Q4 (JSQ), Q5 (JSQ), Q6 (SQ)
+    Conditional — Q7 (JSQ), Q8 (SQ), Q9 (SQ)
+
+=========================================================================

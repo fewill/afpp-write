@@ -1,0 +1,518 @@
+Plan: Draft 9 Test Questions for KSA 5003
+=========================================
+
+KSA: 5003 — Error Resolution Protections, Rights, and Liabilities of Payers
+           and Payees
+Parent KSA: 5000 — Governance Framework
+
+Sub-competencies to test:
+  – Explain the liability of a payer for a misdirected payment
+  – Differentiate the applicability of error resolution protections under
+    Regulation E and UCC Article 4A
+  – Explain the liabilities and error resolution responsibilities of the sending
+    and receiving financial institutions
+  – Define an error on a faster payment
+
+Source documents:
+  Primary:   /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+  Secondary: /home/fewill/code/afpp-write/062425-fednow-service-operating-procedures.txt
+  Secondary: /home/fewill/code/afpp-write/ffiec_itbooklet_retailpaymentsystems.txt
+
+Question distribution:
+  Factual:     2 JSQ  +  1 SQ  =  3 questions
+  Procedural:  2 JSQ  +  1 SQ  =  3 questions
+  Conditional: 1 JSQ  +  2 SQ  =  3 questions
+                                   -----------
+  Total:                           9 questions
+
+Correct answer distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SOURCE MATERIAL SUMMARY
+---------------------------------------------------------------------------
+
+SECTION A: Definition of an Error on a Faster Payment
+  Source: AFPP Handbook, lines 9873–9881
+  Section heading: "Error on a faster payment" (Chapter 5 – Governance Framework)
+
+  Key passage (lines 9873–9881):
+  "An error refers to an unintended deviation or mistake that occurs in the
+  processing of a faster payment. There are different types of errors depending
+  on which stage of the payment the error happens including authentication,
+  processing, authorization, settlement, and reconciliation errors. For instance,
+  TCH defines payment errors related to RTP payments as when the payment amount
+  is erroneous, a payment is sent to an unintended Receiving Participant or
+  Receiver, or an RTP payment is sent twice (duplicate payment). Error resolution
+  includes the process of investigating whether or not an erroneous, unauthorized,
+  or fraudulent faster payment transaction has been made and the corrective
+  measures taken by users and financial institutions. Error resolution will differ
+  based on the type of error as well as the rail involved."
+
+  Irrevocability context (lines 5969–5973):
+  "Some types of faster payments are inherently irrevocable due to the speed of
+  their payments processing. Therefore, the only way funds can be recovered in
+  case of a mistake is through a payment return. However, for a payment to be
+  returned the recipient of the original transaction must consent to the funds to
+  be sent back to the originator."
+
+SECTION B: Applicability of Regulation E vs. UCC Article 4A
+  Source: AFPP Handbook, lines 9882–9902; FFIEC booklet, lines 571–594
+  Section heading: "Applicability of error resolution protections under
+  Regulation E and UCC4A"
+
+  Regulation E scope (AFPP Handbook, lines 9883–9897):
+  "Regulation E governs electronic fund transfers initiated to debit or credit a
+  consumer account... Regulation E provides specific rights and protections for
+  consumers when errors occur in electronic payments, including specifications as
+  to the timeframe for reporting errors and investigation procedures for financial
+  institutions. Regulation E also defines instances when consumers are entitled to
+  provisional credit for disputed amounts during investigations and ensures the
+  timely resolution of errors, thus safeguarding consumers' interests and protects
+  them from errors, unauthorized transactions, and fraudulent activities."
+
+  UCC Article 4A scope (AFPP Handbook, lines 9898–9902):
+  "Article 4A of the UCC provides a framework for the rights and obligations of
+  banks and businesses involved in funds transfers. It focuses on defining the
+  responsibilities of entities involved in commercial transactions such as giving
+  notice to counterparties of erroneous or unauthorized transfers and
+  investigating and resolving errors for recipient entities when receiving notice.
+  Article 4A also specifies liability allocation, enforcement mechanisms, and
+  remedies."
+
+  FFIEC booklet distinction (lines 571–594):
+  - Consumer ACH: governed by ACH rules and Regulation E
+  - Consumer unauthorized checks: governed by UCC and Regulation CC
+  - Unlike Regulation E, the UCC does not contain specific re-credit procedures
+    that a financial institution must follow.
+
+SECTION C: Payer Liability for a Misdirected Payment
+  Source: AFPP Handbook, lines 9903–9922
+  Section heading: "Payer liability for a misdirected payment"
+
+  Under Regulation E (lines 9916–9919):
+  "Payers must give an oral and, upon request from its FI, a written notice of
+  the error made within 60 days of receiving a periodic statement or other
+  documentation first reflecting the alleged error from its FI. The notice must
+  include the customer's name and account number, an explanation for why the error
+  exists as well as the error's type, date, and amount."
+
+  Under UCC Article 4A (lines 9920–9922):
+  "Payers must disclose an error related to misdirected payments and notify their
+  bank within 90 days of receiving payment confirmation from their bank. If the
+  payer fails to do so, he or she is liable for the amount sent and not more."
+
+SECTION D: FI Error Resolution Responsibilities — Regulation E
+  Source: AFPP Handbook, lines 9943–9955 (Table 62)
+  Section heading: "Table 62: Liabilities and Error Resolution Responsibilities
+  of Financial Institutions by Payment Rail"
+
+  Key requirements (lines 9943–9955):
+  - Require written confirmation of error from consumer no later than 10 days
+    after receiving oral notice.
+  - Promptly investigate the allegation.
+  - Complete investigation within 10 business days.
+  - Report findings within 3 business days of completing the investigation.
+  - Correct the error within one business day after determining error was made.
+  - Extension option: FI may extend investigation to 45 calendar days if it
+    provides provisional funds to the consumer within the original 10 business
+    days, advises the consumer within 2 business days of the provisional credit,
+    and gives full use of the funds during the extended investigation.
+  - If no error found: provide written explanation including documents used to
+    make the determination.
+
+SECTION E: FI Error Resolution Responsibilities — UCC Article 4A
+  Source: AFPP Handbook, lines 9956–9962
+
+  Receiving FI obligations (lines 9956–9962):
+  "Receiving financial institutions are required to correct errors they made when
+  executing payment orders, whether the error was related to the amount or the
+  identity of the beneficiary. This includes:
+  - Collecting an additional amount from the sender if the amount debited to the
+    beneficiary is lower than the original payment order.
+  - Recovering and returning the excess funds if the amount collected is larger
+    than the original payment order.
+  - Recovering and returning the full amount of a payment order that was debited
+    to a beneficiary different to the one specified in the payment order.
+  Note: these obligations apply only when UCC Article 4A governs the transaction,
+  which typically excludes consumer accounts unless otherwise agreed."
+
+SECTION F: FedNow Return Request Timeframes
+  Source: FedNow Operating Procedures, lines 4126–4131, 4219–4220
+
+  Return request window (lines 4126–4131):
+  "A Customer Credit Transfer (pacs.008) can be returned either when a FedNow
+  Participant decides to honor a return request (camt.056) message or when the
+  FedNow Participant cannot apply the funds it received... If needed, a return
+  request (camt.056) should be sent within 60 calendar days from when the
+  Customer Credit Transfer (pacs.008) settled."
+
+  Note: camt.056 messages used to report fraud or an RFP warranty breach are
+  not subject to the 60-day guideline. (FedNow Operating Procedures, lines
+  4191–4193)
+
+SECTION G: FedNow Accept Without Posting (ACWP) and Error Investigation
+  Source: FedNow Operating Procedures, lines 3279–3291
+
+  ACWP framework (lines 3279–3291):
+  "Accept Without Posting (ACWP) is one of the three available responses a
+  Receiver FI can use in its initial response to an instant payment (pacs.008 or
+  pacs.004). When ACWP is used in response to an instant payment, the FedNow
+  Service settles the transaction with finality... The Federal Reserve Banks
+  require a Participant using the ACWP response to reject the transaction (and
+  return funds) or make funds available to the intended recipient by midnight
+  Eastern Time of the next standard business day (Monday through Friday, except
+  holidays), unless the Participant continues to be concerned that the recipient
+  is not entitled to receive the payment and taking either action would be
+  impermissible under applicable law. In this case, the Federal Reserve Banks
+  require the Participant to provide a status of pending (PDNG) response to the
+  FedNow Service sender by the ACWP availability deadline."
+
+
+---------------------------------------------------------------------------
+THE 9 QUESTIONS
+---------------------------------------------------------------------------
+
+----- FACTUAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q1 — Factual / JSQ
+Sub-competency: Define an error on a faster payment
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: RTP error types — wrong amount, unintended receiver, duplicate
+payment — are foundational definitions that a 2-year practitioner working with
+real-time payment networks should recognize.
+
+Stem:
+  Which of the following is defined as a payment error on the RTP network?
+
+Responses:
+  A. A payment sent to an unintended receiving participant or receiver
+  B. A payment made using an expired digital signature certificate
+  C. A payment that exceeds the sending participant's internally configured
+     transaction limit
+
+Answer: A
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Error on a
+  faster payment" section, lines 9873–9881.
+
+---
+
+Q2 — Factual / JSQ
+Sub-competency: Differentiate the applicability of error resolution protections
+under Regulation E and UCC Article 4A
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that Regulation E governs consumer electronic fund transfers
+is fundamental regulatory knowledge expected of a 2-year payments practitioner.
+
+Stem:
+  Which type of payment transaction does Regulation E govern with respect to
+  error resolution protections?
+
+Responses:
+  A. Commercial funds transfers between businesses processed through a faster
+     payment network
+  B. Electronic fund transfers initiated to debit or credit a consumer account
+  C. Wire transfers processed between financial institutions under Regulation J
+
+Answer: B
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+  "Applicability of error resolution protections under Regulation E and
+  UCC4A," lines 9883–9884. Also: FFIEC IT Examination Handbook: Retail
+  Payment Systems Booklet, lines 521–525.
+
+---
+
+Q3 — Factual / SQ
+Sub-competency: Explain the liability of a payer for a misdirected payment
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: The 90-day UCC Article 4A notification window for payers is a
+specific regulatory detail requiring deeper knowledge to distinguish from
+the more commonly recognized 60-day Regulation E window.
+
+Stem:
+  Under UCC Article 4A, within how many days of receiving payment confirmation
+  must a payer notify its financial institution of a misdirected payment to
+  avoid liability for the full amount sent?
+
+Responses:
+  A. 60 days
+  B. 120 days
+  C. 90 days
+
+Answer: C
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Payer
+  liability for a misdirected payment" section, lines 9920–9922.
+
+----- PROCEDURAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q4 — Procedural / JSQ
+Sub-competency: Explain the liabilities and error resolution responsibilities
+of the sending and receiving financial institutions
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: The 10-business-day investigation requirement under Regulation E is
+a standard compliance procedure that a 2-year payments practitioner applies in
+consumer error resolution workflows.
+
+Stem:
+  Under Regulation E, within how many business days must a financial institution
+  complete its investigation after a consumer reports a payment error?
+
+Responses:
+  A. 10 business days
+  B. 3 business days
+  C. 45 calendar days
+
+Answer: A
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, Table 62:
+  "Liabilities and Error Resolution Responsibilities of Financial Institutions
+  by Payment Rail," lines 9947–9950.
+
+---
+
+Q5 — Procedural / JSQ
+Sub-competency: Explain the liabilities and error resolution responsibilities
+of the sending and receiving financial institutions
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: The 60-calendar-day timeframe for FedNow return requests is an
+operational parameter that a practitioner working with FedNow should know
+as a standard procedure.
+
+Stem:
+  According to the FedNow Service Operating Procedures, within how many calendar
+  days of a credit transfer settling should a participant send a return request
+  for that payment?
+
+Responses:
+  A. 30 calendar days
+  B. 60 calendar days
+  C. 95 calendar days
+
+Answer: B
+
+Source citation:
+  Federal Reserve Banks. FedNow Service Operating Procedures (June 24, 2025),
+  lines 4126–4131 and 4219–4220.
+
+---
+
+Q6 — Procedural / SQ
+Sub-competency: Explain the liabilities and error resolution responsibilities
+of the sending and receiving financial institutions
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The provisional credit extension mechanism — requiring action within
+10 business days and notice within 2 business days — is a nuanced Regulation E
+procedure that demands deeper regulatory expertise beyond working practitioner
+knowledge.
+
+Stem:
+  Under Regulation E, how may a financial institution extend its error
+  investigation period from 10 business days to 45 calendar days?
+
+Responses:
+  A. By filing a notice of extension with the Consumer Financial Protection
+     Bureau and informing the consumer within 5 business days of the extension
+  B. By transferring the investigation to the sending financial institution and
+     suspending consumer account activity until the matter is resolved
+  C. By providing provisional funds to the consumer within the original 10
+     business days and advising the consumer within 2 business days of the
+     provisional credit
+
+Answer: C
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, Table 62:
+  "Liabilities and Error Resolution Responsibilities of Financial Institutions
+  by Payment Rail," lines 9950–9953.
+
+----- CONDITIONAL QUESTIONS (1 JSQ + 2 SQ) -----
+
+Q7 — Conditional / JSQ
+Sub-competency: Differentiate the applicability of error resolution protections
+under Regulation E and UCC Article 4A
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: Applying the consumer/commercial distinction to determine which
+regulatory framework governs error resolution is a foundational analytical skill
+for a 2-year payments compliance practitioner.
+
+Stem:
+  Under what condition does UCC Article 4A — rather than Regulation E — govern
+  the error resolution process for a faster payment?
+
+Responses:
+  A. The payment is a commercial transaction not involving a consumer account
+  B. The payment is processed through a network that has not incorporated
+     Regulation E protections into its operating rules
+  C. The payment involves an account held for personal, family, or household
+     purposes
+
+Answer: A
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+  "Applicability of error resolution protections under Regulation E and
+  UCC4A," lines 9882–9902. Also: FFIEC IT Examination Handbook: Retail
+  Payment Systems Booklet, lines 571–575.
+
+---
+
+Q8 — Conditional / SQ
+Sub-competency: Explain the liabilities and error resolution responsibilities
+of the sending and receiving financial institutions
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Knowing the specific UCC Article 4A remedy for a wrong-beneficiary
+error — and recognizing it applies only to non-consumer transactions — requires
+synthesis of regulatory frameworks characteristic of a 5-year practitioner.
+
+Stem:
+  Under what condition is a receiving financial institution required to recover
+  and return the full amount of a payment order under UCC Article 4A?
+
+Responses:
+  A. The payment was processed through a network using the ISO 20022 messaging
+     standard and the sender submitted a return request within 60 calendar days
+  B. The payment order was debited to a beneficiary different from the one
+     specified in the original payment order
+  C. The payment was accepted without posting and the receiving financial
+     institution failed to resolve the payment status by the next standard
+     business day
+
+Answer: B
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, Table 62:
+  "Liabilities and Error Resolution Responsibilities of Financial Institutions
+  by Payment Rail," lines 9956–9962.
+
+---
+
+Q9 — Conditional / SQ
+Sub-competency: Explain the liabilities and error resolution responsibilities
+of the sending and receiving financial institutions
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The narrow exception allowing delayed ACWP resolution — and the
+specific PDNG status response it requires — demands deep operational and
+regulatory knowledge of FedNow procedures beyond a 2-year practitioner's
+working knowledge.
+
+Stem:
+  Under what condition may a FedNow participant that has responded to an instant
+  payment with Accept Without Posting delay its resolution beyond midnight
+  Eastern Time of the next standard business day?
+
+Responses:
+  A. The participant has submitted a return request to the sending financial
+     institution and is awaiting a response within the 20-business-day
+     response window
+  B. The participant has insufficient funds in its Federal Reserve Master Account
+     to provide provisional credit to the consumer within the required timeframe
+  C. The participant continues to be concerned that providing or returning the
+     payment would be impermissible under applicable law and has provided a
+     pending status response to the FedNow Service by the deadline
+
+Answer: C
+
+Source citation:
+  Federal Reserve Banks. FedNow Service Operating Procedures (June 24, 2025),
+  lines 3279–3291.
+
+
+---------------------------------------------------------------------------
+CORRECT ANSWER POSITIONS
+---------------------------------------------------------------------------
+
+Q1: A  |  Q2: B  |  Q3: C
+Q4: A  |  Q5: B  |  Q6: C
+Q7: A  |  Q8: B  |  Q9: C
+
+Distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SKILL RATING AND COVERAGE MAP
+---------------------------------------------------------------------------
+
+         JSQ          SQ
+Factual:  Q1, Q2      Q3
+Procedural: Q4, Q5    Q6
+Conditional: Q7       Q8, Q9
+
+Sub-competency coverage:
+  Define an error on a faster payment:              Q1 (JSQ/Recall)
+  Reg E vs. UCC4A applicability:                   Q2 (JSQ/Recall), Q7 (JSQ/Analysis)
+  Payer liability for misdirected payment:          Q3 (SQ/Recall)
+  FI error resolution responsibilities (Reg E):     Q4 (JSQ/App), Q6 (SQ/App)
+  FI error resolution responsibilities (FedNow):    Q5 (JSQ/App), Q9 (SQ/Analysis)
+  FI error resolution responsibilities (UCC4A):     Q8 (SQ/Analysis)
+
+
+---------------------------------------------------------------------------
+STYLE COMPLIANCE CHECKLIST
+---------------------------------------------------------------------------
+
+[ ] Complete question format — no fill-in-the-blank, no true/false
+[ ] Active voice, 3rd person throughout
+[ ] "Financial institution" used — no "bank" or "credit union"
+[ ] "NOT" in all caps where used — not applicable (no negatively phrased questions)
+[ ] No trademark symbols
+[ ] No bold or underline in responses
+[ ] Responses equal in length and grammatical structure
+[ ] Correct answer positions varied: A(3), B(3), C(3)
+[ ] Only one defensible correct answer per question
+[ ] No trivial, absurd, or overlapping distractors
+[ ] Every question includes Skill Rating block (JSQ or SQ), Cognitive Level,
+    and Rationale
+[ ] Every question has at least one approved source reference
+[ ] FFIEC source cited with full booklet name where used (Q2, Q7)
+[ ] Nacha Operating Rules written in full where referenced
+
+
+---------------------------------------------------------------------------
+EXECUTION STEPS
+---------------------------------------------------------------------------
+
+1. Read handbook and secondary source passages at cited line ranges to confirm
+   all facts before writing the draft.
+
+2. Write questions to /home/fewill/code/afpp-write/question_5003_draft.txt with:
+   - Question number and type label
+   - Skill Rating block (Skill Rating / Cognitive Level / Rationale)
+   - Stem
+   - Three response options (A, B, C)
+   - Answer key notation
+   - Formatted source citation
+
+3. Review against the style compliance checklist and apply corrections.
+
+
+---------------------------------------------------------------------------
+APPROVED REFERENCE FORMAT
+---------------------------------------------------------------------------
+
+  AFPP Handbook (2026). Nacha. [Chapter]. [Section/Table label]. lines [range].
+
+  FedNow Operating Procedures:
+    Federal Reserve Banks. FedNow Service Operating Procedures (June 24, 2025).
+    [Section/line range].
+
+  FFIEC:
+    FFIEC IT Examination Handbook: Retail Payment Systems Booklet.
+    [Section heading], lines [range].
+
+---------------------------------------------------------------------------
