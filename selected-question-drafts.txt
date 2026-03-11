@@ -44,17 +44,17 @@ Payment fail to satisfy the legitimate purpose requirement of the RfP
 Warranty?
 
   A. When the business customer sends a Request for Payment for an
-     amount that is NOT related to a current sale, transaction, or a
-     sum previously agreed to be paid by the receiving customer
-  B. When the business customer sends a Request for Payment for an
      amount that exceeds the threshold established by the Sender
      financial institution's internally configured transaction
      monitoring system
+  B. When the business customer sends a Request for Payment for an
+     amount that is NOT related to a current sale, transaction, or a
+     sum previously agreed to be paid by the receiving customer
   C. When the business customer sends a Request for Payment to a
      receiving customer who has NOT completed the zero-dollar Request
      for Payment readiness assessment recommended by the FedNow Service
 
-Answer: A
+Answer: B
 
 Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk Management, 
 "Customer Onboarding" section, p. 119. Also: FedNow Service Operating Procedures 
@@ -107,17 +107,17 @@ enabling proactive transfers is standard operational knowledge for a
 How does a liquidity management overlay service help faster payment
 participants mitigate the risk of service interruptions?
 
-  A. By automating settlement adjustments across multiple faster
-     payment networks simultaneously to prevent overdrafts at any
-     single network
-  B. By providing insights into participants' liquidity positions and
+  A. By providing insights into participants' liquidity positions and
      enabling proactive transfers to prevent insufficient funds before
      service interruptions occur
+  B. By automating settlement adjustments across multiple faster
+     payment networks simultaneously to prevent overdrafts at any
+     single network
   C. By suspending outgoing payments from participants whose available
      funds fall below the minimum threshold established by the central
      infrastructure operator
 
-Answer: B
+Answer: A
 
 Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations 
 for Enabling Faster Payments, "Liquidity Management" subsection, p. 134.
@@ -139,16 +139,16 @@ According to Operating Circular 8, what must a financial institution
 complete before it is permitted to send or receive payment orders
 through the FedNow Service?
 
-  A. Execute a FedNow Service Security Procedure Agreement with the
-     Federal Reserve Bank
-  B. Submit a written certification to the Federal Reserve Bank
+  A. Submit a written certification to the Federal Reserve Bank
      confirming it has implemented a BSA/AML compliance program that
      includes FedNow-specific transaction monitoring
+  B. Execute a FedNow Service Security Procedure Agreement with the
+     Federal Reserve Bank
   C. Complete a pilot testing phase in the FedNow customer testing
      environment and receive written approval from the Federal Reserve
      Bank to begin live transaction processing
 
-Answer: A
+Answer: B
 
 Source: Operating Circular 8 (April 1, 2026). Federal Reserve Banks.
 FedNow Service. Section 8.2, p. 11.
@@ -173,13 +173,13 @@ actually occurred?
   A. Notify the Consumer Financial Protection Bureau of the error
      determination and provide documentation of the correction steps
      taken
-  B. Correct the error and credit the consumer's account for the
+  B. Provide the consumer with a written explanation of the findings
+     and the documents relied upon in making the error determination
+  C. Correct the error and credit the consumer's account for the
      amount of the error, including applicable interest where the
      account is interest-bearing
-  C. Provide the consumer with a written explanation of the findings
-     and the documents relied upon in making the error determination
 
-Answer: B
+Answer: C
 
 Source: 12 CFR Part 1005 (Regulation E). Consumer Financial Protection
 Bureau. Section 1005.11(c), page 15.
@@ -201,17 +201,17 @@ According to the AFPP Handbook, what fee disclosure obligation do
 financial institutions have toward customers using the Mastercard
 Send service?
 
-  A. Financial institutions must disclose all fees and appropriate
-     information to customers using the Mastercard Send service in
-     accordance with applicable laws and regulations
-  B. Financial institutions must submit fee schedules to Mastercard for
+  A. Financial institutions must submit fee schedules to Mastercard for
      pre-approval before disclosing them to customers, with updates
      required within 30 days of any fee change
-  C. Financial institutions must provide customers with a standardized
+  B. Financial institutions must provide customers with a standardized
      comparison of Mastercard Send fees relative to other available
      faster payment services at the time of account opening
+  C. Financial institutions must disclose all fees and appropriate
+     information to customers using the Mastercard Send service in
+     accordance with applicable laws and regulations
 
-Answer: A
+Answer: C
 
 Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, 
 "Required Disclosures — Mastercard Send" section, p. 152. 
