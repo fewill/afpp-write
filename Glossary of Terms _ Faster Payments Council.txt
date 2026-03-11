@@ -1,0 +1,891 @@
+ Accessibility
+The extent to which the payment service can be used by anyone, regardless of their abilities, preferences, or devices.1
+
+ Account Takeover (ATO)
+A type of theft where a hacker gains unauthorized access to an account with malicious intent.43,1
+
+ Account Validation Service (AVS)
+An AVS is a solution that confirms the accuracy and legitimacy of a bank account by verifying payment account information such as account ownership, bank routing details and account status before initiating financial transactions.84,1
+
+ ACH Operator
+An entity that processes all ACH transaction flows between financial foundations and serves as the central clearing facility for the network participants.1
+
+ Acquirer
+A financial services organization that processes payments for merchants and billers.1
+
+ Address Verification System (AVS)
+A security system requiring merchants to supply address information for a cardholder to the institution that issues the credit card in card-not-present transactions, including online purchases.3
+
+ Addressing
+An automated means to route/direct a transaction using a set of data that may employ a directory service.4
+
+ Adjustments
+A transaction that corrects or modifies the amount or details of a payment entry.1
+
+ Anti-money laundering (AML)
+A set of laws, regulations, and procedures set to prevent illegally obtained funds from being treated as legitimate income.1
+
+ Application Program Interface (API)
+A set of specifications, standards, routines, and protocols providing the capability of building software applications which can be used as building blocks and provide the ability to exchange information electronically.4
+
+ Approval
+The process of gaining a second or third party to validate the request prior to money being sent out.1
+
+ Association for Payment Clearing Services (APACS)
+An organization that manages the main clearing networks which allow UK banks and building societies to exchange payments.1
+
+ Authentication
+The process that verifies the identity or veracity of a participant, device, payment, or message connected to a payment system.6
+
+ Authorization
+The explicit instructions/permission, including timing, amount, payee, source of funds, and other conditions, given by the payer to the payee to transfer funds on a one-time or recurring basis.6
+
+ Authorized Push Payments Fraud (APP)
+When fraudsters deceive consumers or individuals at a business to send them a payment under false pretenses to an FI account controlled by the fraudster. Typically involves social engineering attacks and scams which may include false assertions of need or promises of benefit.44,1
+
+ Automated Clearing House (ACH)
+A payment system that enables electronic funds transfer (EFT) between financial institutions. Processes large volumes of credit push and debit pull payment transactions in batches.1
+
+ Automatic Teller Machine (ATM)
+An electronic physical banking option that allows customers to complete basic transactions without the aid of a branch representative or teller.1
+
+ Available Balance
+The amount that includes the total funds available for use right now.1
+
+ Bank Card
+A physical card that is typically a plastic card issued by a card-issuing entity, which is often a bank or credit union, providing access to funds either by drawing on a bank or a credit account. ATM cards, debit cards, and credit cards are all examples of bank cards.1
+
+ Bank Identification Code aka SWIFT Code (BIC )
+A bank code made up of a series of numbers used to identify worldwide banks. The bank BIC codes are made up of specific characters: 1—4 company name, 5—6 country, 7—8 city/town, and 9—11 (optional) department code (e.g., JPMorgan Chase = CHASGB2L).5
+
+ Bank Routing Number
+All financial institutions (FIs) are identified by a nine (9) digit routing transit number (RTN) that is often found at the bottom of a check.1
+
+ Bank Secrecy Act of 1970 (BSA)
+A series of laws and regulations enacted in the United States to combat money laundering and the financing of terrorism. It provides a foundation to promote financial transparency and deter and detect those who seek to misuse the U.S. financial system to launder criminal proceeds, finance terrorist acts, or move funds for other illicit purposes.45
+
+ Bankers' Bank
+A bank organized under the laws of any state or under federal law, and whose shares are owned exclusively by other banks or by a bank holding company whose shares are owned exclusively by other banks, except for directors’ qualifying shares when required by law, and which engages exclusively in providing services for depository institutions and officers, directors, and employees of those depository institutions.1
+
+ Banking as a Service (BaaS)
+The provision of banking products and services through third-party. distributors. Through integrating non-banking businesses with regulated financial infrastructure, BaaS offerings are enabling new, specialized propositions and bringing them to market faster.76
+
+ Banks
+Financial institutions (FIs) chartered to hold deposits, provide loans, and provide financial and other services.1    
+
+ Batch
+Multiple transactions that are processed together.1
+
+ Batch Processing
+Method used to process multiple transactions submitted together.1
+
+ Batch Settlement
+The settlement of groups of payments.7
+
+ Biometric Authentication
+A security feature for payments, such as finger print or facial recognition and other body measurements and calculations related to human characteristics.1
+
+ Book Transfer
+The transfer of funds from one deposit account to another at the same financial institution or correspondent. Sometimes referred to as "on-us".1
+
+ Breach
+An intentional or unintentional incident of compromised payment-related information.1
+
+ Business Day
+An official business day open to substantially carry out all business functions. A Banking Business Day may be different from a Payments Network Business Day.1
+
+ Business to Business (B2B)
+A payment transaction between two businesses.1
+
+ Business to Consumer (B2C)
+A payment transaction between a business and a consumer.1
+
+ Business to Government (B2G)
+A payment transaction between a business or private sector entity, and public organization.1
+
+ California Consumer Privacy Act (CCPA)
+The CCPA requires businesses of certain sizes to have a data tracking system(s) in place that gives consumers the right to request all the data a company has collected on them over the previous 12-months, as well as data protection and deletion rights.1
+
+ Caps
+Quantitative limits on the funds transfer activity of individual participants in a system; limits may be set by each individual participant or may be imposed by the body managing the system; limits can be placed on the net debit position or net credit position of participants in the system.7
+
+ Card Association
+An organization owned by a financial institution that licenses bank credit card programs and performs operational functions for its members such as transaction processing, authorizations, and interchange settlement.3
+
+ Card Issuer
+A financial institution, such as a bank or a credit union, that offers a payment card (credit or debit cards) directly to consumers (or organizations) and is liable for the use of the card. The issuer is also responsible for the billing and collecting of funds for purchases that were made using that card. In the payments value chain, the card issuer pays the acquiring bank for purchases of goods and services that the cardholder makes. The cardholder then repays the issuing bank based on terms of the agreement.3
+
+ Card Verification Values, version 2 (CVV2)
+A three or four-digit code on a credit card that enhances fraud protection, also known as CVN, CVV, CSC, Card Security Code, or Card Verification Number.10
+
+ Central Bank
+A public institution that manages and controls the production and distribution of money and credit for a nation or a group of nations. In modern economies, the central bank is usually responsible for the formulation of monetary policy and the regulation of member banks.1
+
+ Central Bank Digital Currency (CBDC)
+A digital form of central bank money that is widely available to the general public. "Central bank money" refers to money that is a liability of the central bank.85
+
+ CHECK 21
+Abbreviated term for the Check Clearing for the 21st Century Act which is a federal law that took effect on October 28, 2004, providing the same legal rights for an "image replacement document" (IRD) as the original check with certain qualifications. In turn, this facilitated the ability of banks and other organizations to create electronic image copies of checks, in a process known as check truncation. The images are then sent to the relevant financial institutions to be processed, where money from a consumer's account is transferred to the receiving party's account.1
+
+ Chip Cards
+A type of credit/debit card with an embedded smart chip designed to make transactions more secure. It is now the global standard for credit and debit cards, also known as EMV® for the founding developers of the technology: Europay, Mastercard, and Visa.3
+
+ Clearing House Interbank Payments System (CHIPS)
+An independent bank-owned payments system for clearing large value payments. CHIPS is a real-time, final payments system for U.S. dollars that uses bi-lateral and multi-lateral netting for maximum liquidity efficiency.5
+
+ Clearing/Exchange
+The process by which the Payer's and Payee's Depository Institutions or Regulated Non-Bank Account Providers exchange payment information to validate transactions prior to settlement, potentially including the netting of transactions and the establishment of final positions for settlement.1
+
+ Commercial Bank Account
+Specialized financial accounts designed to serve businesses and organizations. They enable businesses to carry out their financial transactions smoothly by providing services tailored for commercial operations.46
+
+ Commercial Card
+A generic term referring to payment cards issued to businesses for use by employees to cover expenses (e.g., corporate cards, purchasing cards, travel, and entertainment cards).3
+
+ Compliance risk
+The danger that a party to a transaction fails to comply, either knowingly or inadvertently, with payment system rules and policies, regulations and applicable U.S. and state law.1    
+
+ Consumer
+A natural person.14
+
+ Consumer Alerts
+An opt-in communication service offered by card issuers or account issuers where cardholders or accountholders receive alerts based on unusual or unauthorized transaction activity, or other preset conditions.1,3
+
+ Consumer Authentication
+This refers to tools used to verify that the cardholder making a transaction is actually the individual authorized to make that transaction, for both in-person and card-not-present transactions.3
+
+ Consumer Financial Protection Bureau (CFPB)
+A federal government agency that supervises certain banks, credit unions, and other financial companies for compliance with federal consumer financial laws, and enforces those laws.1,8
+
+ Consumer to Business (C2B)
+Payments transaction between a consumer and a business.1
+
+ Consumer to Consumer (C2C)
+Peer to Peer - Person to Person (P2P) payments.1
+
+ Consumer to Government (C2G)
+Payments transaction between a consumer and the government (e.g., state, federal, local taxes).1
+
+ Consumer-Presented QR Code
+Option where the customer displays the QR code on their mobile device and the merchant uses an optical scanner to scan the QR code. Conversely, in merchant-presented mode, the merchant displays the QR code and the consumer uses their mobile device to scan the QR code.1
+
+ Contactless Payments
+Contactless payments refer to a secure method of transaction that leverages mobile devices and payment terminals equipped with radio frequency identification (RFID) or near-field communication (NFC) technologies.3
+
+ Continuous Linked Settlement (CLS)
+A means of settling foreign exchange transactions finally and irrevocably. CLS eliminates settlement risk, improves liquidity management, reduces operational banking costs, and improves operational efficiency and effectiveness.1,5
+
+ Core Processor
+The software that financial institutions use to manage their most critical processes, such as customer accounts, transactions and risk management.47
+
+ Corporate Credit Unions
+An organization that is chartered under federal or state law as a credit union; receives shares from and provides payment, lending, and other services to credit unions; and is operated primarily for the purpose of serving other credit unions.1
+
+ Correspondent Bank
+A bank that provides payment and other services to another bank. Payments through correspondents are often executed through reciprocal accounts (so-called nostro and vostro accounts), to which standing credit lines may be attached.5
+
+ Counterparty
+The other party that participates in a transaction.1
+
+ Counterparty Risk
+The probability that the other party in an investment, credit, or trading transaction may not fulfill its part of the deal and may default on the contractual obligations.48
+
+ Cover Payment
+In the serial method of funds transfer, there is a single funds transfer consisting of a series of payment orders, each of which is sent to the next party in the chain. A receiving bank gets paid by its sender when it receives final settlement through a funds-transfer system like CHIPS or Fedwire, it debits an account of the sender on its books, it receives a credit to an account it has with the sender, or the sender causes the receiving bank’s account at another bank to be credited (i.e., the receiving bank gets cover).5
+
+ Credential
+A verifiable set of data presented by a participant to the payment system as evidence of identity.6
+
+ Credit Card
+A physical or virtual card with a credit limit used to purchase goods and services and to obtain cash advances on credit for which a cardholder is subsequently billed by the issuer (the institution, such as a bank or credit union, which offers the card to the individual) for repayment of the credit extended.1,3
+
+ Credit limit
+A limit on the credit exposure a party is willing to face. For example, in the context of payment systems, a limit on the credit exposure a participant incurs vis-à-vis another participant (bilateral credit limit) or vis-à-vis all other participants (multilateral credit limit) as a result of receiving payments that have not yet been settled.7
+
+ Credit Push Payment
+A payment initiated when a payer sends a payment order with instructions to transfer funds to the Payee.1
+
+ Credit Risk
+The risk that a counterparty, whether a participant or other entity, will be unable to meet fully its financial obligations when due, or at any time in the future.7
+
+ Credit Transaction
+A payment transaction that increases an account balance.1
+
+ Credit Union
+Financial institutions, like banks, except the members own the credit union. They are non-profit entities that aim to serve their members rather than seeking to earn a profit.1
+
+ Credit Union Service Organization (CUSO)
+Operates as back-end, profit centers for credit unions to help them pool resources and reduce service costs. CUSOs must have at least one credit union owner and most CUSOs have a specialty, such as auto loans, technology resources, commercial lending and/or consulting services.1
+
+ Credited
+An entry that shows that money has been received. This could be through a deposit, refund, or other payment posting. Another meaning in payments is an arrangement in which a borrower borrows money from a lender and then pays back the lender the money along with any applicable interest.49,1
+
+ Cross-Border
+The ability of a participant to settle a transaction between two different countries' payment schemes.1
+
+ Cross-Border Bill Payment
+A cross-border payment designated for a specific bill to pay versus a money transfer that can be used for anything.77
+
+ Cross-Border Payment
+A payment in which the financial institutions of the payer and the payee are located in different jurisdictions.7
+
+ Cross-Border Settlement
+A settlement that takes place in a country other than the country in which one trade counter party or both are located.5
+
+ Cross-Channel Risk
+Occurs when the movement of fraudulent or illegal payment transactions from one payments channel to another (e.g., check payments to ACH) is met with inconsistent risk management practices and lack of information sharing across payment channels about fraud.1
+
+ Cryptocurrency
+A digital or virtual currency where encryption technology, operating independently of a central bank, is used to facilitate a generation of units of currency and verify the transfer of funds.3
+
+ Cryptocurrency Mining
+The competitive process that verifies and adds new transactions to the blockchain for a cryptocurrency that uses the proof-of-work (PoW) or similar consensus method. Bitcoin and the original version of Ethereum are the primary examples of proof-of-work.50
+
+ Data Breach
+An incident when sensitive, confidential data, such as credit card or personal health information, is viewed, stolen, or used by an unauthorized, untrusted individual.3
+
+ Data Encryption
+The process of securing sensitive data, such as credit card information, by transforming that data using an algorithm to create a key and make it unusable to anyone except those possessing special knowledge.3
+
+ Data Security Standard (DSS)
+Also referred to as the Payment Card Industry Data Security Standard (PCI DSS), a common set of information security policies and procedures for use by entities that handle credit card data (any organization that accepts, processes, stores, or transmits credit card information) to protect that data and prevent misuse of cardholders’ personal information.3
+
+ Database
+A large collection of data that is stored digitally and organized and designed for easy access and retrieval (e.g., a collection of customer names and addresses).3
+
+ Debit Card
+A card issued by a financial institution allowing the holder to access funds or transfer money electronically.19
+
+ Debit Network
+An electronic system used for debit card transactions to withdraw cash from automated teller machines (ATMs), pay bills online, and make purchases.1
+
+ Debit Pull Payments
+A payment made after prior authorization by the payer. The payee sends the payment instruction to the payee's account to draw on funds from the payer.1
+
+ Debit Transaction
+A payment transaction that decreases an account balance.1
+
+ Deferred Bilateral Net Settlement
+Multiple payments sent and received between two parties are offset against each other, with the party sending more than they received owing the other party the net amount. This net amount can be settled later by a single settlement payment or by book transfer between accounts held at the same institution. Deferred bilateral net settlement is commonly used in situations where two parties both send and receive many payments to each other, including trade credit, FX trades and “direct send” check or ACH exchanges.17,62
+
+ Deferred Gross Settlement
+Every payment message is followed later, by a corresponding settlement payment. This can be a single settlement payment, such as a “covering wire” that follows a payment instruction sent on the SWIFT network. It could also be a single settlement payment that covers multiple payment instructions from one party to another, such as a single ACH payment or wire transfer sent by a bill pay service to settle multiple payments to the same biller. In either case, the receiver is at risk until the settlement payment is complete.17,62
+
+ Deferred Multilateral Net Settlement
+Multiple payments sent and received between multiple parties are settled against each other, with the parties sending more than they received owing the other parties the settlement net amount, and net receivers receiving their settlement net value. This is a common form of settlement for batch payments, including check clearing houses, ACH and card networks.17,62
+
+ Deferred Net Settlement
+A settlement option that settles on a net basis at the end of a predefined settlement cycle typically at the end of the business day, but sometimes during the business day.1
+
+ Demand Deposit Account (DDA)
+A checking, savings, or money market account where the customer has access to the funds in the account without providing advance notice.1
+
+ Deposit Account
+A bank account where money can be deposited and withdrawn by the accountholder. Deposit accounts include checking, NOW, savings, share draft, and such other depository accounts as are legal under applicable law.3
+
+ Depository Institutions
+A bank, credit union, or savings association that is allowed to accept deposits.1
+
+ Digital Asset Settlement
+Is one of the settlement options that may be applicable to specific payment solutions. A digital asset settlement method includes receiving from a first user an authorization for a conditional transaction involving a digital right, which has been digitized on a distributed ledger, matching the authorization for transaction from the first user with an authorization for transaction from at least one other user, settling the transaction between at least the first and other users if the conditional is met, and memorializing the settled transaction on the distributed ledger.51
+
+ Digital Assets
+Cryptographically secured representations or stores of value which are used to create, store, and transfer value, largely on distributed ledgers.1
+
+ Digital Currency
+Any currency, money, or money-like asset that is primarily issued, managed, stored, and exchanged on computer systems.1
+
+ Direct Deposit
+A payment method in which funds are automatically transferred from the account that owes the funds to the account of the payee. The method is often used in payroll situations where a "paycheck" is directly deposited into an employee's account.8
+
+ Direct Mobile Billing (DMB)
+A method of paying by charging the purchase to the user's mobile phone account.8
+
+ Directory Message Receiver
+The party intended to receive a message using a listing in a directory. Note that this is not always the party receiving value (e.g., the receiver of a Request for Payment message.) 87
+
+ Directory Message Sender
+The party who wishes to send a message and desires to use a directory service to determine the destination of the message. Note that this is not always the party sending value (e.g., the sender of a Request for Payment message.)87
+
+ Distributed Ledger Technology (DLT)
+A store of data which can be shared across interested parties, where data is committed to storage through a consensus mechanism. Once the data is committed to the ledger, it is protected from modification through cryptographic techniques. An example of DLT is blockchain.1
+
+ Dodd-Frank Act (DFA)
+Is a law that places strict requirements on lenders and banks in an effort to protect consumers. These requirements include Section 1031(a) which authorizes the Consumer Financial Protection Bureau (CFPB) to use its regulatory, supervisory, and enforcement authority to prevent financial service providers from committing or engaging in unfair, deceptive, or abusive acts or practices (UDAAP) in connection with consumer financial products or services. Criteria for determining whether an act or practice is unfair, deceptive, or abusive vary depending on the term.1
+
+ Electronic Banking
+A form of banking in which the funds of financial transactions are transferred through an exchange of electronic signals between financial institutions (e.g., online banking, direct deposit, pay-by-phone systems, debit/credit card transactions, electronic check conversion).1
+
+ Electronic Fund Transfer Act (EFTA)
+The Act is intended to protect individual consumers engaging in electronic fund transfers (EFTs). EFT services include transfers through automated teller machines, point-of-sale (POS) terminals, automated clearinghouse systems, telephone bill payment plans in which periodic or recurring transfers are contemplated, and remote banking programs. The Consumer Financial Protection Bureau (CFPB) implements EFTA through Regulation E, which includes an official staff commentary and FAQs.1,11
+
+ Electronic Funds Transfer (EFT)
+A transfer of funds that is initiated through an electronic terminal, telephone, computer (including on-line banking), or magnetic tape for the purpose of ordering, instructing, or authorizing a financial institution to debit or credit a consumer’s account. EFTs include, but are not limited to point-of-sale (POS) transfers, automated teller machine (ATM) transfers, direct deposits or withdrawals of funds, transfers initiated by telephone, and transfers resulting from debit card transactions, whether or not initiated through an electronic terminal (Reg E).1
+
+ Encryption
+The technique of scrambling sensitive data automatically in the terminal or computer before data is transmitted for security/antifraud purposes.3
+
+ End User
+An entity that uses a payment solution, payment network, or payment service for the purpose of sending or receiving payments, such as a business or a consumer.6
+
+ Environmental, Social, Governance Criteria​ (ESG)
+A framework utilized by investors to capture the impacts of an organization's actions on its stakeholders.52
+
+ Error Resolution
+The process of an investigation to determine whether or not an erroneous, unauthorized, or fraudulent transaction has occurred and if so, the corrective measures to be taken by the end user and/or provider.4
+
+ eWallet
+An electronic device, online service, or software program that allows one party to make electronic transactions with another party from an electronic wallet of one or more cards and/or other accounts.1
+
+ Expedited Funds Availability Act (EFAA)
+To ensure that account holders have prompt access to funds deposited into their bank accounts, Congress passed the Act in 1987 to address concerns about the lengths of holds banks were placing on check deposits. The EFAA establishes maximum permissible hold periods for checks and other deposits.11
+
+ eXtensible Markup Language (message standards) (XML)
+eXtensible markup language that defines a set of rules for encoding documents in a format that is readable by both humans and machines.15
+
+ Faster Payments
+Electronic payment services that provide funds to the payee within seconds or up to a few hours. Faster payments include instant/immediate/real-time, push-to-card, and same day ACH.1
+
+ Faster Payments Council (FPC)
+An industry-led membership organization whose mission is to facilitate a world-class payment system where every person or organization can safely and securely pay anyone, anywhere, at any time and with near-immediate funds availability.1
+
+ Federal Deposit Insurance Corporation (FDIC)
+An independent agency created by Congress to maintain stability and public confidence in the nation's financial system. To accomplish this mission, the FDIC insures deposits; examines and supervises financial institutions for safety, soundness, and consumer protection; makes large and complex financial institutions resolvable; and manages receiverships.20
+
+ Federal Financial Institutions Examination Council (FFIEC)
+A formal interagency body empowered to prescribe uniform principles, standards, and report forms for the federal examination of financial institutions by the Board of Governors of the Federal Reserve System (FRB), the Federal Deposit Insurance Corporation (FDIC), the National Credit Union Administration (NCUA), the Office of the Comptroller of the Currency (OCC), and the Consumer Financial Protection Bureau (CFPB) and to make recommendations to promote uniformity in the supervision of financial institutions.13
+
+ Federal Reserve Bank (FRB)
+The Federal Reserve performs five key functions in the public interest to promote the health of the U.S. economy and the stability of the U.S. financial system. The Federal Reserve • conducts the nation’s monetary policy to promote maximum employment and stable prices in the U.S. economy; • promotes the stability of the financial system and seeks to minimize and contain systemic risks through active monitoring and engagement in the U.S. and abroad; • promotes the safety and soundness of individual financial institutions and monitors their impact on the financial system as a whole; • fosters payment and settlement system safety and efficiency through services to the banking industry and the U.S. government that facilitate U.S.-dollar transactions and payments; and • promotes consumer protection and community development through consumer-focused supervision and examination, research and analysis of emerging consumer issues and trends, community economic development activities, and the administration of consumer laws and regulations.63
+
+ FedNow
+An instant payment service that the Federal Reserve offers to banks and credit unions to transfer funds for their customers.11
+
+ Fedwire
+A real-time gross settlement funds transfer system operated by the United States Federal Reserve Banks, allowing financial institutions to electronically transfer funds between participants.12
+
+ Financial Inclusion
+A set of products, services, policies and practices by financial services providers and other entities that induce and support persons who are not using mainstream financial services. In payments, financial inclusion enables payments and other financial services to people and businesses that are underserved and are effectively excluded from the types and levels of service, costs, features, and safety that many others take for granted.77
+
+ Financial Institution (FI)
+Means any institution engaged in the business of providing financial services to customers who maintain a credit, deposit, trust, or other financial account or relationship with the institution.23
+
+ FinCEN - Financial Crimes Enforcement Network (FinCEN)
+A bureau of the United States Department of the Treasury, its mission is to safeguard the financial system from illicit use and combat money laundering and promote national security through the collection, analysis, and dissemination of financial intelligence and strategic use of financial authorities.2
+
+ Fintech/FinTech
+Any business that uses technology to modify, enhance, or automate financial services for businesses or consumers.32
+
+ First-Party Fraud
+Fraud committed by an accountholder against another entity. For example, a legitimate customer may dishonestly request a chargeback on a purchase after receiving the merchandise as agreed, or an individual may set up an account (either using his or her own identity or a synthetic identity) to purchase items on credit without intending to pay the bill in full.6
+
+ Fraud
+In the payments industry, this refers to dishonest means used to perpetrate false or illegal transactions including account takeovers, identity theft, card counterfeiting, and other illicit schemes.3
+
+ Fraud Classifier Model
+Published by the Federal Reserve, a set of tools and materials to help provide a consistent way to classify and better understand the magnitude of fraudulent activity and how it occurs across the payments industry.1
+
+ Fraud Detection
+The process of monitoring and detecting suspicious activity for evaluation, classification, and action.1
+
+ Fraud Risk
+The danger that a payment transaction is initiated or altered by any party to the transaction (i.e., employees, interlopers, or organizations), or induced / authorized by a nonparty, in an attempt to misdirect or misappropriate funds with fraudulent intent.1
+
+ Fraudulent
+An unauthorized transaction that has occurred, or an account holder has been manipulated into authorizing a payment to an impersonator or person who does not provide the promised benefit.1
+
+ Freeze Account
+An action taken by a bank, financial institution, or fintech that prevents any transaction from occurring in the account.1
+
+ Funding Agent
+A financial institution that maintains a prefunded account (or Federal Reserve Master Account) balance as a third-party funding manager or funding provider.23
+
+ Funds Availability
+The time at which funds or a portion of funds are available for use.1
+
+ Funds transfer
+The series of transactions, beginning with the originator’s payment order, made for the purpose of making payment to the beneficiary, including any payment order issued by the originator’s bank or an intermediary bank. A funds transfer is completed by the acceptance of a payment order for the benefit of the beneficiary by the beneficiary’s bank.5
+
+ Gateway Processor
+A gateway for transactions to flow in-and-out and connects payment processor and participants.4
+
+ General Data Protection Regulation (GDPR)
+An European Union (EU) regulation that imposes data privacy obligations related to people in the EU onto organizations globally.74
+
+ Good Faith Dispute Process
+In payments, the process of crediting the payer for a dispute in good faith and further investigating the merits of the dispute with the payee's financial institution. Should the dispute not be found meritorious, then the credit to the payer will be reversed.1
+
+ Good Funds
+The funds that are unconditionally available to the owner of the receiving account and usable immediately by the owner of the account.4
+
+ Governance
+The process whereby organizations create policies, decisions, and authority at the highest level that are transparent, support the organization's objectives and Public Policy Objectives, while allowing for input and representation from diverse stakeholders and support the public interest.1
+
+ Government to Business (G2B)
+A payment transaction between the government and a business.1
+
+ Government to Consumer (G2C)
+A payment transaction between the government and a consumer.1
+
+ Government to Government (G2G)
+A transaction between a government and another government.1
+
+ Gramm-Leach-Bliley-Act (GLBA)
+Requires financial institutions – companies that offer consumers financial products or services like loans, financial or investment advice, or insurance – to explain their information-sharing practices to their customers and to safeguard sensitive data.24
+
+ Hybrid Deferred Net Settlement
+Allows for pending settlement payments until sufficient liquidity is available on a first-in, first-out basis.1
+
+ Identity Compilation/Manipulation
+An assemblance of real and fake personal identifiable information (PII), such as a false driver's license, to form a new identity. This is also a form of synthetic identity.1
+
+ Identity Fabrication
+The creation of a complete fictious identity. This is also a form of synthetic identity.1
+
+ Identity Fraud
+All types of crime in which someone wrongfully obtains and uses another person's personal data in some way that involves fraud or deception, typically for economic gain.75
+
+ Identity Theft
+When someone steals your personal information to commit fraud or sells to others who will do so.1
+
+ In-app Payment
+A mobile or online payment that allows users to purchase goods and services directly from within a merchant native mobile app or website. This can also be known as embedded payments.1
+
+ Initiation of a Payment
+A process that is triggered when either the payer or payee in a payment transaction, or a third party, sends an instruction to another entity that ultimately leads to a payment. The initiation ends at the point when the payer authorizes a payment order, or in the case of pre-authorization, when the provider confirms that pre-authorization exists for a given payment.6,1
+
+ Instant (AKA Immediate/Real-time) Payments
+An electronic payment solution available 24x7x365, resulting in the immediate interbank clearing of the transaction and crediting of the payee’s account with confirmation to the payer within seconds of payment initiation.1
+
+ Instant Payment
+An electronic payment available 24x7x365, resulting in the immediate interbank clearing of the transaction and crediting of the payee’s account with confirmation to the payer within seconds of payment initiation.1
+
+ Interbank Settlement
+The final settlement between banks done within seconds of an instant/immediate/real-time payment or through a deferred settlement scheme where funds are available to the receiver either before (i.e., push-to-card) or after the bank-to-bank settlement (Same Day ACH).1
+
+ International ACH Payment (IAT)
+IAT is a Standard Entry Class Code for an ACH International Payment. IAT payment transactions may be ACH debit or credit entries involving a financial agency's office that is not located in the territorial jurisdiction of the United States.5
+
+ International Bank Account Number (IBAN)
+A standard international numbering system developed to identify an overseas bank account. IBAN does not replace a bank's own account number, as its only meant to provide additional information that helps in identifying overseas payments.5
+
+ International Monetary Fund (IMF)
+The International Monetary Fund (IMF) works to achieve sustainable growth and prosperity for all of its 190 member countries. It does so by supporting economic policies that promote financial stability and monetary cooperation, which are essential to increase productivity, job creation, and economic well-being. The IMF is governed by and accountable to its member countries.53
+
+ International Organization for Standardization (ISO)
+Is a worldwide federation of national standards bodies that rely on ISO technical committees to create standards. ISO standards are used in the real-time payments (ISO 20022) and push-to-card (ISO 8583) faster payment rails.54,1
+
+ Interoperability
+A process that enables solutions to transmit and receive payment instructions across various payment systems or platforms. It requires the use of common applied technical standards, coordinated digital identities, alias directories, and broad access to settlement mechanisms compatible between systems.1
+
+ Interoperable
+Allowing two or more proprietary platforms to interact seamlessly, enabling the exchange of payment transactions between and among payment service providers and, consequently, users.1
+
+ Irrevocable Payment
+A payment that is final and typically has no recourse for correction or reversal.1
+
+ ISO 20022
+An international standard for exchanging electronic messages between financial institutions. First introduced in 2004, ISO 20022 was created to give the financial industry a common platform for developing messages using a modelling methodology, a central dictionary, and a set of XML and ASN.1 design rules.25
+
+ ISO 8583
+An international standard for financial transaction card originated interchange messaging. It is the International Organization for Standardization standard for systems that exchange electronic transactions initiated by cardholders using payment cards.1
+
+ Issuer
+A bank or financial institution that issues credit and debit cards to consumers on behalf of card networks. The entities are responsible for providing financial details of each transaction, assume the responsibility for a cardholder's ability to pay, and are responsible for account data, card maintenance, and status.1
+
+ Know Your Business (KYB)
+Standards that are designed to protect financial institutions against fraud, corruption, money laundering and terrorist financing. It involves understanding the business' identity and ownership, the nature of the its activities, qualify the legitimate source of funds, and assess any money laundering risks.1
+
+ Know Your Customer (KYC)
+Standards that are designed to protect financial institutions against fraud, corruption, money laundering and terrorist financing. It involves establishing customer identity, understanding the nature of customers' activities and qualify that the source of funds are legitimate, and assess money laundering risks associated with customers.55
+
+ Know Your Customer's Customer (KYCC)
+An additional compliance measure beyond the traditional KYC. It goes one step further by looking at second-tier business relationships. It involves confirming that business are who they say they are and gain confidence that they are transacting with legitimate customers for legitimate reasons. It also identifies if any customers are providing services to shell companies or other high-risk entities that may be involved with financial crimes or other illegal activity.56
+
+ Legal Entity Identifier (LEI)
+A 20-character, alpha-numeric code based on the ISO 17442 standard developed by the International Organization for Standardization (ISO). It connects to key reference information that enables clear and unique identification of legal entities participating in financial transactions.57
+
+ Legal Framework
+All legal sources that are applicable to a payment system including all public sector laws, regulations, other regulatory interpretations or rulings, court decisions, and the payment system rules applicable to the payment system.6
+
+ Liquidity Management
+The active maintenance of a cash position that allows a financial institution to meet its ongoing settlement obligations without incurring the opportunity costs that arise from holding excess balances.1
+
+ Liquidity Risk
+The risk that a financial institution cannot settle an obligation for full value when it is due (even if it may be able to settle at some unspecified time in the future).1
+
+ Liquidity Risk
+The risk that an entity has insufficient financial resources to meet its commitments as they come due.58
+
+ Master Account
+The record of financial rights and obligations of an Account Holder and the Administrative Reserve Bank (or any other Reserve Bank maintaining a Master Account identified in Operating Circular 1) with respect to each other, where opening, intraday and closing balances are determined.31
+
+ Maximum Value Threshold
+A value that sets a limit or boundary, above or below which a different state or condition is observed.59
+
+ Me to Me
+Me-to-Me banking, sometimes also called Account-to-Account (A2A) banking, is the transfer of funds from one account to another account belonging to the same party.60,1
+
+ Merchant-Presented QR Code
+Option where the merchant displays the QR code and the consumer uses their mobile device to scan the QR code. Conversely, in Consumer-Presented QR code where the customer displays the QR code on their mobile device and the merchant uses an optical scanner to scan the QR code.1
+
+ Message Standards
+The standards that provide consistent messaging for interoperability.1
+
+ Micro Deposit
+A small sum of money (generally a few cents) transferred online from one financial account to another. The purpose of the deposit is to verify if the account on the receiving end is actually the account the sender intended to reach. Micro deposits are commonly used to perform account validation service (AVS). 1
+
+ Mobile Payments Service (MPS)
+A service that enables transactions through a portable device.1
+
+ Mobile Wallet
+A mobile device and its software program that allows one party to make electronic transactions with another party from an electronic wallet of one or more cards and/or other accounts.1
+
+ Money Services Businesses (MSBs)
+Includes any person doing business, whether or not on a regular basis or as an organized business concern, in one or more of the following capacities: (1) Currency dealer or exchanger. (2) Check casher. (3) Issuer of traveler's checks, money orders or stored value. (4) Seller or redeemer of traveler's checks, money orders or stored value. (5) Money transmitter (includes walk-in bill payment). (6) U.S. Postal Service. 1,61
+
+ Money Transfer Distribution Channel
+A third-party receiving financial institution or service that uses a distribution method that includes transferring the funds to the designated party’s account, digital wallet, biller, or cash disbursement.77
+
+ Money Transfer On-Us Transactions
+A closed loop system for send/receive through the same organization or payment network. An example is Walmart2Walmart: This is Walmart's money transfer service powered by Ria Money Transfer to send money from any Walmart store in the U.S. to another Walmart store across the U.S, Puerto Rico, and Mexico.77
+
+ Money Transfer Operators (MTOs)
+These businesses require money transfer licenses in all U.S. states in which they operate. These services typically serve the unbanked and underserved as alternative financial services. In many states, bill payments require money transfer licenses as well. Some states have separate bill payment specific licenses. When transferring funds abroad, there are additional compliance requirements for international cross-border money transfers as well as for cross-border bill payments. Another typical service provided by MTOs includes collecting funds and loading value into prepaid cards, digital wallet accounts, or the like. These may include accounts that the beneficiary is someone outside the U.S. that can immediately access and use these funds locally. This is effectively a faster cross-border remittance.77
+
+ Money Transfer Origination Point
+The sending financial institution or service that transfers funds from the sender’s account, digital wallet, or cash. Traditionally money transfer operators have been the primary providers of this type of service.77
+
+ Multi-Currency
+The ability of a transaction to be processed in more than one currency.6
+
+ Multi-Factor Authentication (MFA)
+An authentication method that requires the user to provide two or more verification factors to gain access to a resource, and/or approve a transaction.64
+
+ Multi-Lateral Settlement
+Transfers received by a financial institution are offset against those sent out – here, “transfers” refer to the sum of all funds received and sent to financial institutions that are part of the settlement system. If the sum is positive, the financial institution is said to be in a multilateral net credit position; if the sum of transfers is negative, the financial institution is said to be in a multi-lateral net debit position.65
+
+ Nacha File Format
+A text file with ASCII text lines, where each line is 94 characters long and serves as a record to execute ACH transactions through ACH.1
+
+ Nacha Rules
+The rules adopted by the National Automated Clearing House Association that apply to all entries transmitted through one or more ACH operators.14
+
+ National Automated Clearing House Association (Nacha)
+The entity which manages the development, administration, and governance of the ACH Network.1
+
+ Near Field Communication (NFC)
+A form of contactless, close proximity, radio communications based on radio-frequency identification (RFID) technology. NFC technology allows users to make secure transactions, exchange digital content, and connect electronic devices from a touch to a few centimeters. 35,1
+
+ Near Real-Time
+A timeframe that occurs close to the act of initiating a payment order or authorizing a payment, but not necessarily immediately thereafter.6
+
+ Non-Bank
+An entity that provides some financial services but does not offer a full array of retail banking services and does not have the legal status of a bank.1
+
+ Non-Fungible Token (NFT)
+Digital replacement of a asset intended for verifiable ownership and transferability; not to be used as cash or monetary value.1
+
+ Non-Value Message
+A payment request or response about the details or status of a payment message, report, message retrieval request, or payment request which can be sent from one participant to another in the same payment platform.1
+
+ OFAC Screening
+Checking entities against the denied party lists maintained by the United States Treasury Department’s Office of Foreign Assets Control (OFAC). Additionally, OFAC compliance can also include identifying sanctions and embargoes placed on nations and political jurisdictions.1
+
+ Office of Foreign Assets Control (OFAC)
+An organization that administers and enforces economic and trade sanctions based on U.S. foreign policy and national security goals against targeted foreign countries, terrorists, international narcotics traffickers, and those engaged in activities related to the proliferation of weapons of mass destruction. OFAC acts under presidential wartime and national emergency powers as well as authority granted by specific legislation to impose controls on transactions and freeze foreign assets under U.S. jurisdiction.5
+
+ Office of the Comptroller of the Currency (OCC)
+A federal agency that oversees the execution of laws relating to national banks, and federal branches and agencies of foreign banks. The OCC supervises national banks and federal branches of foreign banking organizations for capital adequacy and other compliance issues.1
+
+ Online Debit
+Also known as PIN debit during an online debit card transaction, a process when a card is inserted/swiped at the point-of- sale, the cardholder is required to enter a Personal Identification Number (PIN), and funds for the transaction are deducted from the cardholder’s bank account.3
+
+ Open Alias Directory
+A directory capability which is available to all approved parties under industry accepted governance and access is controlled via standards developed and adopted by the industry. Open Alias Directories aggregate entries from Private Directories.1,87
+
+ Open Banking
+A global trend driven by innovation, regulation, the pace of FinTech, and consumer demand for more control over how their data is used. Open banking allows for the secure transmission of account data authorized by the customer to a third-party provider.66
+
+ Original Credit Transaction (OCT)
+A payment method for fast fund transfers. OCT credits (pushes) funds to a recipient's account.1
+
+ Originating Depository Financial Institution (ODFI)
+The financial institution which delivers Automated Clearing House (ACH) entries directly or indirectly through a third party to its ACH operator.1
+
+ Out-of-Band Authentication (OOBA)
+Is a type of multi-factor authentication control that requires two communication channels to validate user identity.1
+
+ Overlay Service
+A tailored, value adding payment service or payment-related service owned and operated by a third party, which can be deployed on the basic infrastructure to deliver value to a specific group of subscribers and end users.1
+
+ Participant
+Someone who has legal access to a payment solution, payment network, or payment service.1
+
+ Payee
+The intended recipient of a payment.6
+
+ Payer
+The sender of funds in a payment transaction; particularly the entity that, prior to settlement, owns the funds to be sent to the payee.6
+
+ Payment Aggregator
+A financial technology company that simplifies the process of accepting and processing electronic payments for businesses, including real-time payments. Payment aggregators handle transaction routing, settlement, and often offer additional services such as fraud monitoring and access to various payment rails. 1
+
+ Payment Alias (aka Proxy)
+A unique identifier linked to payment credentials as an alternative to using those credentials in a transaction. This allows the public and the business sector to transact without needing to know and input the beneficiary’s payment credentials details.1,67
+
+ Payment Amount
+The total amount of a transaction submitted for authorization for payment.1
+
+ Payment Card Industry Compliance (PCI)
+The Payment Card Industry Data Security Standard (PCI DSS) applies to companies of any size that accept card payments. If a company intends to accept card payment, and store, process, and transmit cardholder data, it needs to store customer data securely in a manner with is PCI compliant.1
+
+ Payment Directory
+A collection of information that is used for facilitating payments.86
+
+ Payment Directory Service
+A service that enables a payment directory to facilitate payments without requiring sensitive financial account credentials to be shared between payee and payor by using some form of an alias associated with payment information.1
+
+ Payment Facilitator (PayFac)
+A provider of merchant processing that simplifies the process of accepting electronic payments. The PayFac, or master merchant, takes on most of the responsibilities and thereby allows those merchants it enables ("submerchants") to begin accepting electronic payments more rapidly than if they were to contract directly with a merchant acquirer.1
+
+ Payment Finality
+The time after which a payment is irrevocable.1
+
+ Payment initiation
+A process that is triggered when either the payer or payee in a payment transaction, or a third party, sends an instruction to another entity that ultimately leads to a payment. The initiation ends at the point when the payer authorizes a payment order, or in the case of pre-authorization, when the provider confirms that pre-authorization exists for a given payment.6
+
+ Payment Message
+A communication that typically contains information related to the payment, such as the identities of the parties involved, relevant account information, and the payment amount.15
+
+ Payment Orders
+An instruction from a sender transmitted orally, electronically, or in writing, to pay, or to pay a fixed and determinable amount of money to a beneficiary.1
+
+ Payment Processor
+A company or service that facilitates electronic transactions such as payments made via credit cards, debit cards, ACH, wire transfers, instant payment platforms, or digital wallets. Payment processors enable businesses and consumers to use and accept various forms of payment securely and quickly and facilitate the transfer of funds.88,1
+
+ Payment Rail Network Operator
+The owner/operator of a platform that facilitates clearing and settlement of payment transactions.1
+
+ Payment Remittance Data
+Data contained within a payments message that describes the reason for, or is otherwise related to the funds transfer, as appropriate to the use case.1
+
+ Payment Service Provider (PSP)
+An entity that enables transactions between parties in a payment network.1
+
+ Payment System Rules
+The rules, standards/protocols, and procedures specific to various payment systems.1
+
+ Payment-Related Information
+Information that flows directly with a payment to describe its purpose and/or instruct the receiving party how to apply the funds.4
+
+ Payments as a Service (PaaS)
+A cloud-based payment processing solution that allows businesses to accept payments without having to build or maintain their own payment infrastructure. PaaS providers offer a variety of features, including payment gateway integration, fraud protection, and reporting tools.1
+
+ Payments Gateway
+Technology enabled for authenticating and securely transmitting payment data between customers, merchants and payment processors.81,1
+
+ Payments Hub
+A centralized platform that consolidates and manages all payment processes, enabling support for various payment types and integrating inputs from multiple systems to improve efficiency, scalability, and cost-effectiveness.83
+
+ Person-to-Person (P2P)
+A peer-to-peer or person-to-person transaction such as payments by individuals to friends, family members, and other individuals for goods and services.8
+
+ Personally Identifiable Information (PII)
+The personal information used to distinguish or trace an individual associated with a transaction (e.g., social security, fingerprints, biometrics).6
+
+ Phishing
+A type of social engineering that aims to steal data from the message receiver through emails, text or phone calls. Typically, this data includes personal information, usernames and passwords, and/or financial information. Phishing is the broad category term of social engineering fraud attempts, typically specific to emails. Vishing is the equivalent when done via phone call; smishing is the equivalent when done via text message.35,1
+
+ Point-of-Sale (POS )
+An electronic device where a customer makes a payment to settle on the purchase of goods or services.1
+
+ Posting
+The act of transferring and/or recording an entry or item to the proper account or ledger.1
+
+ Private Directory
+A directory capability which is controlled by a single entity with unilateral control over its operation and where access is limited to parties who enter into an agreement to secure proprietary access to the directory.87
+
+ Pull Payment
+A payment made after prior authorization by the payer. The payee sends the payment instruction to the payee's account to draw on funds from the payer. This is also known as a debit pull payment.1,6
+
+ Push Payment
+A payment made when the payer sends the payment instruction to the payer's account to transfer the payer's funds to the payee.6
+
+ Push-to-Card
+A process whereby money is sent to a debit or prepaid card belonging to an individual or business.1
+
+ Quick Response Code (QR)
+Similar to a bar code except it can store larger amount of information per unit area. It is a two-dimensional code that is capable of 360-degree (omni-directional) high-speed reading. Quick response codes can be scanned by a consumer off of a merchant/biller presentment device or static printed version of the code. The quick response code can then be used to initiate payment to the merchant/biller. A quick response code can also be presented by a consumer and scanned by a merchant that can then initiate a request for payment that the consumer can approve and pay the merchant.1
+
+ Real-Time Gross Settlement (RTGS)
+The settlement of payments, transfer instructions, or other obligations individually on a transaction-by-transaction basis.1
+
+ Real-Time Payments (RTP)
+A real-time payment includes the transmission of the payment message and the availability of final funds to the payee, occurring in real time or near real time, and on as near to 24-hour and seven (7) days basis as possible. 1 NOTE: "RTP" is a trademark for the real-time payments network owned and operated by The Clearing House.1
+
+ Real-Time Payments Group (RTPG)
+With its mandate from the global ISO 20022 Registration Management Group, it publishes usable sets of ISO 20022 usage guidelines that have driven value added harmonization through a consistent view of ISO 20022 business processes, message components, elements and data content across multiple markets for the purposes of real-time payments.68
+
+ Receiving Depository Financial Institution (RDFI)
+The financial institution which receives Automated Clearing House (ACH) entries directly or indirectly through a third party from its ACH operator.1
+
+ Reconciliation
+A procedure to verify that multiple sets of records issued by different entities or generated by different systems involved in transaction processing match.1
+
+ Regulated Non-Bank Provider
+A non-bank participant, such as a money services business, money transmitter, or broker-dealer, that sends and receives payments on behalf of payers and payees and is subject to federal and/or state regulation.6
+
+ Regulation E
+The implementing regulation for the Electronic Fund Transfer Act. This Act (Title IX of the Consumer Credit Protection Act) establishes the rights, liabilities, and responsibilities of participants in electronic fund transfer systems. The Act requires financial institutions to adopt certain practices respecting such matters as transaction accounting, and error resolution, requires financial institutions and others to have certain procedures for preauthorized transfers, and sets liability limits for losses caused by unauthorized transfers.1,24
+
+ Regulation J
+Regulation J provides the legal framework for depository institutions to collect checks and other items and to settle balances through the Federal Reserve System. Reg J was recently amended to cover funds availability for instant payments as the Federal Reserve's FedNow network is now active.69
+
+ Remittance
+The action of sending money in payment.26
+
+ Remittance Data
+Information the payer provides to the payee about the reason or details of a payment.1
+
+ Request for Payment (AKA Request to Pay) (RFP)
+A standardized network message that payees can leverage to send electronic requests to payers through the network.1
+
+ Risk Management
+With respect to payments, a process (rules, policies and procedures) to address (identify, measure, monitor, and minimize) legal, credit, liquidity, operational, and other risks across the end-to-end payments process.1
+
+ Routing Number
+A unique, nine-digit number that functions as an address for a financial institution. It is used for electronic transactions such as funds transfers, direct deposits, digital checks, and bill payments.1
+
+ Same Day ACH
+An ACH payment following the Nacha rules, that is sent, received, and settled the same business day.1
+
+ Scam
+The use of deception or manipulation intended to achieve financial gain.70
+
+ Sender
+A consumer or business who initiates payment instructions through their participating financial institution or payment service.1
+
+ Sender Limit
+A threshold limit imposed to mitigate risk on a transaction or group of transactions.1
+
+ Service Level Agreement (SLA)
+A document that outlines a commitment between a service provider and a client, including details of the service, the standards the provider must adhere to, and the metrics to measure the performance.1
+
+ Settlement
+A financial transaction that has been satisfied between transacting parties and their financial institutions.1
+
+ Settlement Error
+An error that prevents a transaction from settling. An example would include an invalid routing and/or account number.1
+
+ Settlement Risk
+The risk that arises when payments are not exchanged simultaneously. The simplest case is when a financial institution makes a payment to a counterparty but will not be recompensed until some time later; the risk is that the counterparty may default before making the counter payment.39
+
+ Smart Contract
+A self-executing computer program stored on a distributed ledger that automatically enforce the rules and terms of an arrangement between interested parties, with or without the need for intermediaries.1
+
+ Smishing
+The fraudulent practice of sending text messages purporting to be from reputable companies in order to induce a person or business entity to reveal information such as passwords or credit card numbers.19
+
+ Social Engineering
+In context of information security, the use of deception to manipulate individuals into divulging confidential or personal information that may be used for fraudulent purposes.19
+
+ Society for Worldwide Interbank Financial Telecommunications (SWIFT)
+Swift is a global member-owned cooperative provider of secure financial messaging services.1,27
+
+ Software as a Service (SaaS)
+A method of software delivery and licensing in which software is accessed online via a subscription, rather than bought and installed on individual computers.19
+
+ Specially Designated Nationals & Blocked Persons (SDN)
+A list of individuals and companies owned or controlled by, or acting for or on behalf of, targeted countries. It also lists individuals, groups, and entities, such as terrorists and narcotics traffickers designated under programs that are not country specific. Their assets are blocked and U.S. persons are generally prohibited from dealing with them.28
+
+ Stablecoin
+A type of digital asset whose value is pegged or tied to another asset (or basket of assets), with aim to provide a stable store of value and mechanism of exchange.1
+
+ Standing Order
+A set of instructions for a recurring movement of funds that does not require interaction from the payer in each instance. One example of a standing order is a pre-authorized debit.1
+
+ Straight Through Processing (STP)
+An automated process conducted through electronic messages without manual intervention.21
+
+ Suspicious Activity Report (SAR)
+A document that financial institutions, and those associated with their business, must file with the Financial Crimes Enforcement Network whenever there is a suspected case of money laundering or fraud. For money services businesses, cash transactions over state-specific limits also require SAR’s to be filed.1,28
+
+ Swift Global Payment Innovation (GPI)
+Swift GPI is a global industry-based solution that offers real-time, end-to-end tracking, improving transparency, efficiency, and enabling action on delays.82,1
+
+ SWIFT Go
+A service catering to small businesses and individuals who desire to make low-value (<$10,000USD) cross-border payments quickly.27
+
+ Synthetic Identity
+A combination of fabricated credentials where the implied identity is not associated with a real person. Fraudsters may create synthetic identities using potentially valid social security numbers (SSNs) with accompanying false personally identifiable information (PII).32
+
+ Technology Risk
+Any potential for technology failures to disrupt a business or individual such as information security incidents or service outages.1
+
+ The Clearing House (TCH)
+A banking association and payments company that is owned by the largest commercial banks and dates back to 1853.41
+
+ Third-Party Fraud
+An unknown authorized attempt to access an account holder's funds to conduct fraudulent transactions.1
+
+ Third-Party Service Provider (TPSP)
+A commercial data processing service organization, a person operating a data transmission facility, or any other participant that acts on behalf of a participant, as such participant’s agent, to transmit and receive payment messages, payment message responses, and non-payment messages through a faster payments network.14
+
+ Tokenization
+In the context of digital assets, this is the process of representing an item in a digital format, typically on a distributed ledger. Tokenization takes the underlying item and creates a surrogate representation in a way which can heighten transferability, traceability and security.1
+
+ Transaction Limits
+The maximum amount that can be transferred or spent during a payment transaction determined by network specific rules, guidelines, risk profile and/or regulations.1
+
+ Travel Rule
+A Bank Secrecy Act (BSA) rule [31 CFR 103.33(g)] - often called the “Travel Rule" - requires all financial institutions to pass on certain information to the next financial institution, in certain funds transmittals involving more than one financial institution.30
+
+ Two-Factor Authentication (2FA)
+An identity and access management security method that requires two forms of identification to access resources and data.34
+
+ Ubiquitous
+In reference to payments, it is a system in which any payer can make a payment to any payee.1
+
+ Unbanked
+A segment of the underserved, are households in which no one has a checking or savings account with a financial institution. These families or individuals either do not have access to or do not want to use bank or credit union accounts.77
+
+ Underserved
+Those who are unbanked plus any that live paycheck to paycheck. It also includes small businesses with cash flow and/or liquidity constraints.77
+
+ Unfair, Deceptive or Abusive Acts or Practices (UDAAP)
+Seeks to eliminate any unfair, deceptive, or abusive acts or practices. The CFPB has broad authority to enforce UDAAP to prevent any acts and practices that may cause financial injury to consumers, erode consumer confidence, and undermine the financial marketplace.1
+
+ Uniform Commercial Code (UCC)
+A comprehensive set of laws governing commercial transactions in the United States. It is not a federal law, but a uniformly adopted state law. The UCC makes sure all states comply with the same business laws, although there might be some local variations.1,33,34
+
+ USA Patriot Act
+Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism” Act of 2001.22 The purpose of the USA PATRIOT Act is to deter and punish terrorist acts in the United States and around the world, to enhance law enforcement investigatory tools, and other purposes, some of which include: To strengthen U.S. measures to prevent, detect and prosecute international money laundering and financing of terrorism; To subject to special scrutiny foreign jurisdictions, foreign financial institutions, and classes of international transactions or types of accounts that are susceptible to criminal abuse; To require all appropriate elements of the financial services industry to report potential money laundering; To strengthen measures to prevent use of the U.S. financial system for personal gain by corrupt foreign officials and facilitate repatriation of stolen assets to the citizens of countries to whom such assets belong.22
+
+ Use Case
+A specific situation in which a faster payments service could be used.1
+
+ Use Case Agnostic
+A solution that supports payments irrespective of a specific situation in which a product or service could potentially be used.1
+
+ User Authentication
+A process that verifies the identity of a user attempting to gain access to a network or computing resource by authorizing a transfer of credentials during interactions on a network to confirm a user's authenticity.1
+
+ Value Added Service
+An extra or special feature added by a company or producer to increase the value of a product or service.1
+
+ Velocity Limit
+The maximum aggregate number of transactions and/or maximum aggregate permissible dollar amount for all transactions initiated by a participant within a set period of time.71
+
+ Vishing
+The fraudulent practice of making phone calls or leaving voice messages purporting to be from reputable companies in order to induce people or business entities to reveal information such as bank details and credit card numbers.19
+
+ Void
+The ability to null a transaction before it impacts the customer's account.1
+
+ World Bank
+A unique global partnership: five institutions working for sustainable solutions that reduce poverty and build shared prosperity in developing countries.72
+
+ Zero-Hour Rule
+A provision in the insolvency law of some countries whereby the transactions conducted by an insolvent institution after midnight on the date the institution is declared insolvent is automatically ineffective by operation of law.7
+
