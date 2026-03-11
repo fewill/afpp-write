@@ -1,0 +1,488 @@
+Plan — KSA 3003 (v2)
+Customer Onboarding Programs, Policies, and Procedures
+=========================================================================
+
+KSA: 3000 – Faster Payments Risk Management
+  3003 – Customer Onboarding Programs, Policies, and Procedures
+    – Explain why customer onboarding programs are important for managing
+      risk related to faster payments
+    – List the elements of a customer identification program (CIP)
+    – Describe the responsibilities of parties involved in a CIP
+    – Identify additional requirements for faster payment customers that
+      use Request for Payment functionality
+
+Question distribution: Factual (2 JSQ + 1 SQ) | Procedural (2 JSQ + 1 SQ)
+                       Conditional (1 JSQ + 2 SQ)
+Target answer distribution: A(3), B(3), C(3)
+
+=========================================================================
+SOURCE MATERIAL SUMMARY
+=========================================================================
+
+Sub-competency 1 — Why onboarding programs manage risk
+-----------------------------------------------------------------------
+AFPP Handbook, lines 8193–8210:
+  "There are a number of different risks related to Faster Payments,
+  though legal and security risks generally originate from the account
+  holder side. Proper onboarding of account holders is vital for
+  financial institutions and third parties in order to minimize these
+  risks... As Faster Payment methods, especially those that are
+  irrevocable, are easier to abuse by fraudsters, the number of cases
+  can increase significantly and thus the legal risks and costs along
+  with them. Therefore, participants of Faster Payment systems ought to
+  pay increased attention to applying fraud prevention and mitigation
+  methodologies, including but not limited to, adequate customer
+  onboarding procedures."
+
+FedNow Service Operating Procedures, lines 309–319:
+  Participants must maintain: (a) AML/sanctions compliance programs;
+  (b) customer due diligence programs consistent with FinCEN standards;
+  (c) reasonable procedures for screening customer information against
+  current sanctions lists.
+
+FedNow Service Operating Procedures, lines 330–339:
+  Material or ongoing failures may lead to the Federal Reserve Banks
+  disabling, suspending, or terminating a Participant's access to the
+  FedNow Service — demonstrating that onboarding/compliance failures
+  carry direct operational consequences.
+
+Sub-competency 2 — Elements of a CIP
+-----------------------------------------------------------------------
+AFPP Handbook, lines 8214–8218:
+  Under the USA PATRIOT Act, financial institutions are required to have
+  a CIP in place to verify an account holder's identity and prevent
+  fraudulent account openings and other financial crimes. Each
+  institution must have a written CIP appropriate for its size and type
+  of business, including minimum requirements set by the BSA.
+
+AFPP Handbook, lines 8235–8242 (information to collect and verify):
+  Collect name, date of birth, address, and identification number (e.g.,
+  Social Security number for U.S. citizens). Review a government-issued
+  form of identification with a photograph (valid passport or driver's
+  license). FIs may also verify without documents by contacting the
+  person, using independent verification services (credit reporting
+  agencies), or checking references from other FIs.
+
+AFPP Handbook, lines 8245–8249 (record keeping):
+  Maintain records for five years after an account is closed. Retain
+  descriptions of documents used for verification, methods used for
+  verification in the absence of documents, and resolution of any
+  substantive discrepancy discovered when verifying customer information.
+  Cite: 31 CFR 1010.430.
+
+AFPP Handbook, lines 8252–8257 (government list comparison):
+  CIP must include procedures to determine whether the person appears on
+  any government sanctions list (e.g., OFAC's Specially Designated
+  Nationals (SDN) List). These checks must occur within a reasonable
+  time following account opening. Accounts must be periodically checked
+  against the OFAC SDN List thereafter.
+
+Sub-competency 3 — CIP party responsibilities
+-----------------------------------------------------------------------
+AFPP Handbook, Table 55, lines 8265–8290:
+  Financial Institutions:
+    – Set appropriate CIP based on size and type of business
+    – Obtain required customer information upon account opening
+    – Verify identity through risk-based procedures
+    – File a Suspicious Activity Report (SAR) upon CIP failure
+    – Comply with record keeping requirements
+    – Cross-check registered accounts against government lists
+    – Provide adequate notice before verification procedures
+    – When relying on another FI, ensure it is regulated by a federal
+      regulator and has adequate AML procedures
+    – Ensure third-party providers adhere to the CIP
+  Third Parties:
+    – Carry out services to FIs according to the FI's CIP, regardless
+      of data collection or management role
+  Customers:
+    – Share required information upon account opening
+    – Update information upon changes
+
+FedNow Service Operating Procedures, lines 2051–2056 (Sender FI duties
+for RfP monitoring):
+  Sender FIs must use risk-based procedures to track the volume of RfPs
+  sent by customers to identify potential anomalous activity. They must
+  review and incorporate any reports received regarding customer use of
+  RfP. They must also have procedures to investigate anomalous activity,
+  including inquiring with the relevant customer and taking remedial
+  action to address misuse.
+
+FedNow Service Operating Procedures, lines 2076–2081 (Receiver FI
+duties before filing a warranty claim):
+  If a Receiver FI believes an RfP was sent in breach of the RfP
+  Warranty, it should inform the Sender FI of the allegedly breaching
+  RfP. Before filing a claim, the Receiver FI must make a determination,
+  based on facts collected through reasonable diligence, that the RfP
+  Warranty was breached.
+
+Sub-competency 4 — RfP additional requirements
+-----------------------------------------------------------------------
+AFPP Handbook, lines 8292–8306 (RTP):
+  TCH requires participants that send Request for Payment messages to
+  ensure the sender has a legitimate purpose to request funds:
+    – Non-consumer sender: initiated for a current sale or transaction,
+      or an amount that is due, owed, or otherwise agreed to be paid.
+    – Consumer sender: initiated to a receiver who is known to the
+      sender and who is reasonably expected to receive the request.
+
+FedNow Service Operating Procedures, lines 2037–2047 (FedNow RfP
+Warranty):
+  RfPs must be sent only for legitimate purposes. For business customers:
+  the RfP is not legitimate if sent for anything other than a current
+  sale or transaction, or an amount due, owed, or previously agreed.
+  For individual customers: an RfP is in breach if it is not reasonable
+  for the receiver to have expected to receive it. Use of RfP contrary
+  to applicable law (including UDAAP) would not constitute a legitimate
+  purpose. Note: dissatisfaction with goods/services alone does not
+  give rise to a breach of the RfP Warranty unless additional
+  circumstances indicate it was not sent for a legitimate purpose.
+
+FedNow Service Operating Procedures, lines 4819–4821 (zero-dollar RfP):
+  The zero-dollar RfP market practice allows billers to assess whether
+  customers are ready to receive and act upon RfPs before sending actual
+  RfPs. Use is not required but is recommended to improve the overall
+  biller/customer experience with RfP onboarding.
+
+=========================================================================
+NINE PLANNED QUESTIONS
+=========================================================================
+
+FACTUAL QUESTIONS
+=========================================================================
+
+Q1 — Factual / JSQ
+-----------------------------------------------------------------------
+Sub-competency: Why onboarding programs manage risk
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Understanding that irrevocability makes faster payments
+easier to abuse by fraudsters — making adequate onboarding a key fraud
+prevention and legal risk mitigation tool — is foundational working
+knowledge for a 2-year faster payments practitioner.
+
+Stem:
+  Why are customer onboarding programs considered especially important
+  for managing risk in faster payment systems?
+
+Responses:
+  A. Because faster payment methods, especially those that are
+     irrevocable, are easier for fraudsters to abuse, making adequate
+     onboarding a key fraud prevention and legal risk mitigation tool
+  B. Because faster payment systems require all participants to maintain
+     a minimum customer base in order to sustain network liquidity and
+     settlement coverage
+  C. Because faster payment customers are exempt from standard credit
+     review requirements and must be screened through separate
+     onboarding-specific identity protocols
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, lines 8193–8210.
+
+-------------------------------------------------------------------------
+
+Q2 — Factual / JSQ
+-----------------------------------------------------------------------
+Sub-competency: CIP elements
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that the USA PATRIOT Act is the governing law
+requiring financial institutions to maintain a CIP is foundational
+compliance knowledge for a 2-year faster payments practitioner.
+
+Stem:
+  Under which federal law are financial institutions required to have a
+  customer identification program in place to verify account holder
+  identity and prevent fraudulent account openings?
+
+Responses:
+  A. The Gramm-Leach-Bliley Act, which requires financial institutions
+     to protect the privacy and security of customer financial
+     information
+  B. The USA PATRIOT Act, which requires financial institutions to have
+     a customer identification program to verify account holder identity
+     and prevent financial crimes
+  C. The Electronic Fund Transfer Act, which requires financial
+     institutions to establish procedures for verifying the identity of
+     customers initiating electronic fund transfers
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, lines 8214–8218.
+
+-------------------------------------------------------------------------
+
+Q3 — Factual / SQ
+-----------------------------------------------------------------------
+Sub-competency: CIP elements
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: The specific BSA record retention period of five years after
+account closure — and its regulatory citation under 31 CFR 1010.430 —
+requires deeper regulatory knowledge beyond 2-year working knowledge of
+CIP fundamentals.
+
+Stem:
+  According to federal BSA regulations, how long must a financial
+  institution retain records of the information used to verify a
+  customer's identity under its customer identification program?
+
+Responses:
+  A. Three years after the account is opened, consistent with the
+     institution's general record retention policy for account
+     documentation
+  B. Five years after the account is opened or until the account is
+     closed, whichever is longer
+  C. Five years after the account is closed
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, lines 8245–8249. (31 CFR 1010.430)
+
+=========================================================================
+PROCEDURAL QUESTIONS
+=========================================================================
+
+Q4 — Procedural / JSQ
+-----------------------------------------------------------------------
+Sub-competency: CIP party responsibilities
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that a financial institution must file a Suspicious
+Activity Report when its CIP process fails to verify a customer's
+identity is standard compliance practitioner knowledge for a 2-year
+faster payments professional.
+
+Stem:
+  What action must a financial institution take when its customer
+  identification program process fails to verify a customer's identity?
+
+Responses:
+  A. File a suspicious activity report with the Financial Crimes
+     Enforcement Network
+  B. Immediately close the account and return any funds deposited by
+     the unverified customer to the originating institution
+  C. Refer the account to the institution's credit department for an
+     alternative identity verification review under the institution's
+     standard credit approval process
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, Table 55 – Faster Payments Stakeholder Responsibilities in
+the Customer Identification Program, lines 8265–8290.
+
+-------------------------------------------------------------------------
+
+Q5 — Procedural / JSQ
+-----------------------------------------------------------------------
+Sub-competency: CIP party responsibilities / RfP additional requirements
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that Sender FIs must use risk-based volume tracking
+to identify potential anomalous activity in customer RfP usage is a
+standard compliance process a 2-year practitioner in a faster payments
+role should know.
+
+Stem:
+  When monitoring customer use of Request for Payment in the FedNow
+  Service, which procedure must a Sender financial institution follow?
+
+Responses:
+  A. Suspend the customer's access to Request for Payment functionality
+     pending completion of a quarterly risk review and submission of a
+     certification to the Federal Reserve Bank
+  B. Track the volume of Requests for Payment sent by customers using
+     risk-based procedures to identify potential anomalous activity
+  C. Require each customer to submit a written justification for each
+     Request for Payment message sent in excess of the institution's
+     internally defined threshold amount
+
+Answer: B
+
+Source: FedNow Service Operating Procedures (June 2025), lines
+2051–2056.
+
+-------------------------------------------------------------------------
+
+Q6 — Procedural / SQ
+-----------------------------------------------------------------------
+Sub-competency: CIP party responsibilities / RfP additional requirements
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The specific multi-step procedure — first informing the
+Sender FI, then making a facts-based reasonable-diligence determination
+before filing a claim — requires expert knowledge of FedNow RfP Warranty
+procedures beyond 2-year working knowledge.
+
+Stem:
+  What must a Receiver financial institution do before filing a claim
+  that a Request for Payment was sent in breach of the RfP Warranty?
+
+Responses:
+  A. Submit a formal dispute to the Federal Reserve Bank within the
+     applicable timeframe and provide documentation that the end
+     customer declined to initiate a credit transfer in response to the
+     Request for Payment
+  B. Obtain a signed statement from the end customer confirming that the
+     Request for Payment was unsolicited and that no underlying
+     transaction existed to support the request for funds
+  C. Inform the Sender financial institution of the allegedly breaching
+     Request for Payment and then make a determination, based on facts
+     collected through reasonable diligence, that the RfP Warranty was
+     breached
+
+Answer: C
+
+Source: FedNow Service Operating Procedures (June 2025), lines
+2076–2081.
+
+=========================================================================
+CONDITIONAL QUESTIONS
+=========================================================================
+
+Q7 — Conditional / JSQ
+-----------------------------------------------------------------------
+Sub-competency: RfP additional requirements
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The clear, single-rule condition — that a business customer's
+RfP must relate to a current sale, transaction, or previously agreed
+amount — is a straightforward warranty requirement a 2-year practitioner
+handling RfP onboarding should be able to apply.
+
+Stem:
+  Under what condition does a business customer's use of Request for
+  Payment fail to satisfy the legitimate purpose requirement of the RfP
+  Warranty?
+
+Responses:
+  A. When the business customer sends a Request for Payment for an
+     amount that is NOT related to a current sale, transaction, or a
+     sum previously agreed to be paid by the receiving customer
+  B. When the business customer sends a Request for Payment for an
+     amount that exceeds the threshold established by the Sender
+     financial institution's internally configured transaction
+     monitoring system
+  C. When the business customer sends a Request for Payment to a
+     receiving customer who has NOT completed the zero-dollar Request
+     for Payment readiness assessment recommended by the FedNow Service
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, lines 8292–8306. Also: FedNow Service Operating Procedures
+(June 2025), lines 2037–2047.
+
+-------------------------------------------------------------------------
+
+Q8 — Conditional / SQ
+-----------------------------------------------------------------------
+Sub-competency: CIP party responsibilities
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The specific conditions under which a financial institution
+may rely on another institution's CIP procedures — requiring that the
+other institution be federally regulated and have adequate AML
+procedures — involves regulatory nuance about inter-institution CIP
+reliance that requires 5+ years of compliance expertise to apply
+reliably.
+
+Stem:
+  Under what condition may a financial institution rely on another
+  financial institution's customer identification program procedures
+  for a shared customer?
+
+Responses:
+  A. When both financial institutions have executed a formal CIP sharing
+     agreement and submitted the agreement to their primary federal
+     regulator for approval prior to account opening
+  B. When the other financial institution is regulated by a federal
+     financial regulator and has adequate anti-money laundering
+     procedures in place
+  C. When the customer has provided written consent authorizing the
+     sharing of identity verification information between the two
+     financial institutions prior to account opening
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, Table 55 – Faster Payments Stakeholder Responsibilities in
+the Customer Identification Program, lines 8265–8290.
+
+-------------------------------------------------------------------------
+
+Q9 — Conditional / SQ
+-----------------------------------------------------------------------
+Sub-competency: RfP additional requirements
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Applying the individual-sender prong of the RfP Warranty —
+that the receiver must be known to the consumer sender and reasonably
+expected to receive the request — requires synthesis of the two-prong
+legitimate-purpose test (business vs. consumer sender) and
+distinguishing the consumer standard from the business standard, a
+nuanced regulatory analysis characteristic of a 5-year practitioner.
+
+Stem:
+  Under what condition does a consumer sender's use of Request for
+  Payment comply with the RfP Warranty's legitimate purpose requirement?
+
+Responses:
+  A. When the consumer sender confirms in writing to the Sender
+     financial institution that the amount requested reflects a
+     mutually agreed-upon obligation and attaches documentation of the
+     underlying transaction
+  B. When the consumer sender limits the Request for Payment to amounts
+     that fall below the maximum dollar threshold established for
+     consumer-initiated faster payments under applicable Federal Reserve
+     guidelines
+  C. When the Request for Payment is sent to a receiver who is known
+     to the consumer sender and who is reasonably expected to receive
+     the request from that sender
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 3 – Faster Payments Risk
+Management, lines 8292–8306. Also: FedNow Service Operating Procedures
+(June 2025), lines 2037–2047.
+
+=========================================================================
+ANSWER KEY
+=========================================================================
+
+Q1 (Factual/JSQ):    A
+Q2 (Factual/JSQ):    B
+Q3 (Factual/SQ):     C
+Q4 (Procedural/JSQ): A
+Q5 (Procedural/JSQ): B
+Q6 (Procedural/SQ):  C
+Q7 (Conditional/JSQ):A
+Q8 (Conditional/SQ): B
+Q9 (Conditional/SQ): C
+
+Correct answer distribution: A (3), B (3), C (3) ✓
+
+=========================================================================
+STYLE COMPLIANCE PRE-CHECK
+=========================================================================
+
+[ ] Complete question format — no fill-in-the-blank or true/false
+[ ] Active voice, 3rd person throughout
+[ ] "Financial institution" — no "bank" or "credit union"
+[ ] "NOT" in all caps where used (Q7 responses A and C; Q6 stem implied)
+[ ] No trademark symbols
+[ ] No bold or underline in responses
+[ ] Responses equal in length and grammatical structure
+[ ] Correct answer position varied: A(3), B(3), C(3)
+[ ] Only one defensible correct answer per question
+[ ] No trivial, absurd, or overlapping distractors
+[ ] Every question includes Skill Rating block, Cognitive Level, Rationale
+[ ] Every question has at least one approved source reference
+[ ] FedNow source cited with document name and line range (Q5, Q6, Q7, Q9)
+[ ] BSA regulatory citation included where relevant (Q3: 31 CFR 1010.430)
+
+=========================================================================
