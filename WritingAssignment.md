@@ -6,19 +6,19 @@ Your items are due by March 11, 2026. Please review your assignment and begin wr
 
 Item Writing Assignment: 1 item per listed KSA
 
-1.       1004: The types and functions of participation
+1. ✅   1004: The types and functions of participation
 
-2.       3003: The customer onboarding programs, policies, and procedures
+2. ✅   3003: The customer onboarding programs, policies, and procedures
 
-3.       4004: The faster payments value-added and overlay services
+3. ✅   4004: The faster payments value-added and overlay services
 
-4.       4004: The faster payments value-added and overlay services
+4. ✅   4004: The faster payments value-added and overlay services
 
-5.       5002: The laws and regulations applicable to faster payments rails
+5. ✅   5002: The laws and regulations applicable to faster payments rails
 
-6.       5003: The error resolution protections, rights, and liabilities of participants
+6. ✅   5003: The error resolution protections, rights, and liabilities of participants
 
-7.       5004: Role of client/customer agreements and disclosures with regard to faster payments products and services
+7. ✅   5004: Role of client/customer agreements and disclosures with regard to faster payments products and services
 
 You can access the item bank here: https://ib-platform.humrro.org
 
