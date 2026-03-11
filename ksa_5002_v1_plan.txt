@@ -1,0 +1,550 @@
+Plan: Draft 9 Test Questions for KSA 5002
+=========================================
+
+KSA: 5002 — Laws and Regulations Applicable to Faster Payments Networks/Platforms
+Parent KSA: 5000 — Governance Framework
+
+Sub-competencies to test:
+  – The interaction between private sector rules and other banking regulations
+  – Identify the payment rails governed by laws and regulations applicable to
+    faster payments
+  – Identify the party responsible for governance of laws and regulations
+    applicable to faster payments
+  – Differentiate between consumer and non-consumer regulations
+  – Compare and contrast private rule sets and federal regulation
+  – Describe the objectives of the data privacy laws
+  – Describe the obligations of faster payments stakeholders (by payment rail)
+    under data privacy laws
+  – Explain the application of the Bank Secrecy Act and Anti-Money Laundering
+    regulations to faster payments
+  – Explain the hierarchy of rules and regulations by payment rail
+
+Source documents:
+  Primary:   /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+  Secondary: /home/fewill/code/afpp-write/062425-fednow-service-operating-procedures.txt
+  Secondary: /home/fewill/code/afpp-write/ffiec_itbooklet_retailpaymentsystems.txt
+
+Question distribution:
+  Factual:    2 JSQ  +  1 SQ  =  3 questions
+  Procedural: 2 JSQ  +  1 SQ  =  3 questions
+  Conditional: 1 JSQ  +  2 SQ  =  3 questions
+                                  -----------
+  Total:                          9 questions
+
+Correct answer distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SOURCE MATERIAL SUMMARY
+---------------------------------------------------------------------------
+
+SECTION A: Interaction Between Private Sector Rules and Banking Regulations
+  Source: AFPP Handbook, lines 9606–9612
+  Section heading: Chapter 5 – Governance Framework
+
+  Key passage (lines 9606–9612):
+  "Private sector rules and banking regulations in the payments industry mutually
+  reinforce each other. On the one hand, banking regulations frequently establish
+  legal frameworks that guide the private sector; on the other hand, private sector
+  payment rules have been developed to enable and support the changes and
+  development of new payment products. Thus, private sector rules and banking
+  regulations complement each other, providing valuable support across various
+  domains such as compliance, risk management, and consumer protection while
+  fostering competition and innovation."
+
+  Also: FFIEC booklet (lines 1941–1947):
+  "A payment transaction may be covered by check law, Regulation E, association or
+  clearing house rules, or private agreement, depending on what form the payment
+  takes. Financial institutions should understand the laws and rules that apply to
+  payments they handle and understand the associated legal risks and liabilities
+  they take on with respect to those payments."
+
+SECTION B: Payment Rails and Applicable Laws — Hierarchy by Rail
+  Source: AFPP Handbook, Table 60, lines 9692–9721
+  Section heading: "Payment rails governed by laws and regulations applicable to
+  Faster Payments"
+
+  Rail-by-rail hierarchy (Table 60):
+  - FedNow:      Regulation E → Regulation J (Subparts B and C) → UCC Article 4A
+                 → FedNow Operating Rules
+  - RTP Network: Regulation E → UCC Article 4A → Service Level Agreements →
+                 RTP Operating Rules → RTP Participation Rules
+  - Same Day ACH: Regulation E → UCC Article 4A → EFTA → Nacha Operating Rules
+  - Mastercard:  Regulation E → PCI DSS → Mastercard Operating Rules
+  - Visa Direct: Regulation E → PCI DSS → Visa Operating Rules
+
+  FedNow-specific hierarchy (FedNow Operating Procedures, lines 333–334):
+  "The Board of Governors' Regulation J and the Federal Reserve Banks' Operating
+  Circular 8 supersede these Operating Procedures to the extent of any
+  inconsistency."
+
+  UCC Article 4A and Regulation J (AFPP Handbook, lines 9664–9666):
+  The Federal Reserve incorporated UCC Article 4A rules into Regulation J
+  Subparts B and C for FedNow transactions.
+
+SECTION C: Governance — Party Responsible
+  Source: AFPP Handbook, lines 9723–9732
+  Section heading: "Governance of laws and regulations applicable to Faster Payments"
+
+  Key passage (lines 9723–9732):
+  "The laws and rules governing Faster Payments are managed by various government
+  agencies to ensure they're efficient, secure, and fair. Regulatory bodies at the
+  federal level, including the Federal Reserve, the CFPB, and other agencies
+  oversee and enforce regulations that govern Faster Payment solutions."
+
+  Federal Reserve governance authority (FedNow Operating Procedures, lines
+  330–334):
+  "The Federal Reserve Banks reserve the right to terminate, restrict access,
+  impose conditions or adopt controls associated with a Participant's access to
+  the FedNow Service... Nothing in these Operating Procedures limits the Federal
+  Reserve Bank's discretion to take actions beyond those outlined in these
+  procedures."
+
+SECTION D: Consumer vs. Non-Consumer Regulations
+  Source: AFPP Handbook, lines 9733–9755
+  Section heading: "Comparison between consumer and non-consumer regulations"
+
+  Consumer regulations (lines 9734–9749):
+  "Consumer regulations are laws that focus on and provide consumers with
+  protection from fraud or unauthorized electronic payments. Consumers are defined
+  as those who hold bank accounts for 'personal, family, or household' purposes
+  and are differentiated from business customers. The Electronic Fund Transfer Act
+  and Regulation E issued by the Consumer Financial Protection Bureau are some of
+  the main federal laws that protect consumers."
+
+  Non-consumer regulations (lines 9750–9755):
+  "In contrast, non-consumer regulations govern electronic transfers between
+  businesses. These may include various operating rules established by the payment
+  networks, interbank network rules as well as broader financial regulations such
+  as the Bank Secrecy Act and Anti-Money Laundering (AML) regulations."
+
+  Also: FFIEC booklet (lines 521–525):
+  "ACH transactions to or from consumer accounts also are subject to the provisions
+  of the Federal Reserve Board's Regulation E, Electronic Fund Transfers."
+
+  And (lines 583–594):
+  Regulation E gives consumer 60 days after statement to report unauthorized ACH
+  debit; UCC does not contain specific re-credit procedures for checks.
+
+SECTION E: Compare and Contrast Private Rule Sets and Federal Regulation
+  Source: AFPP Handbook, lines 9756–9777
+
+  Key distinctions (lines 9756–9777):
+  - Federal regulations: enacted through structured legislative/regulatory process
+    with public comment; may struggle to keep pace with technological change.
+  - Private rule sets: immediate access to industry experts; foster innovation and
+    competition; can adapt quickly to market evolution.
+  - Federal statutes do not always cover payment liabilities between FIs; private
+    sector has developed detailed loss-allocation systems for fraud.
+  - The two systems complement each other: federal regulations set the foundation;
+    private rules address operational detail and innovation.
+
+  Also: FFIEC booklet (lines 1877–1910):
+  Hierarchy includes: federal statutory law → federal regulations → network bylaws
+  and agreements → contractual arrangements.
+
+SECTION F: Objectives of Data Privacy Laws
+  Source: AFPP Handbook, lines 9778–9788
+
+  Key passage (lines 9778–9788):
+  "Data privacy laws are significant for US Faster Payments systems to protect
+  consumers from fraud, scams, and identity theft. The immediacy of funds
+  availability in fast payment systems makes them attractive targets for fraudsters
+  who could exploit the system before fraudulent activities are detected. Data
+  privacy laws play a crucial role in safeguarding sensitive information and
+  preventing breaches of privacy and data security that could lead to identity
+  theft, financial harm, and fraud. These laws establish rules on data security and
+  privacy, requiring institutions to obtain consumer consent before sharing data,
+  anonymize data, and set minimum standards on data storage and transmission."
+
+  Also: FFIEC booklet (lines 1892–1895):
+  "Customer retail payment transaction records and corresponding account information
+  are subject to the GLBA 501(b) provisions, and financial institutions must
+  establish effective safeguards for protecting their customer information."
+
+SECTION G: Application of BSA and AML to Faster Payments
+  Source: AFPP Handbook, lines 9845–9870
+  Section heading: "Application of the Bank Secrecy Act and Anti-Money Laundering
+  regulations to Faster Payments"
+
+  BSA purpose and core requirements (lines 9845–9852):
+  "The Bank Secrecy Act of 1970 was implemented to prevent criminals from using
+  financial institutions to hide or launder money... The BSA specifically imposes
+  an AML program, record keeping, and reporting requirements on all financial
+  institutions designed to prevent and detect money laundering and other crimes.
+  It further specifies what an AML compliance program must include such as internal
+  controls independent testing of responsible persons and training."
+
+  Monitoring requirements specific to faster payments (lines 9858–9868):
+  "These monitoring programs must include measures to detect payments that are
+  suspicious in their value (i.e., frequent payments that are just under reporting
+  thresholds or transaction limits), and their frequency. Monitoring programs must
+  also account for other factors, such as the age of the account making these
+  transactions. For example, accounts that have been opened recently, making
+  payments just under reporting or transaction limit thresholds would be
+  suspicious."
+
+  Also: FFIEC booklet (lines 1947–1956):
+  "The BSA requires financial institutions to have BSA/Anti-money laundering (AML)
+  compliance programs and appropriate policies, procedures, and processes in place
+  to monitor, identify unusual activity, and report suspicious activity. As such,
+  all retail payment systems should be reviewed in terms of BSA/AML compliance
+  requirements."
+
+  ODFI OFAC responsibility (FFIEC booklet, lines 1961–1984):
+  "For domestic ACH transactions, the ODFI is responsible for verifying that the
+  originator of the ACH instruction is not a blocked party."
+
+
+---------------------------------------------------------------------------
+THE 9 QUESTIONS
+---------------------------------------------------------------------------
+
+----- FACTUAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q1 — Factual / JSQ
+Sub-competency: Differentiate between consumer and non-consumer regulations
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that the EFTA established the consumer EFT framework is
+foundational regulatory knowledge expected of any 2-year payments practitioner.
+
+Stem:
+  Which federal law establishes the basic framework of rights, liabilities, and
+  responsibilities of participants in consumer electronic fund transfer systems?
+
+Responses:
+  A. The Electronic Fund Transfer Act
+  B. The Gramm-Leach-Bliley Act
+  C. UCC Article 4A
+
+Answer: A
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, lines
+  9308–9312. Also: FFIEC IT Examination Handbook: Retail Payment Systems
+  Booklet, lines 521–525.
+
+---
+
+Q2 — Factual / JSQ
+Sub-competency: Explain the application of the Bank Secrecy Act and AML
+regulations to faster payments
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: The BSA's primary purpose and its core obligations (AML program,
+record keeping, SAR) are standard regulatory knowledge for a 2-year payments
+practitioner working in any compliance-adjacent role.
+
+Stem:
+  What is the primary purpose of the Bank Secrecy Act as it applies to financial
+  institutions participating in faster payment networks?
+
+Responses:
+  A. To establish consumer liability limits for unauthorized electronic fund
+     transfers processed through faster payment rails
+  B. To impose anti-money laundering program, record keeping, and suspicious
+     activity reporting requirements on all financial institutions
+  C. To require financial institutions to maintain data privacy safeguards for
+     customer information collected during payment processing
+
+Answer: B
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Application
+  of the Bank Secrecy Act and Anti-Money Laundering regulations to Faster
+  Payments," lines 9845–9852. Also: FFIEC IT Examination Handbook: Retail
+  Payment Systems Booklet, lines 1947–1956.
+
+---
+
+Q3 — Factual / SQ
+Sub-competency: Explain the hierarchy of rules and regulations by payment rail
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: Knowing that the Federal Reserve incorporated UCC Article 4A
+specifically through Regulation J Subparts B and C — rather than through the
+FedNow Operating Procedures or a separate statute — requires regulatory depth
+beyond working practitioner knowledge.
+
+Stem:
+  How did the Federal Reserve incorporate UCC Article 4A rules to govern FedNow
+  transactions?
+
+Responses:
+  A. By enacting the Electronic Fund Transfer Act to extend UCC Article 4A rules
+     to consumer faster payment transactions processed through FedNow
+  B. By requiring FedNow participants to adopt UCC Article 4A directly through
+     their FedNow Service participation agreements
+  C. By incorporating UCC Article 4A rules into Regulation J Subparts B and C
+
+Answer: C
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, lines
+  9664–9666. Also: Federal Reserve Banks. FedNow Service Operating Procedures
+  (June 24, 2025), lines 333–334.
+
+----- PROCEDURAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q4 — Procedural / JSQ
+Sub-competency: Explain the application of the Bank Secrecy Act and AML
+regulations to faster payments
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: ODFI responsibility for OFAC screening in domestic ACH transactions
+is a standard compliance procedure that a 2-year ACH practitioner applies
+in day-to-day work.
+
+Stem:
+  In a domestic ACH transaction, which party is responsible for verifying that
+  the originator of the ACH instruction is not a blocked party under OFAC
+  regulations?
+
+Responses:
+  A. The Originating Depository Financial Institution
+  B. The ACH Operator
+  C. The Receiving Depository Financial Institution
+
+Answer: A
+
+Source citation:
+  FFIEC IT Examination Handbook: Retail Payment Systems Booklet, "Office of
+  Foreign Assets Control (OFAC)" section, lines 1961–1984.
+
+---
+
+Q5 — Procedural / JSQ
+Sub-competency: Explain the application of the Bank Secrecy Act and AML
+regulations to faster payments
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: The required components of a BSA/AML compliance program are
+standard working knowledge for a 2-year payments professional and a
+foundational expectation for any compliance-related role.
+
+Stem:
+  According to the Bank Secrecy Act, which elements must a financial
+  institution's anti-money laundering compliance program include?
+
+Responses:
+  A. Customer credit scoring, transaction velocity limits, and automated
+     payment rejection protocols
+  B. Internal controls, independent testing, responsible persons, and training
+  C. Digital signature requirements, message encryption standards, and real-time
+     settlement monitoring
+
+Answer: B
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Application
+  of the Bank Secrecy Act and Anti-Money Laundering regulations to Faster
+  Payments," lines 9848–9852.
+
+---
+
+Q6 — Procedural / SQ
+Sub-competency: Compare and contrast private rule sets and federal regulation;
+interaction between private sector rules and other banking regulations
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: Distinguishing the complementary — rather than purely hierarchical —
+relationship between federal regulatory frameworks and private sector rules
+requires synthesis across governance concepts that a 2-year practitioner
+may oversimplify.
+
+Stem:
+  How do private sector payment rules and federal banking regulations function
+  in relation to each other within the faster payments governance framework?
+
+Responses:
+  A. Federal regulations supersede private sector rules in all cases, with
+     private rules applying only when federal law does not address a specific
+     payment scenario
+  B. Private sector rules supersede federal regulations for transactions between
+     financial institutions, while federal regulations govern only consumer-facing
+     payment activities
+  C. Federal regulations establish legal frameworks that guide the private sector,
+     while private sector rules develop operational practices that support payment
+     innovation within those frameworks
+
+Answer: C
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, lines
+  9606–9612. Also: FFIEC IT Examination Handbook: Retail Payment Systems
+  Booklet, lines 1941–1947.
+
+----- CONDITIONAL QUESTIONS (1 JSQ + 2 SQ) -----
+
+Q7 — Conditional / JSQ
+Sub-competency: Differentiate between consumer and non-consumer regulations
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The personal/family/household account purpose test is the foundational
+trigger for consumer protection under Regulation E — a 2-year practitioner should
+recognize and apply this condition without specialist expertise.
+
+Stem:
+  Under what condition does Regulation E apply to an electronic fund transfer
+  rather than UCC Article 4A?
+
+Responses:
+  A. The transfer involves an account held for personal, family, or household
+     purposes
+  B. The transfer is initiated through a faster payment network that has
+     incorporated federal consumer protection standards into its operating rules
+  C. The transfer amount exceeds the transaction limit established by the payment
+     network's operating rules
+
+Answer: A
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Comparison
+  between consumer and non-consumer regulations," lines 9734–9749. Also: FFIEC
+  IT Examination Handbook: Retail Payment Systems Booklet, lines 521–525.
+
+---
+
+Q8 — Conditional / SQ
+Sub-competency: Explain the hierarchy of rules and regulations by payment rail
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Knowing the specific precedence order within FedNow governance
+(Regulation J → Operating Circular 8 → Operating Procedures) and applying
+it to a conflict scenario requires regulatory depth characteristic of a
+5-year practitioner advising on governance risk.
+
+Stem:
+  When a FedNow participant's obligations under the FedNow Service Operating
+  Procedures conflict with the requirements of Regulation J or Federal Reserve
+  Operating Circular 8, which authority governs?
+
+Responses:
+  A. The FedNow Service Operating Procedures govern because they represent the
+     most current and operationally specific guidance issued by the Federal
+     Reserve Banks
+  B. Regulation J and Operating Circular 8 govern because they supersede the
+     FedNow Service Operating Procedures to the extent of any inconsistency
+  C. The participant's internal compliance program governs because it must
+     reconcile all applicable federal and network-level requirements
+
+Answer: B
+
+Source citation:
+  Federal Reserve Banks. FedNow Service Operating Procedures (June 24, 2025),
+  lines 333–334. Also: AFPP Handbook (2026). Nacha. Chapter 5 – Governance
+  Framework, Table 60, lines 9692–9721.
+
+---
+
+Q9 — Conditional / SQ
+Sub-competency: Explain the application of the Bank Secrecy Act and AML
+regulations to faster payments
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Identifying structuring-style behavior — frequent payments just under
+reporting thresholds in recently opened accounts — as the suspicious pattern
+specific to faster payments requires synthesis of BSA/AML principles with
+faster-payment-specific risk factors, characteristic of a 5-year practitioner.
+
+Stem:
+  Under what condition should a financial institution's faster payments monitoring
+  program flag account activity as suspicious for potential money laundering?
+
+Responses:
+  A. The account holder initiates a Request for Payment message without a prior
+     business relationship with the payment receiver
+  B. The account's transaction volume exceeds the maximum transaction limit
+     established by the faster payment network's operating rules
+  C. A recently opened account makes frequent payments in amounts just under
+     reporting thresholds or transaction limits
+
+Answer: C
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Application
+  of the Bank Secrecy Act and Anti-Money Laundering regulations to Faster
+  Payments," lines 9858–9868.
+
+
+---------------------------------------------------------------------------
+CORRECT ANSWER POSITIONS
+---------------------------------------------------------------------------
+
+Q1: A  |  Q2: B  |  Q3: C
+Q4: A  |  Q5: B  |  Q6: C
+Q7: A  |  Q8: B  |  Q9: C
+
+Distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SKILL RATING AND COVERAGE MAP
+---------------------------------------------------------------------------
+
+         JSQ   SQ
+Factual:  Q1   Q3      (Q2 also JSQ)
+Procedural: Q4  Q6     (Q5 also JSQ)
+Conditional: Q7  Q8    (Q9 also SQ)
+
+Sub-competency coverage:
+  Consumer vs. non-consumer regulations:         Q1 (JSQ/Recall), Q7 (JSQ/Analysis)
+  BSA/AML application to faster payments:        Q2 (JSQ/Recall), Q5 (JSQ/App), Q9 (SQ/Analysis)
+  Hierarchy of rules by payment rail:            Q3 (SQ/Recall), Q8 (SQ/Analysis)
+  OFAC/sanctions governance:                     Q4 (JSQ/Application)
+  Private rules vs. federal regulation:          Q6 (SQ/Application)
+
+
+---------------------------------------------------------------------------
+STYLE COMPLIANCE CHECKLIST
+---------------------------------------------------------------------------
+
+[ ] Complete question format — no fill-in-the-blank, no true/false
+[ ] Active voice, 3rd person throughout
+[ ] "Financial institution" used — no "bank" or "credit union"
+[ ] "NOT" in all caps where used — not applicable (no negatively phrased questions)
+[ ] No trademark symbols
+[ ] No bold or underline in responses
+[ ] Responses equal in length and grammatical structure
+[ ] Correct answer positions varied: A(3), B(3), C(3)
+[ ] Only one defensible correct answer per question
+[ ] No trivial, absurd, or overlapping distractors
+[ ] Every question includes a Skill Rating block (JSQ or SQ)
+[ ] Every question has at least one approved source reference
+[ ] FFIEC source cited with full booklet name where used
+
+
+---------------------------------------------------------------------------
+EXECUTION STEPS
+---------------------------------------------------------------------------
+
+1. Read handbook and secondary source passages at cited line ranges to confirm
+   all facts before writing the draft.
+
+2. Write questions to /home/fewill/code/afpp-write/question_5002_draft.txt with:
+   - Question number and type label
+   - Skill Rating block (Skill Rating / Cognitive Level / Rationale)
+   - Stem
+   - Three response options (A, B, C)
+   - Answer key notation
+   - Formatted source citation
+
+3. Review against the style compliance checklist and apply corrections.
+
+
+---------------------------------------------------------------------------
+APPROVED REFERENCE FORMAT
+---------------------------------------------------------------------------
+
+  AFPP Handbook (2026). Nacha. [Chapter]. [Section/Table label]. lines [range].
+
+  FedNow Operating Procedures:
+    Federal Reserve Banks. FedNow Service Operating Procedures (June 24, 2025).
+    [Section number and title], lines [range].
+
+  FFIEC:
+    FFIEC IT Examination Handbook: Retail Payment Systems Booklet. [Section
+    heading], lines [range].
+
+---------------------------------------------------------------------------

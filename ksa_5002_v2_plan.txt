@@ -1,0 +1,531 @@
+Plan — KSA 5002 (v2)
+Laws and Regulations Applicable to Faster Payments Networks/Platforms
+=========================================================================
+
+KSA: 5000 – Governance Framework
+  5002 – Laws and regulations applicable to faster payments
+         networks/platforms
+    – The interaction between private sector rules and other banking
+      regulations
+    – Identify the payment rails governed by laws and regulations
+      applicable to faster payments
+    – Identify the party responsible for governance of laws and
+      regulations applicable to faster payments
+    – Differentiate between consumer and non-consumer regulations
+    – Compare and contrast private rule sets and federal regulation
+    – Describe the objectives of the data privacy laws
+    – Describe the obligations of faster payments stakeholders (by
+      payment rail) under data privacy laws
+    – Explain the application of the Bank Secrecy Act and
+      Anti-Money Laundering regulations to faster payments
+    – Explain the hierarchy of rules and regulations by payment rail
+
+Question distribution: Factual (2 JSQ + 1 SQ) | Procedural (2 JSQ + 1 SQ)
+                       Conditional (1 JSQ + 2 SQ)
+Target answer distribution: A(3), B(3), C(3)
+
+Note: v1 questions covered EFTA establishing the consumer EFT framework;
+BSA primary purpose and AML program elements; UCC Article 4A/Reg J
+Subparts B and C; ODFI OFAC screening in ACH; private/federal rule
+interaction; Reg E personal/family/household purpose test; FedNow
+hierarchy (Reg J and OC8 supersede Operating Procedures); and BSA
+structuring-style suspicious activity. All nine v2 questions draw on
+different passages and topics.
+
+=========================================================================
+SOURCE MATERIAL SUMMARY
+=========================================================================
+
+Sub-competency — Data privacy law objectives
+-----------------------------------------------------------------------
+AFPP Handbook, lines 9779–9788:
+  Data privacy laws aim to protect consumers from fraud, scams, and
+  identity theft. They safeguard sensitive information, prevent breaches
+  of privacy and data security that could lead to identity theft,
+  financial harm, and fraud. These laws establish rules requiring
+  institutions to obtain consumer consent before sharing data,
+  anonymize data, and set minimum standards on data storage and
+  transmission across borders.
+
+Sub-competency — Payment rails governed by specific laws (Table 60)
+-----------------------------------------------------------------------
+AFPP Handbook, Table 60, lines 9692–9721:
+  FedNow:          Regulation E, Regulation J Subparts B and C,
+                   UCC Article 4A, FedNow Operating Rules
+  RTP network:     Regulation E, UCC Article 4A, RTP Operating Rules,
+                   RTP Participation Rules
+  Same Day ACH:    Regulation E, UCC Article 4A, EFTA,
+                   Nacha Operating Rules
+  Mastercard Send: Regulation E, PCI DSS, Mastercard Operating Rules
+  Visa Direct:     Regulation E, PCI DSS, Visa Operating Rules
+
+  Key observation: Visa Direct and Mastercard Send are the only two
+  U.S. faster payment rails that are governed by PCI DSS (in addition
+  to Regulation E and their respective network rules). FedNow, RTP, and
+  Same Day ACH are NOT subject to PCI DSS under Table 60.
+
+Sub-competency — Data privacy obligations by payment rail
+-----------------------------------------------------------------------
+AFPP Handbook, lines 9799–9805 (FedNow):
+  Compliance with Operating Circular 8 mandated. Participants using
+  FedLine Solutions must maintain robust information security programs,
+  including message signing using public/private key pairs, encryption
+  of data in transit and at rest, and authentication protocols.
+
+AFPP Handbook, lines 9808–9816 (RTP):
+  Participants must maintain a robust information security program,
+  restrict physical and logical access to customer data, ensure secure
+  destruction of data, maintain detailed system architecture and
+  intrusion detection specifications, undergo regular audits by
+  independent auditors, conduct an annual review of security measure
+  effectiveness, maintain data breach contingency plans, and perform
+  thorough background checks on employees with access to customer
+  information.
+
+AFPP Handbook, lines 9819–9825 (Same Day ACH):
+  Rigorous data security standards per Nacha Operating Rules; emphasis
+  on protection throughout the data lifecycle; access controls and
+  encryption for account information; self-assessments; identity
+  verification of Third-Party Senders and Originators; compliance with
+  state and federal laws on secure storage; alignment with regulatory
+  requirements for "commercial reasonableness."
+
+AFPP Handbook, lines 9836–9837 (Visa Direct):
+  Two-Way SSL (Mutual SSL) authentication required; channel encryption
+  required; username, password, and X509 security certificate issued
+  by Visa; message-level encryption mandated.
+
+Sub-competency — PCI DSS objectives and scope
+-----------------------------------------------------------------------
+AFPP Handbook, lines 8680–8684:
+  PCI DSS was developed by Visa, Mastercard, and other payment card
+  industry leaders to set a baseline level of protection for customers,
+  merchants, and service providers; reduce fraud and the impact of data
+  breaches; enhance consumer confidence; and protect the overall
+  integrity of the payment system. It applies to all entities that
+  store, process, or transmit cardholder data and/or sensitive
+  authentication data.
+
+PCIDSS Quick Reference Guide v3:
+  PCI DSS represents technical and operational requirements designed to
+  safeguard payment card account data and establish a secure cardholder
+  data environment. Key requirements include protecting stored
+  cardholder data, encrypting cardholder data in transit, restricting
+  access by need-to-know, monitoring all access to cardholder data,
+  maintaining an information security policy, and reviewing firewall
+  configurations at least every six months.
+
+Sub-competency — Regulation E consumer liability limits
+-----------------------------------------------------------------------
+12 CFR Part 1005 (Regulation E), Section 1005.6:
+  Consumer liability for unauthorized electronic fund transfers is
+  limited to $50 if the financial institution is notified within 2
+  business days of discovering the unauthorized transfer. Liability
+  increases to $500 if notice is given after 2 business days but
+  within 60 calendar days of the statement date. The consumer may bear
+  unlimited liability if notification is NOT provided within 60
+  calendar days.
+
+Sub-competency — Regulation J scope (three payment systems)
+-----------------------------------------------------------------------
+12 CFR Part 210 (Regulation J), Sections 210.1, 210.25–210.26:
+  Regulation J governs three distinct payment systems operated by the
+  Federal Reserve: (1) Subpart A — collection of checks through Reserve
+  Banks; (2) Subpart B — funds transfers through the Fedwire Funds
+  Service; (3) Subpart C — funds transfers through the FedNow Service.
+  Each subpart incorporates UCC Article 4A and establishes distinct
+  rules for payment order execution, settlement, and participant
+  obligations.
+
+Sub-competency — OC 8 pre-participation security requirement
+-----------------------------------------------------------------------
+Operating Circular 8 (April 1, 2026), Sections 3.0–8.0:
+  Each FedNow participant must execute a FedNow Service Security
+  Procedure Agreement with the Federal Reserve Bank before sending or
+  receiving payment orders through the FedNow Service. OC 8, together
+  with Regulation J and Operating Circular 5, forms the comprehensive
+  governance framework for FedNow participants.
+
+Sub-competency — Compare/contrast private rule sets and federal regulation
+-----------------------------------------------------------------------
+AFPP Handbook, lines 9756–9777:
+  Federal regulations:
+    – Enacted through structured process with public comment
+    – Mandated standards as foundation of regulatory environment
+    – May hinder timely adaptation to market demands and technology
+  Private rule sets:
+    – Immediate access to industry experts
+    – Develop relevant interbank rules customized to evolving needs
+    – Foster innovation and fair competition
+    – Establish detailed loss-allocation policies among participants
+    – Demonstrate speed of adaptation
+  Synthesis: Synergy between the two creates a robust and balanced
+  framework in which the strengths of each complement the limitations
+  of the other.
+
+  Key distinguishing characteristic of private rule sets: they
+  establish detailed loss-allocation policies and customized operational
+  standards that federal regulation does not prescribe, filling gaps
+  left by the broader scope of federal law.
+
+Sub-competency — RTP annual security review requirement
+-----------------------------------------------------------------------
+AFPP Handbook, lines 9808–9816:
+  The RTP network requires participant information security programs to
+  undergo an annual review of security measure effectiveness. This
+  requirement applies to all participants regardless of transaction
+  volume or breach history.
+
+=========================================================================
+NINE PLANNED QUESTIONS
+=========================================================================
+
+FACTUAL QUESTIONS
+=========================================================================
+
+Q1 — Factual / JSQ
+-----------------------------------------------------------------------
+Sub-competency: Data privacy law objectives
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Recognizing that data privacy laws protect consumers from
+fraud, scams, and identity theft by establishing minimum standards on
+data storage and transmission is foundational regulatory knowledge for
+a 2-year faster payments practitioner.
+
+Stem:
+  What is the primary objective of data privacy laws as they apply to
+  faster payments stakeholders?
+
+Responses:
+  A. To protect consumers from fraud, scams, and identity theft by
+     safeguarding sensitive information and establishing minimum
+     standards on data storage and transmission
+  B. To establish interoperability standards that enable financial
+     institutions to share consumer payment data across faster payment
+     networks without requiring individual consent
+  C. To require faster payment network operators to submit annual
+     reports to federal regulators certifying compliance with consumer
+     data security standards
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Data Privacy Laws" section, lines 9779–9788.
+
+-------------------------------------------------------------------------
+
+Q2 — Factual / JSQ
+-----------------------------------------------------------------------
+Sub-competency: Identify payment rails governed by PCI DSS
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that Visa Direct and Mastercard Send — as card
+network-based rails — are the U.S. faster payment rails subject to PCI
+DSS is working knowledge for a 2-year practitioner managing compliance
+across multiple payment rails.
+
+Stem:
+  According to the AFPP Handbook, which U.S. faster payment rails are
+  governed by PCI DSS in addition to Regulation E and their respective
+  network operating rules?
+
+Responses:
+  A. FedNow and the RTP network, because both process card-funded
+     transactions as part of their standard credit transfer services
+  B. Visa Direct and Mastercard Send, because both are card
+     network-based payment rails that store, process, or transmit
+     cardholder data
+  C. Same Day ACH and FedNow, because both operate under Federal
+     Reserve oversight, which requires cardholder data protection
+     compliance
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+Table 60 – Applicable laws and regulations by payment rail, lines
+9692–9721.
+
+-------------------------------------------------------------------------
+
+Q3 — Factual / SQ
+-----------------------------------------------------------------------
+Sub-competency: Reg E consumer liability limits
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: The precise three-tier liability structure — $50, $500, and
+unlimited — and the specific notification timeframes that trigger each
+tier require detailed knowledge of Regulation E Section 1005.6 beyond
+2-year working knowledge.
+
+Stem:
+  Under Regulation E, how does a consumer's liability for unauthorized
+  electronic fund transfers change based on when the consumer notifies
+  the financial institution?
+
+Responses:
+  A. Liability is capped at $50 regardless of when notification is
+     provided, so long as the consumer submits a written dispute within
+     60 calendar days of the statement date showing the unauthorized
+     transfer
+  B. Liability is capped at $50 if the consumer and financial
+     institution have a pre-established error resolution agreement;
+     otherwise the consumer bears full liability for unauthorized
+     transfers
+  C. Liability is limited to $50 if notification is provided within 2
+     business days; increases to $500 if notification is provided after
+     2 business days but within 60 calendar days; and may be unlimited
+     if notification is NOT provided within 60 calendar days
+
+Answer: C
+
+Source: 12 CFR Part 1005 (Regulation E). Consumer Financial Protection
+Bureau. Section 1005.6, pages 1–20.
+
+=========================================================================
+PROCEDURAL QUESTIONS
+=========================================================================
+
+Q4 — Procedural / JSQ
+-----------------------------------------------------------------------
+Sub-competency: OC 8 pre-participation requirement for FedNow
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that a financial institution must execute a FedNow
+Service Security Procedure Agreement before sending or receiving payment
+orders is a standard onboarding step that a 2-year practitioner
+responsible for FedNow implementation should know.
+
+Stem:
+  According to Operating Circular 8, what must a financial institution
+  complete before it is permitted to send or receive payment orders
+  through the FedNow Service?
+
+Responses:
+  A. Execute a FedNow Service Security Procedure Agreement with the
+     Federal Reserve Bank
+  B. Submit a written certification to the Federal Reserve Bank
+     confirming it has implemented a BSA/AML compliance program that
+     includes FedNow-specific transaction monitoring
+  C. Complete a pilot testing phase in the FedNow customer testing
+     environment and receive written approval from the Federal Reserve
+     Bank to begin live transaction processing
+
+Answer: A
+
+Source: Operating Circular 8 (April 1, 2026). Federal Reserve Banks.
+FedNow Service. Sections 3.0–8.0, pages 1–20.
+
+-------------------------------------------------------------------------
+
+Q5 — Procedural / JSQ
+-----------------------------------------------------------------------
+Sub-competency: Data privacy obligations — Visa Direct
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing the specific technical security measures Visa Direct
+requires of its participants — Mutual SSL, channel encryption, and Visa-
+issued X509 certificates — is working knowledge for a 2-year
+practitioner managing Visa Direct compliance obligations.
+
+Stem:
+  Which data security measures does the Visa Direct network require of
+  its participants to comply with network data privacy obligations?
+
+Responses:
+  A. Submission of annual third-party auditor reports certifying
+     compliance with federal data security regulations applicable to
+     card-present transactions
+  B. Implementation of Two-Way SSL (Mutual SSL) authentication, channel
+     encryption, and message-level encryption, supported by a username,
+     password, and an X509 security certificate issued by Visa
+  C. Maintenance of a written information security program with
+     technical, physical, and administrative safeguards, including
+     regular testing of safeguard effectiveness and proper disposal of
+     personal data
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Data Privacy Obligations by Payment Rail" section, lines 9836–9837.
+
+-------------------------------------------------------------------------
+
+Q6 — Procedural / SQ
+-----------------------------------------------------------------------
+Sub-competency: Reg J scope across three payment systems
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The precise three-subpart structure of Regulation J —
+assigning check collection to Subpart A, Fedwire to Subpart B, and
+FedNow to Subpart C — is detailed regulatory architecture that requires
+5+ years of expertise in Federal Reserve payment governance to apply
+reliably.
+
+Stem:
+  Which three payment systems does Regulation J govern, and how does it
+  structure its coverage?
+
+Responses:
+  A. Regulation J governs the ACH network (under Subpart A), the
+     FedNow Service (under Subpart B), and the RTP network (under
+     Subpart C), applying UCC Article 4A principles to each
+  B. Regulation J governs check collection through Reserve Banks (under
+     Subpart A), Fedwire Funds Service transfers (under Subpart B), and
+     FedNow Service transfers (under Subpart C)
+  C. Regulation J governs consumer electronic fund transfers (under
+     Subpart A), business-to-business wire transfers (under Subpart B),
+     and instant payment transactions (under Subpart C), regardless of
+     which Federal Reserve system processes them
+
+Answer: B
+
+Source: 12 CFR Part 210 (Regulation J). Federal Reserve System.
+Sections 210.1, 210.25–210.26, pages 1–40.
+
+=========================================================================
+CONDITIONAL QUESTIONS
+=========================================================================
+
+Q7 — Conditional / JSQ
+-----------------------------------------------------------------------
+Sub-competency: When PCI DSS applies to a faster payments participant
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The clear, single-rule condition — that PCI DSS applies to
+any entity that stores, processes, or transmits cardholder data —
+is a foundational compliance threshold a 2-year practitioner working
+with card-based payment rails should be able to apply.
+
+Stem:
+  Under what condition is a faster payment participant required to
+  comply with PCI DSS requirements?
+
+Responses:
+  A. When the participant stores, processes, or transmits cardholder
+     data as part of its faster payment operations
+  B. When the participant processes more than the annual transaction
+     volume threshold established by the card networks for their
+     respective compliance tiers
+  C. When the participant connects to a card network-based faster
+     payment rail and has NOT completed the required annual self-
+     assessment questionnaire within the preceding 12 months
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+lines 8680–8684. Also: PCIDSS Quick Reference Guide v3. PCI Security
+Standards Council. Introduction and Overview.
+
+-------------------------------------------------------------------------
+
+Q8 — Conditional / SQ
+-----------------------------------------------------------------------
+Sub-competency: When private rule sets impose obligations beyond federal
+               law
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Identifying the specific condition under which private rule
+sets go beyond federal regulation — by establishing detailed loss-
+allocation policies and customized operational standards that federal
+law does not prescribe — requires synthesis of the comparative
+governance analysis characteristic of a 5-year practitioner.
+
+Stem:
+  Under what condition do private sector payment rules impose
+  obligations on financial institutions that go beyond the requirements
+  of federal regulation, according to the AFPP Handbook?
+
+Responses:
+  A. When the federal regulation governing the payment rail was enacted
+     before the rail was established and has not been updated to address
+     rail-specific operational requirements
+  B. When private rule sets establish detailed loss-allocation policies
+     and customized operational standards that federal regulation does
+     not prescribe, filling gaps left by the broader scope of federal
+     law
+  C. When the payment rail is operated by a non-governmental entity and
+     participants have contractually agreed to be bound by the
+     network's operating rules, superseding applicable federal
+     requirements
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Comparison of Private Rule Sets and Federal Regulation," lines
+9756–9777.
+
+-------------------------------------------------------------------------
+
+Q9 — Conditional / SQ
+-----------------------------------------------------------------------
+Sub-competency: RTP annual security review — trigger condition
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Understanding that the RTP network's annual security review
+requirement applies universally to all participants — not only those
+exceeding a volume threshold or those that have experienced a breach —
+requires nuanced knowledge of RTP data privacy obligations beyond 2-year
+working knowledge.
+
+Stem:
+  Under what condition does the RTP network require a participant's
+  information security measures to undergo an annual review?
+
+Responses:
+  A. When the participant has experienced a confirmed data breach during
+     the preceding calendar year and must certify to The Clearing House
+     that corrective actions have been implemented
+  B. When the participant exceeds a transaction volume threshold
+     established by The Clearing House that triggers enhanced oversight
+     and independent security auditing requirements
+  C. When the participant maintains an information security program
+     covering its RTP activities, because the RTP network requires an
+     annual review of security measure effectiveness regardless of
+     transaction volume or breach history
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Data Privacy Obligations by Payment Rail — TCH RTP" section, lines
+9808–9816.
+
+=========================================================================
+ANSWER KEY
+=========================================================================
+
+Q1 (Factual/JSQ):    A
+Q2 (Factual/JSQ):    B
+Q3 (Factual/SQ):     C
+Q4 (Procedural/JSQ): A
+Q5 (Procedural/JSQ): B
+Q6 (Procedural/SQ):  C
+Q7 (Conditional/JSQ):A
+Q8 (Conditional/SQ): B
+Q9 (Conditional/SQ): C
+
+Correct answer distribution: A (3), B (3), C (3) ✓
+
+=========================================================================
+STYLE COMPLIANCE PRE-CHECK
+=========================================================================
+
+[ ] Complete question format — no fill-in-the-blank or true/false
+[ ] Active voice, 3rd person throughout
+[ ] "Financial institution" — no "bank" or "credit union"
+[ ] "NOT" in all caps where used (Q3 response C; Q7 response C)
+[ ] No trademark symbols
+[ ] No bold or underline in responses
+[ ] Responses equal in length and grammatical structure
+[ ] Correct answer position varied: A(3), B(3), C(3)
+[ ] Only one defensible correct answer per question
+[ ] No trivial, absurd, or overlapping distractors
+[ ] Every question includes Skill Rating block, Cognitive Level, Rationale
+[ ] Every question has at least one approved source reference
+[ ] Regulation E cited with CFR part and section (Q3)
+[ ] Regulation J cited with CFR part and section numbers (Q6)
+[ ] Operating Circular 8 cited with effective date and sections (Q4)
+[ ] FFIEC source would use full booklet name if cited (not applicable
+    in these questions)
+
+=========================================================================
