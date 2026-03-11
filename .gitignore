@@ -1,4 +1,6 @@
 
 .claude/
 previously-written.*
+*.html
+*.png
 
