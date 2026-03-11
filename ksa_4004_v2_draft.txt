@@ -1,0 +1,326 @@
+Draft Test Questions — KSA 4004 (v2)
+Faster Payments Overlay and Value-Added Services
+=========================================================================
+
+Question distribution: Factual (2 JSQ + 1 SQ) | Procedural (2 JSQ + 1 SQ) | Conditional (1 JSQ + 2 SQ)
+Correct answer distribution: A (3), B (3), C (3)
+
+=========================================================================
+FACTUAL QUESTIONS
+=========================================================================
+
+Q1 — Factual / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Recognizing the FPC's defining characteristic of an overlay
+service — that it is owned and operated by a third party and deployed
+on basic infrastructure — is working knowledge for a 2-year faster
+payments practitioner.
+
+According to the Faster Payments Council Glossary, which of the
+following best describes an overlay service?
+
+  A. A tailored, value-adding payment service owned and operated by a
+     third party that is deployed on basic infrastructure to deliver
+     value to a specific group of subscribers and end users
+  B. A network-level payment routing service operated by a central
+     infrastructure provider to support interoperability between faster
+     payment rails
+  C. A proprietary payment application developed by a financial
+     institution to enable customers to initiate payments using a
+     mobile device
+
+Answer: A
+
+Source: Glossary of Terms. Faster Payments Council. "Overlay Service"
+definition, lines 619–620.
+
+-------------------------------------------------------------------------
+
+Q2 — Factual / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Understanding that a payment directory service uses aliases
+to avoid sharing sensitive account credentials — its defining functional
+characteristic — is working knowledge for a 2-year faster payments
+practitioner.
+
+What is the primary function of a payment directory service in faster
+payment systems?
+
+  A. To store encrypted transaction records that participants can query
+     to verify the settlement status of prior payments
+  B. To enable payments without requiring sensitive financial account
+     credentials to be shared between payee and payer, by using an
+     alias associated with payment information
+  C. To authenticate participants before connecting to the faster
+     payment network by verifying routing and account number pairs
+
+Answer: B
+
+Source: Glossary of Terms. Faster Payments Council. "Payment Directory
+Service" definition, lines 646–647.
+
+-------------------------------------------------------------------------
+
+Q3 — Factual / SQ
+
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: Knowing that the FedNow Service is the only U.S. faster
+payment rail that offers a liquidity management overlay service, while
+the RTP network and others do not, requires detailed knowledge of the
+rail-by-rail overlay availability matrix beyond 2-year working
+knowledge.
+
+According to the AFPP Handbook, on which U.S. faster payment rail is
+a liquidity management overlay service available?
+
+  A. Same Day ACH, because the Nacha Operating Rules require
+     participants to access liquidity management tools to manage
+     settlement exposure between processing windows
+  B. The RTP network, because The Clearing House designed its
+     prefunding model to integrate with a centralized liquidity
+     management system for Funding Participants
+  C. FedNow, because the FedNow Service provides participants with
+     tools to make internal adjustments and monitor cash flows to
+     support their liquidity needs
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology
+Considerations for Enabling Faster Payments, Table 58 – Faster Payment
+Overlay Services in the US, lines 9085–9211. Also: "Liquidity
+Management" subsection, lines 9057–9064.
+
+=========================================================================
+PROCEDURAL QUESTIONS
+=========================================================================
+
+Q4 — Procedural / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that a Request for Payment message contains
+remittance information enabling straight-through processing and invoice
+matching is standard working knowledge for a 2-year practitioner
+handling business payment products.
+
+How does a Request for Payment message support the billing and
+reconciliation process for business users of faster payment networks?
+
+  A. By including remittance information in the message itself,
+     enabling straight-through processing and easier matching of
+     payments to invoices
+  B. By routing the payment through a secondary verification cycle that
+     confirms invoice amounts before settlement is initiated by the
+     sending financial institution
+  C. By triggering an automatic account debit from the payer's account
+     upon acceptance, eliminating the need for a separate credit
+     transfer message
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology
+Considerations for Enabling Faster Payments, "Request for Payment"
+subsection, lines 9003–9009.
+
+-------------------------------------------------------------------------
+
+Q5 — Procedural / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Understanding that liquidity management overlay services
+mitigate service interruptions by providing cash flow visibility and
+enabling proactive transfers is standard operational knowledge for a
+2-year faster payments practitioner.
+
+How does a liquidity management overlay service help faster payment
+participants mitigate the risk of service interruptions?
+
+  A. By automating settlement adjustments across multiple faster
+     payment networks simultaneously to prevent overdrafts at any
+     single network
+  B. By providing insights into participants' liquidity positions and
+     enabling proactive transfers to prevent insufficient funds before
+     service interruptions occur
+  C. By suspending outgoing payments from participants whose available
+     funds fall below the minimum threshold established by the central
+     infrastructure operator
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology
+Considerations for Enabling Faster Payments, "Liquidity Management"
+subsection, lines 9057–9064.
+
+-------------------------------------------------------------------------
+
+Q6 — Procedural / SQ
+
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The specific mechanism by which ISO 20022 enables value-
+added service innovation on the RTP network — allowing participants to
+develop new products without customized development and aligning with
+global markets — is a technical architecture concept requiring 5+ years
+of expertise to understand and apply.
+
+How does the RTP network's use of the ISO 20022 standard enable
+participants to introduce new value-added services?
+
+  A. By requiring all participants to complete a certification process
+     for each new value-added service before deployment to ensure
+     consistent implementation across the network
+  B. By restricting value-added service development to The Clearing
+     House and its designated third-party service providers to maintain
+     network security and operational standards
+  C. By allowing participants and service providers to develop and
+     introduce new products without requiring customized development,
+     enabling the U.S. market to move in tandem with global markets
+
+Answer: C
+
+Source: Introduction to the RTP System (October 2020). The Clearing
+House. Section 2.6, "RTP and ISO 20022 Standards," page 20.
+
+=========================================================================
+CONDITIONAL QUESTIONS
+=========================================================================
+
+Q7 — Conditional / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The clear, single-rule condition — that a Remittance Advice
+is sent separately when remittance data does not fit in the Credit
+Transfer message fields — is a straightforward characteristic of RTP
+messaging that a 2-year practitioner handling business payment products
+should be able to apply.
+
+Under what condition may a payer's financial institution send a
+Remittance Advice message separately from the Credit Transfer on the
+RTP network?
+
+  A. When the remittance information associated with the payment does
+     NOT fit into the limited remittance data fields available within
+     the Credit Transfer message
+  B. When the payee's financial institution requests additional payment
+     details through a Request for Information message within 24 hours
+     of receiving the Credit Transfer
+  C. When the payer's financial institution determines that the payment
+     amount exceeds the threshold at which the network requires
+     enhanced remittance data for compliance reporting
+
+Answer: A
+
+Source: Introduction to the RTP System (October 2020). The Clearing
+House. Section 3.1, "Credit Transfer Event," pages 23–24.
+
+-------------------------------------------------------------------------
+
+Q8 — Conditional / SQ
+
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Distinguishing an open alias directory from a private
+directory based on industry-accepted governance, access standards, and
+the aggregation of private directory entries requires nuanced knowledge
+of directory service architecture beyond 2-year working knowledge.
+
+Under what condition does an alias directory qualify as an open alias
+directory rather than a private directory, according to the Faster
+Payments Council Glossary?
+
+  A. When the directory is operated by a central infrastructure
+     provider and all registered participants are required to
+     contribute alias entries as a condition of network participation
+  B. When the directory is available to all approved parties under
+     industry-accepted governance, with access controlled via industry-
+     developed standards, and aggregates entries from private
+     directories
+  C. When the directory uses a federated architecture in which each
+     participating financial institution maintains its own local alias
+     database that synchronizes with a shared central repository
+
+Answer: B
+
+Source: Glossary of Terms. Faster Payments Council. "Open Alias
+Directory" definition, lines 604–607. Also: "Private Directory"
+definition, lines 706–707.
+
+-------------------------------------------------------------------------
+
+Q9 — Conditional / SQ
+
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The specific condition under which an exception handling
+overlay service initiates a fund retrieval or return — requiring
+synthesis of workflow design, predetermined response logic, and the
+integration of exception management with faster payment operations —
+requires multi-concept analysis characteristic of a 5-year practitioner.
+
+Under what condition does an exception handling overlay service initiate
+a fund retrieval or return workflow in a faster payment system?
+
+  A. When the payer's financial institution submits a dispute request
+     within the applicable return timeframe and the receiving financial
+     institution confirms the funds have NOT been applied to the
+     beneficiary account
+  B. When the faster payment system detects a duplicate transaction and
+     automatically reverses the most recent payment before settlement
+     is finalized in the next processing cycle
+  C. When an exception has been identified or reported and the
+     predefined workflow established to resolve it includes fund
+     retrieval or return as a predetermined response option
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology
+Considerations for Enabling Faster Payments, "Exceptions Handling"
+subsection, lines 9067–9072.
+
+=========================================================================
+ANSWER KEY
+=========================================================================
+
+Q1 (Factual/JSQ):    A
+Q2 (Factual/JSQ):    B
+Q3 (Factual/SQ):     C
+Q4 (Procedural/JSQ): A
+Q5 (Procedural/JSQ): B
+Q6 (Procedural/SQ):  C
+Q7 (Conditional/JSQ):A
+Q8 (Conditional/SQ): B
+Q9 (Conditional/SQ): C
+
+Correct answer distribution: A (3), B (3), C (3)
+
+=========================================================================
+STYLE COMPLIANCE REVIEW
+=========================================================================
+
+[X] Complete question format — all 9 questions use a complete
+    interrogative stem; no fill-in-the-blank or true/false
+[X] Active voice, 3rd person throughout
+[X] "Financial institution" used — no "bank" or "credit union"
+[X] "NOT" in all caps — Q7 response A; Q9 response A
+[X] No trademark symbols
+[X] No bold or underline in responses
+[X] Responses equal in length and grammatical structure — parallel
+    structure confirmed per question
+[X] Correct answer positions varied: A(3), B(3), C(3)
+[X] Only one defensible correct answer per question — confirmed against
+    source text
+[X] No trivial, absurd, or overlapping distractors
+[X] Every question includes Skill Rating block, Cognitive Level, Rationale
+[X] Every question has at least one approved source reference
+[X] FPC Glossary cited with definition name and line range (Q1, Q2, Q8)
+[X] RTP System Introduction cited with section name and page (Q6, Q7)
+[X] Handbook Table 58 cited with table name and line range (Q3)
+
+=========================================================================

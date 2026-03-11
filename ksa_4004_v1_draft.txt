@@ -1,0 +1,192 @@
+KSA 4004: Faster Payments Overlay and Value-Added Services
+Draft Test Questions
+---------------------------------------------------------------------------
+
+Q1 — Factual
+
+Which type of overlay service enables payment initiation using a social alias
+such as an email address or mobile phone number?
+
+A. An alias directory
+B. A fraud scoring system
+C. A tokenization service
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations
+for Enabling Faster Payments, "Alias Directories" subsection, lines 8994–9000.
+
+---------------------------------------------------------------------------
+
+Q2 — Factual
+
+On which two faster payment networks is the Request for Payment overlay
+service available?
+
+A. Same Day ACH and FedNow
+B. FedNow and the RTP network
+C. Visa Direct and the RTP network
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations
+for Enabling Faster Payments, Table 58: "Faster Payment Overlay Services in
+the US," lines 9085–9214.
+
+---------------------------------------------------------------------------
+
+Q3 — Factual
+
+Which action does a confirmation-of-payee service perform to help mitigate
+misdirected payments and Authorized Push Payment fraud?
+
+A. It replaces the recipient's account number with a unique token before
+   the payment is routed to the receiving financial institution
+B. It sends an electronic request to the payer through the faster payment
+   network asking the payer to authorize the transaction
+C. It provides the sending party with the name associated with the
+   beneficiary account before a payment is initiated
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations
+for Enabling Faster Payments, "Confirmation-of-Payee (COP)" subsection,
+lines 9010–9019.
+
+---------------------------------------------------------------------------
+
+Q4 — Procedural
+
+How does a federated alias directory process a payment alias differently from
+a centralized alias directory?
+
+A. A federated directory maps an alias to the payment service provider, and
+   the payment service provider maps the alias to the account number using
+   its own local directory
+B. A federated directory maps an alias directly to both the payment service
+   provider and the account number in a single operation
+C. A federated directory replaces the alias with a unique token before
+   routing the payment to the receiving financial institution
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations
+for Enabling Faster Payments, "Centralized and Federated Directories"
+subsection, lines 8767–8779.
+
+---------------------------------------------------------------------------
+
+Q5 — Procedural
+
+How does a centralized fraud scoring service operated by a faster payment
+infrastructure operator support financial institution risk management?
+
+A. It requires financial institutions to resubmit flagged payments through
+   a secondary clearing cycle before settlement is completed
+B. It identifies patterns and anomalies across the network and communicates
+   risk alerts to financial institutions via the network's communication
+   rails
+C. It replaces the financial institution's internal fraud monitoring
+   procedures by processing all transaction screening at the infrastructure
+   level
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations
+for Enabling Faster Payments, "Fraud Scoring" subsection, lines 9049–9056.
+
+---------------------------------------------------------------------------
+
+Q6 — Procedural
+
+Which message type does the FedNow Service use to provide a correspondent
+with real-time notice that a value payment was processed and settled on
+behalf of a respondent participant?
+
+A. pacs.008
+B. pain.013
+C. camt.054
+
+Answer: C
+
+Source: Federal Reserve Banks. FedNow Service Operating Procedures
+(June 24, 2025). Section 16.3 "Account Credit/Debit Notification
+(camt.054)," lines 5469–5472.
+
+---------------------------------------------------------------------------
+
+Q7 — Conditional
+
+Under what condition does a digital ID overlay service become vulnerable
+to circumvention as a method of verifying a payment initiator's identity?
+
+A. When the service relies on facial or voice recognition and is exposed
+   to threats from generative artificial intelligence
+B. When the service is issued by a government entity rather than embedded
+   in a private financial institution's mobile banking application
+C. When the service is used to verify identity across multiple faster
+   payment networks that do not share a common authentication framework
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations
+for Enabling Faster Payments, "Digital IDs" subsection, lines 9041–9043.
+
+---------------------------------------------------------------------------
+
+Q8 — Conditional
+
+Under what condition is a FedNow participant able to receive a Request for
+Payment message from another participant?
+
+A. The participant has established a negative list profile with the FedNow
+   Service for the relevant routing and account number pairs
+B. The participant has the Customer Credit Transfer Send and Receive with
+   Receive Request for Payment participation type enabled
+C. The participant has designated a service provider to present Request for
+   Payment messages to its end customers on its behalf
+
+Answer: B
+
+Source: Federal Reserve Banks. FedNow Service Operating Procedures
+(June 24, 2025). Section 16.1 "Request for Payment (RFP) (pain.013),"
+lines 4812–4815.
+
+---------------------------------------------------------------------------
+
+Q9 — Conditional
+
+Under what condition is tokenization available as an overlay service for
+participants in the RTP network?
+
+A. When the participant enables the Request for Payment participation type
+   and connects through a certified service provider
+B. When the participant maintains a Current Prefunded Position sufficient
+   to cover the value of each tokenized transaction
+C. When the participant opts in to the Secure Token Exchange service
+   offered by the network
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations
+for Enabling Faster Payments, Table 58: "Faster Payment Overlay Services in
+the US," lines 9085–9214.
+
+---------------------------------------------------------------------------
+
+STYLE COMPLIANCE REVIEW
+
+[X] Complete question format — all 9 questions use a complete interrogative stem
+[X] Active voice, 3rd person — verified throughout
+[X] "Financial institution" used — no "bank" or "credit union"
+[X] "NOT" in all caps where used — not applicable (no negatively phrased questions)
+[X] No trademark symbols — no RTP(R), FedNow(R), or similar
+[X] No bold or underline in responses — plain text only
+[X] Responses equal in length and grammatical structure — parallel structure confirmed per question
+[X] Correct answer positions varied: Q1=A, Q2=B, Q3=C, Q4=A, Q5=B, Q6=C, Q7=A, Q8=B, Q9=C
+[X] Distribution: A (3), B (3), C (3)
+[X] Only one defensible correct answer per question — confirmed against source text
+[X] No trivial, absurd, or overlapping distractors — all distractors are plausible but incorrect
+[X] Every question has at least one approved source reference
+
+---------------------------------------------------------------------------
