@@ -1,0 +1,561 @@
+Plan: Draft 9 Test Questions for KSA 5004
+=========================================
+
+KSA: 5004 — The Role of Client/Customer Agreements and Disclosures with
+           Respect to Faster Payments Products and Services
+Parent KSA: 5000 — Governance Framework
+
+Sub-competencies to test:
+  – Identify the required agreements for each payment rail
+  – Identify the required disclosures for each payment rail
+  – Describe the roles of agreements among faster payments stakeholders
+  – Describe the roles of disclosures among faster payments stakeholders
+  – Compare warranties and indemnities by rail and rule set
+
+Source documents:
+  Primary:   /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+  Secondary: /home/fewill/code/afpp-write/062425-fednow-service-operating-procedures.txt
+  Secondary: /home/fewill/code/afpp-write/ffiec_itbooklet_retailpaymentsystems.txt
+
+Question distribution:
+  Factual:     2 JSQ  +  1 SQ  =  3 questions
+  Procedural:  2 JSQ  +  1 SQ  =  3 questions
+  Conditional: 1 JSQ  +  2 SQ  =  3 questions
+                                   -----------
+  Total:                           9 questions
+
+Correct answer distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SOURCE MATERIAL SUMMARY
+---------------------------------------------------------------------------
+
+SECTION A: Required Agreements by Payment Rail
+  Source: AFPP Handbook, lines 9982–10141 (Table 63 and detail sections)
+  Section heading: Chapter 5 – Governance Framework
+
+  Same Day ACH (lines 10067–10084):
+  - Origination agreements (ODFI ↔ originator): bind originator to the Nacha
+    Operating Rules; authorize ODFI to receive transactions on originator's
+    behalf; specify transaction limitations; include termination and audit
+    compliance rights.
+  - Authorization agreements (originator ↔ receiver): permit receipt of ACH
+    entries; terms vary by consumer vs. corporate entity and relationship.
+  - ACH Operator agreements (ODFI/RDFI ↔ ACH Operator): establish routing
+    numbers and settlement arrangements.
+
+  RTP Network (lines 10087–10094):
+  - RTP Participant Agreement and Indemnity: establishes terms and conditions
+    for participation; requires adherence to RTP rules, security protocols,
+    and transaction processing guidelines; participants agree to indemnify TCH.
+  - Designation of Third Party Service Provider Agreement: designates third
+    party to act on participant's behalf; outlines scope of services; ensures
+    RTP Network standard compliance.
+
+  FedNow (lines 10097–10109):
+  - FedNow Service Security Procedure Agreement: references Operating Circular
+    8; governs security procedures for FedNow access and Reserve Banks' actions
+    on authenticated instructions.
+  - Service Provider Agreement: authorizes designated entity to perform
+    specific services (sending/receiving credit transfers, settlement management,
+    liquidity management transfers); ensures service provider adherence to
+    FedNow standards.
+
+  Mastercard Send (lines 10112–10121):
+  - Digital Activity Agreement: commits users to rules on digital participation;
+    covers sponsorship rights, obligations, responsibilities, usage abilities.
+  - Program Service Agreement: reflects customer responsibilities for management
+    and operating policies per Mastercard standards.
+  - Payment Transfer Agreement: establishes rule compliance, transaction
+    responsibility, authorization requirements, information provision
+    obligations, privacy, and data security requirements.
+
+  Visa Direct (lines 10124–10141):
+  - Terms and Conditions Agreement: outlines rights and responsibilities of
+    developers, FIs, and merchants/consumers; defines parameters for API usage;
+    covers push and pull transfer usage; grants limited license with
+    distribution and sublicensing restrictions; Visa reserves right to regulate
+    API calls and modify methods.
+
+  Also: FFIEC booklet (lines 2474–2483):
+  Nacha requires ODFIs to have written agreements with third-party senders
+  specifying compliance with Nacha rules and applicable laws, including prior
+  approval rights, dollar limits, restriction on file corrections, and
+  requirement that third-party senders warrant originator identity.
+
+SECTION B: Required Disclosures by Payment Rail
+  Source: AFPP Handbook, lines 10027–10203 (Table 64 and detail sections)
+
+  Same Day ACH (lines 10145–10152):
+  - ODFIs must disclose nested third-party relationships.
+  - ACH Operators must disclose designated data related to entries to Nacha.
+  - All participants must disclose transaction data retention policies.
+  - Comprehensive disclosure of pricing, exception handling, and operational
+    information to participants.
+
+  RTP Network (lines 10155–10164):
+  - TCH must disclose: pricing, exceptions handling, policies, practices,
+    standards to participants.
+  - Participants must disclose to customers: pricing, standards, rules for RTP
+    payments, exceptions processing.
+  - Funding participants must disclose relationships with non-funding
+    participants to TCH and furnish reconciliation reports.
+  - TCH provides daily reconciliation reports to participants.
+  - Participants must provide customers with necessary Payment Message
+    information per RTP Technical Specifications.
+
+  FedNow (lines 10167–10176):
+  - FedNow participants allow Reserve Banks to utilize and disclose transaction
+    records and related information for directory services, fraud services, and
+    transaction enforcement.
+  - FedNow participants must affirm they have provided all requisite disclosures
+    and obtained necessary consents/permissions for Reserve Bank usage.
+  - Source: Operating Circular 1 (Account Relationships) and Operating
+    Circular 8.
+
+  Mastercard Send (lines 10186–10191):
+  - Institutions must receive required standards, privacy policies, fees, and
+    pricing from Mastercard before becoming customers.
+  - Participating FIs must disclose customer transaction activity reports to
+    Mastercard and disclose all fees to customers in compliance with applicable
+    laws.
+
+  Visa Direct (lines 10194–10203):
+  - Originators must furnish customers with comprehensive Terms and Conditions
+    before Visa Direct service use.
+  - Originators must regularly update Terms and Conditions to encompass
+    necessary legal/industry disclosures; Visa reserves right to request copies
+    for compliance verification.
+  - Originators must provide senders with transparent fee information; senders
+    must be allowed to consent to fees or cancel the transaction.
+  - Visa Core Rules are disclosed to all participants with required compliance.
+
+SECTION C: Warranties and Indemnities by Rail
+  Source: AFPP Handbook, lines 10204–10270
+
+  Same Day ACH (lines 10207–10216):
+  - ODFI indemnifies RDFIs and ACH Operators for claims, losses, liabilities,
+    and expenses stemming from breaches of ODFI warranties under the Nacha
+    Operating Rules.
+  - RDFI indemnifies ODFIs and ACH Operators for breaches of warranty under
+    Section 1.2 of the Nacha Operating Rules.
+  - Gateway operators assume the same warranties as ODFIs under the Nacha
+    Operating Rules. (line 10215–10216)
+
+  RTP Network (lines 10219–10228):
+  - Participants agree to mutual indemnification for transactions facilitated
+    via the RTP Network and pre-funded account balances used.
+  - TCH is only liable in cases of its own gross negligence or intentional
+    misconduct; amount limited to what is directly attributable to TCH.
+  - TCH shall not be held liable for fraud except where deemed negligent.
+
+  FedNow (lines 10238–10251):
+  - Reserve Banks' liability is limited to losses directly resulting from
+    willful misconduct or failure to exercise ordinary care. (OC8 framework)
+  - Reserve Banks are NOT liable for special or consequential damages,
+    regardless of foreseeability or prior notification. (lines 10241–10242)
+  - Processing liability: limited to the amount of any fee paid for the
+    message in cases of failure to exercise ordinary care or good faith.
+  - Warranty disclaimers: Reserve Banks disclaim all warranties (express or
+    implied) concerning accuracy, merchantability, fitness for particular
+    purpose, or title of third-party products or services.
+  - FedNow participants must indemnify and safeguard Reserve Banks against
+    claims, losses, costs, and expenses from failure to fulfill OC8 obligations.
+
+  Also: FedNow Operating Procedures (lines 2038–2056):
+  - RFP Warranty: participants warrant that RFPs are sent only for legitimate
+    purposes (as defined in OC8). Sender FIs must monitor RFP use for abuse
+    (risk-based procedures to track volume and anomalous activity).
+  - Warranty breach claim: Receiver FI submits camt.056 with WNTB reason code
+    within 95 calendar days of credit transfer settlement.
+
+  Mastercard Send (lines 10254–10261):
+  - Each customer must indemnify and hold harmless Mastercard, its subsidiaries,
+    directors, officers, and agents from claims arising from the customer's acts
+    or omissions.
+  - Mastercard disclaims all warranties regarding its systems.
+  - Mastercard's total liability is capped at: compensation received from
+    the customer OR USD 250,000, whichever is less, unless prohibited by law.
+  - This limitation is a fundamental aspect of Mastercard Send standards.
+
+  Visa Direct (lines 10264–10270):
+  - Visa assumes liability solely for loss or misdirection of funds in
+    push-to-account Original Credit Transactions when issues are directly
+    attributable to Visa and within limitations in Visa Core Rules.
+  - Visa disclaims liability for any indirect, incidental, consequential, or
+    special damages, including loss of revenue, profits, or business
+    opportunities, regardless of prior knowledge.
+  - Visa holds no liability for actions or omissions of downstream entities
+    including partners, banks, and processing schemes.
+
+  Also: FFIEC booklet (lines 2493–2496):
+  Third-party senders must warrant to ODFIs that originators will assume their
+  responsibilities under Nacha rules and that the third-party sender assumes
+  the liabilities of the ODFI.
+
+
+---------------------------------------------------------------------------
+THE 9 QUESTIONS
+---------------------------------------------------------------------------
+
+----- FACTUAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q1 — Factual / JSQ
+Sub-competency: Identify the required agreements for each payment rail
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: The purpose of an origination agreement in Same Day ACH — binding
+the originator to network rules and authorizing the ODFI — is standard working
+knowledge for a 2-year ACH practitioner.
+
+Stem:
+  Which of the following describes a primary purpose of an origination agreement
+  between an Originating Depository Financial Institution and an originator in
+  the Same Day ACH network?
+
+Responses:
+  A. To bind the originator to the Nacha Operating Rules and authorize the ODFI
+     to receive transactions on the originator's behalf
+  B. To establish the terms under which the ACH Operator will settle transactions
+     between the ODFI and the Receiving Depository Financial Institution
+  C. To designate a third-party service provider to perform compliance functions
+     on behalf of the originator
+
+Answer: A
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, lines
+  10067–10084. Also: FFIEC IT Examination Handbook: Retail Payment Systems
+  Booklet, lines 2474–2483.
+
+---
+
+Q2 — Factual / JSQ
+Sub-competency: Identify the required disclosures for each payment rail
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that Visa Direct originators must provide customers with
+comprehensive Terms and Conditions before service use is a foundational
+disclosure requirement a 2-year payments practitioner should recognize.
+
+Stem:
+  Which disclosure obligation do Visa Direct originators have toward customers
+  before those customers begin using the Visa Direct service?
+
+Responses:
+  A. Originators must submit a copy of their privacy policy to Visa for
+     compliance verification before providing it to customers
+  B. Originators must furnish customers with comprehensive Terms and Conditions
+     before the customer uses the Visa Direct service
+  C. Originators must disclose daily reconciliation reports and a detailed
+     pricing breakdown to customers at the time of each transaction
+
+Answer: B
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, lines
+  10194–10203.
+
+---
+
+Q3 — Factual / SQ
+Sub-competency: Compare warranties and indemnities by rail and rule set
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: The specific Mastercard Send liability cap — compensation received
+from the customer OR USD 250,000, whichever is less — requires detailed
+knowledge of network-specific indemnity terms beyond a 2-year practitioner's
+working knowledge.
+
+Stem:
+  Under Mastercard Send standards, to what amount is Mastercard's total
+  liability for damages to a customer capped?
+
+Responses:
+  A. The lesser of the total transaction value processed by the customer in the
+     prior calendar year or USD 500,000
+  B. The greater of the fees paid by the customer to Mastercard or USD 100,000,
+     whichever provides greater protection to the customer
+  C. The compensation received by Mastercard from the customer, or USD 250,000,
+     whichever is less, unless prohibited by law
+
+Answer: C
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Warranties
+  and Indemnities — Mastercard Send" section, lines 10258–10260.
+
+----- PROCEDURAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q4 — Procedural / JSQ
+Sub-competency: Compare warranties and indemnities by rail and rule set
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: The RFP Warranty breach process — submitting camt.056 with the
+WNTB reason code within 95 calendar days — is an operational procedure that
+FedNow practitioners encounter in warranty dispute workflows.
+
+Stem:
+  When a FedNow participant determines that a Request for Payment warranty was
+  breached after the corresponding credit transfer has settled, what message
+  must the Receiver FI send to seek a return of funds?
+
+Responses:
+  A. A Return Request (camt.056) message with the WNTB reason code, submitted
+     within 95 calendar days of the credit transfer settlement date
+  B. A Payment Status Report (pacs.002) message with the fraud reason code,
+     submitted within 60 calendar days of the credit transfer settlement date
+  C. A Payment Return (pacs.004) message with the warranty breach reason code,
+     submitted within 30 calendar days of the credit transfer settlement date
+
+Answer: A
+
+Source citation:
+  Federal Reserve Banks. FedNow Service Operating Procedures (June 24, 2025),
+  lines 2073–2101. Also: AFPP Handbook (2026). Nacha. Chapter 5 – Governance
+  Framework, lines 10238–10251.
+
+---
+
+Q5 — Procedural / JSQ
+Sub-competency: Describe the roles of agreements among faster payments
+stakeholders
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that TCH's liability under the RTP Participant Agreement is
+limited to its own gross negligence or intentional misconduct is working
+knowledge for RTP practitioners who advise on indemnification risk.
+
+Stem:
+  Under the RTP Participant Agreement and Indemnity, for which of its own
+  conduct is The Clearing House liable to participants?
+
+Responses:
+  A. Any losses arising from payment rejections caused by insufficient prefunded
+     balances maintained by sending participants
+  B. Its own gross negligence or intentional misconduct directly attributable
+     to The Clearing House
+  C. Fraud losses incurred by receiving participants when a sending participant
+     fails to screen transactions before submission
+
+Answer: B
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Warranties
+  and Indemnities — RTP Network" section, lines 10219–10228.
+
+---
+
+Q6 — Procedural / SQ
+Sub-competency: Compare warranties and indemnities by rail and rule set
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The rule that gateway operators assume the same warranties as ODFIs
+— not RDFIs or ACH Operators — is a specific Nacha provision requiring deeper
+network expertise to apply correctly.
+
+Stem:
+  Under the Nacha Operating Rules, which warranties does a gateway operator
+  assume in the Same Day ACH network?
+
+Responses:
+  A. The same warranties as the Receiving Depository Financial Institution,
+     including the obligation to indemnify the ODFI and ACH Operator for
+     unauthorized return entries
+  B. The same warranties as the Originating Depository Financial Institution,
+     including the obligation to indemnify the RDFI and ACH Operator for
+     warranty breaches
+  C. The same warranties as the ACH Operator, including responsibility for
+     settlement finality and the accuracy of transaction routing information
+
+Answer: B
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Warranties
+  and Indemnities — Same Day ACH" section, lines 10215–10216.
+
+----- CONDITIONAL QUESTIONS (1 JSQ + 2 SQ) -----
+
+Q7 — Conditional / JSQ
+Sub-competency: Describe the roles of disclosures among faster payments
+stakeholders
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The FedNow participant indemnification condition — failure to
+provide required disclosures and obtain necessary customer consents under
+Operating Circular 8 — is a clear, single-rule condition a 2-year practitioner
+should be able to apply.
+
+Stem:
+  Under what condition must a FedNow participant indemnify the Federal Reserve
+  Banks against claims and losses?
+
+Responses:
+  A. The participant fails to fulfill its obligations under Federal Reserve
+     Operating Circular 8, including providing required disclosures and
+     obtaining necessary customer consents for Reserve Bank use of transaction
+     records
+  B. The participant's transaction volume exceeds the threshold established by
+     the Federal Reserve Banks' fraud monitoring program in a given settlement
+     period
+  C. The participant uses a service provider whose security infrastructure does
+     not meet the minimum standards outlined in the FedNow Service Operating
+     Procedures
+
+Answer: A
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Required
+  Disclosures — FedNow" section, lines 10167–10176.
+
+---
+
+Q8 — Conditional / SQ
+Sub-competency: Compare warranties and indemnities by rail and rule set
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Visa Direct's conditional liability for push-to-account OCTs — that
+it applies only when directly attributable to Visa, and that Visa bears no
+liability for downstream entities — requires synthesis of Visa's multi-layered
+liability framework characteristic of a 5-year practitioner.
+
+Stem:
+  Under what condition does Visa assume liability for the loss or misdirection
+  of funds in a Visa Direct push-to-account Original Credit Transaction?
+
+Responses:
+  A. When a downstream entity such as a partner bank or processing scheme causes
+     the loss through actions taken outside the Visa Core Rules
+  B. When the loss or misdirection of funds is directly attributable to Visa and
+     falls within the limitations set out in the Visa Core Rules and Visa Product
+     and Service Rules
+  C. When the originator fails to provide the sender with required fee disclosures
+     and the sender initiates a dispute within the timeframe permitted by
+     applicable law
+
+Answer: B
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Warranties
+  and Indemnities — Visa Direct" section, lines 10264–10270.
+
+---
+
+Q9 — Conditional / SQ
+Sub-competency: Compare warranties and indemnities by rail and rule set
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The categorical prohibition on recovering special or consequential
+damages from the Federal Reserve Banks — regardless of foreseeability or prior
+notification — must be distinguished from the general direct-damage liability
+standard, requiring deep knowledge of FedNow's liability framework.
+
+Stem:
+  Under what condition may a FedNow participant recover special or consequential
+  damages from the Federal Reserve Banks arising from FedNow Service activity?
+
+Responses:
+  A. When the participant demonstrates that the Reserve Banks had prior knowledge
+     of the potential for such damages and failed to exercise ordinary care in
+     processing the relevant payment message
+  B. When the loss results from the Reserve Banks' willful misconduct and the
+     participant notified the Reserve Banks of the potential for consequential
+     harm before the transaction was submitted
+  C. Special or consequential damages may NOT be recovered from the Federal
+     Reserve Banks under any condition, regardless of foreseeability or prior
+     notification
+
+Answer: C
+
+Source citation:
+  AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework, "Warranties
+  and Indemnities — FedNow" section, lines 10241–10242.
+
+
+---------------------------------------------------------------------------
+CORRECT ANSWER POSITIONS
+---------------------------------------------------------------------------
+
+Q1: A  |  Q2: B  |  Q3: C
+Q4: A  |  Q5: B  |  Q6: C
+Q7: A  |  Q8: B  |  Q9: C
+
+Distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SKILL RATING AND COVERAGE MAP
+---------------------------------------------------------------------------
+
+         JSQ          SQ
+Factual:  Q1, Q2      Q3
+Procedural: Q4, Q5    Q6
+Conditional: Q7       Q8, Q9
+
+Sub-competency coverage:
+  Required agreements by rail:         Q1 (JSQ/Recall) — Same Day ACH origination agreement
+  Required disclosures by rail:        Q2 (JSQ/Recall) — Visa Direct Terms and Conditions
+                                       Q7 (JSQ/Analysis) — FedNow OC8 disclosure/indemnification
+  Warranties and indemnities by rail:  Q3 (SQ/Recall) — Mastercard Send liability cap
+                                       Q4 (JSQ/App) — FedNow RFP Warranty breach claim
+                                       Q5 (JSQ/App) — RTP TCH gross negligence standard
+                                       Q6 (SQ/App) — Same Day ACH gateway operator warranties
+                                       Q8 (SQ/Analysis) — Visa Direct conditional liability
+                                       Q9 (SQ/Analysis) — FedNow no consequential damages
+
+
+---------------------------------------------------------------------------
+STYLE COMPLIANCE CHECKLIST
+---------------------------------------------------------------------------
+
+[ ] Complete question format — no fill-in-the-blank, no true/false
+[ ] Active voice, 3rd person throughout
+[ ] "Financial institution" used — no "bank" or "credit union"
+[ ] "NOT" in all caps where used — Q9 stem uses "NOT" (required)
+[ ] No trademark symbols
+[ ] No bold or underline in responses
+[ ] Responses equal in length and grammatical structure
+[ ] Correct answer positions varied: A(3), B(3), C(3)
+[ ] Only one defensible correct answer per question
+[ ] No trivial, absurd, or overlapping distractors
+[ ] Every question includes Skill Rating block (JSQ or SQ), Cognitive Level,
+    and Rationale
+[ ] Every question has at least one approved source reference
+[ ] FFIEC source cited with full booklet name where used (Q1)
+[ ] Nacha Operating Rules written in full where referenced (Q6)
+
+
+---------------------------------------------------------------------------
+EXECUTION STEPS
+---------------------------------------------------------------------------
+
+1. Read handbook and secondary source passages at cited line ranges to confirm
+   all facts before writing the draft.
+
+2. Write questions to /home/fewill/code/afpp-write/question_5004_draft.txt with:
+   - Question number and type label
+   - Skill Rating block (Skill Rating / Cognitive Level / Rationale)
+   - Stem
+   - Three response options (A, B, C)
+   - Answer key notation
+   - Formatted source citation
+
+3. Review against the style compliance checklist and apply corrections.
+
+
+---------------------------------------------------------------------------
+APPROVED REFERENCE FORMAT
+---------------------------------------------------------------------------
+
+  AFPP Handbook (2026). Nacha. [Chapter]. [Section/Table label]. lines [range].
+
+  FedNow Operating Procedures:
+    Federal Reserve Banks. FedNow Service Operating Procedures (June 24, 2025).
+    [Section description], lines [range].
+
+  FFIEC:
+    FFIEC IT Examination Handbook: Retail Payment Systems Booklet.
+    [Section heading], lines [range].
+
+---------------------------------------------------------------------------

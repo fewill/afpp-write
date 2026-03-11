@@ -1,0 +1,515 @@
+Plan — KSA 5004 (v2)
+The Role of Client/Customer Agreements and Disclosures with Respect to
+Faster Payments Products and Services
+=========================================================================
+
+KSA: 5000 – Governance Framework
+  5004 – The role of client/customer agreements and disclosures with
+         respect to faster payments products and services
+    – Identify the required agreements for each payment rail
+    – Identify the required disclosures for each payment rail
+    – Describe the roles of agreements among faster payments stakeholders
+    – Describe the roles of disclosures among faster payments
+      stakeholders
+    – Compare warranties and indemnities by rail and rule set
+
+Question distribution: Factual (2 JSQ + 1 SQ) | Procedural (2 JSQ + 1 SQ)
+                       Conditional (1 JSQ + 2 SQ)
+Target answer distribution: A(3), B(3), C(3)
+
+Note: v1 questions covered Same Day ACH origination agreement purpose;
+Visa Direct Terms and Conditions disclosure before service use;
+Mastercard Send USD 250,000 liability cap; FedNow RfP warranty breach
+camt.056/WNTB/95-day process; RTP TCH liable only for gross negligence
+or intentional misconduct; Same Day ACH gateway operator assumes ODFI
+warranties; FedNow OC8 indemnification trigger; Visa Direct conditional
+liability (directly attributable to Visa); and FedNow special/
+consequential damages prohibition. All nine v2 questions draw on
+different passages and topics.
+
+=========================================================================
+SOURCE MATERIAL SUMMARY
+=========================================================================
+
+Sub-competency 1 — Required agreements: RTP
+-----------------------------------------------------------------------
+AFPP Handbook, lines 10087–10094:
+  RTP participants must execute a Participant Agreement and Indemnity,
+  which ensures participants agree to network governance terms and
+  conditions, requires adherence to RTP rules and security protocols,
+  and includes the participant's indemnification of The Clearing House
+  for liabilities arising from network access.
+
+RTP Participation Rules (July 21, 2025), Section IV.A.1, page 5:
+  "A prospective Participant must execute and deliver, directly or
+  through its Third-Party Service Provider, the Participant Agreement
+  and Indemnity, and any other agreement that may be required by TCH."
+
+RTP Participation Rules, Section IV.B.1, page 5:
+  A Participant Agreement and Indemnity entered with a Third-Party
+  Service Provider must include provisions by which the Participant
+  agrees: (a) to the RTP Participant Terms and Conditions; (b) to
+  comply with the RTP Participation Rules and RTP Operating Rules;
+  (c) that the Third-Party Service Provider's agreement cannot amend
+  or modify the Participant Agreement and Indemnity; and (d) that TCH
+  and other Participants are intended third-party beneficiaries of the
+  Participant Agreement and Indemnity.
+
+Sub-competency 1 — Required agreements: FedNow (OC8)
+-----------------------------------------------------------------------
+Operating Circular 8 (April 1, 2026), Section 8.2, page 11:
+  "Before issuing a payment order or receiving a payment order from a
+  Reserve Bank, a FedNow Participant must execute an agreement in the
+  form shown in Appendix A to this operating circular [the FedNow
+  Service Security Procedure Agreement]."
+
+Operating Circular 8, Sections 15.1–15.2, page 20:
+  A FedNow Participant may authorize a Service Provider by executing
+  the agreement in Appendix B to OC8. By executing that agreement, the
+  Participant: (i) authorizes the Service Provider to act on its behalf
+  without limitation; (ii) designates the Service Provider as its agent
+  for accessing Reserve Bank systems; and (iii) authorizes the Service
+  Provider to select which security procedures to use.
+
+Operating Circular 8, Section 15.13, page 22:
+  Designation of a Service Provider does not diminish any obligation of
+  the FedNow Participant under OC8 or any separate operating circular.
+  The FedNow Participant retains full responsibility for management of
+  its Master Account and for ensuring the Service Provider complies
+  with the Participant's obligations.
+
+Sub-competency 2 — Required disclosures: RTP
+-----------------------------------------------------------------------
+AFPP Handbook, lines 10155–10164:
+  TCH must disclose pricing, exceptions handling, policies, practices,
+  and standards to participants. Participants must disclose pricing,
+  standards, and rules for RTP payments, and exceptions processing
+  handling, to customers using the service. Funding participants must
+  disclose their relationships with non-funding participants to TCH.
+  TCH provides reconciliation reports to participants at day's end;
+  funding participants furnish reconciliation reports to non-funding
+  participants detailing activities.
+
+Sub-competency 2 — Required disclosures: Mastercard Send
+-----------------------------------------------------------------------
+AFPP Handbook, lines 10186–10191:
+  Participating financial institutions must: (1) receive necessary
+  standards information on service providers, including required privacy
+  policies, fees/pricing, and applicable standards before becoming
+  customers; (2) regularly disclose customer transaction activity
+  reports to Mastercard; and (3) disclose all fees and appropriate
+  information to customers using Mastercard Send in accordance with
+  applicable laws.
+
+Sub-competency 3/5 — Role of agreements: RTP TFSP agreement content
+-----------------------------------------------------------------------
+RTP Participation Rules, Section IV.B.1, page 5 (see above):
+  Key provision: TCH and other Participants are intended third-party
+  beneficiaries of any agreement between a Participant and its Third-
+  Party Service Provider. This means the TFSP agreement cannot be used
+  to modify or reduce the Participant's obligations to TCH or to other
+  RTP participants.
+
+Sub-competency 5 — Warranties/indemnities: Nacha Operating Rules
+-----------------------------------------------------------------------
+AFPP Handbook, lines 10211–10214:
+  ODFI indemnification: ODFIs indemnify RDFIs and ACH Operators for
+  claims, losses, liabilities, and expenses (including legal fees)
+  stemming from breaches of warranties made by the ODFI under the
+  Nacha Operating Rules, or from debiting/crediting entries per entry
+  terms (including return of items from insufficient funds caused by a
+  debit entry).
+
+  RDFI indemnification: RDFIs indemnify ODFIs and ACH Operators
+  against claims, losses, liabilities, and expenses resulting from any
+  breach of warranty under the general rule compliance provision
+  (Section 1.2) of the Nacha Operating Rules.
+
+Sub-competency 5 — Warranties/indemnities: OC8 Service Provider
+-----------------------------------------------------------------------
+Operating Circular 8, Section 15.15, page 22:
+  The FedNow Participant and the Service Provider shall each indemnify
+  and hold the Reserve Bank harmless against any claim, loss, cost, or
+  expense — including attorneys' fees and litigation expenses —
+  resulting from: (i) the designation or use of the Service Provider;
+  (ii) the acts or omissions of the Participant or the Service Provider
+  (or any of their agents), other than a loss arising solely from the
+  Reserve Bank's failure to exercise ordinary care or to act in good
+  faith; or (iii) the Participant's failure to authorize the Service
+  Provider through a properly executed Appendix B agreement.
+
+Sub-competency 5 — Warranties/indemnities: FedNow third-party products
+-----------------------------------------------------------------------
+AFPP Handbook, lines 10245–10249:
+  Reserve Banks disclaim liability for any loss or damage arising from
+  a financial institution's or Service Provider's use of third-party
+  products or services NOT supplied, owned, or operated by the Reserve
+  Banks. This disclaimer extends to any warranty — express or implied
+  — concerning accuracy, timeliness, completeness, merchantability,
+  fitness for a particular purpose, title, quality, or non-infringement
+  of such third-party products or services.
+
+=========================================================================
+NINE PLANNED QUESTIONS
+=========================================================================
+
+FACTUAL QUESTIONS
+=========================================================================
+
+Q1 — Factual / JSQ
+-----------------------------------------------------------------------
+Sub-competency: Required agreements — RTP
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that a prospective RTP participant must execute a
+Participant Agreement and Indemnity that requires adherence to network
+governance, security protocols, and includes indemnification of The
+Clearing House is foundational knowledge for a 2-year faster payments
+practitioner.
+
+Stem:
+  What must a prospective RTP participant execute as the primary
+  agreement before joining the RTP network?
+
+Responses:
+  A. The RTP Participant Agreement and Indemnity, which requires
+     adherence to network governance terms, security protocols, and
+     transaction processing standards, and includes the participant's
+     indemnification of The Clearing House for liabilities arising from
+     network access
+  B. The FedNow Service Security Procedure Agreement, which must be
+     executed before the participant can send or receive payment orders
+     through the Federal Reserve Banks
+  C. The Nacha Operating Rules origination agreement, which binds the
+     participant to the Nacha Operating Rules and authorizes the
+     Originating Depository Financial Institution to receive
+     transactions on the participant's behalf
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Required Agreements — RTP" section, lines 10087–10094. Also: RTP
+Participation Rules (July 21, 2025). The Clearing House. Section
+IV.A.1, page 5.
+
+-------------------------------------------------------------------------
+
+Q2 — Factual / JSQ
+-----------------------------------------------------------------------
+Sub-competency: Required disclosures — RTP
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that The Clearing House must disclose pricing,
+exceptions handling, policies, practices, and standards to RTP
+participants — and provide end-of-day reconciliation reports — is
+working knowledge for a 2-year practitioner managing RTP compliance.
+
+Stem:
+  According to the AFPP Handbook, which of the following must The
+  Clearing House disclose to RTP participants?
+
+Responses:
+  A. The identity of all other participants accessing the RTP network
+     during each settlement period, along with their individual
+     transaction volumes and prefunded balance positions
+  B. Pricing, exceptions handling, policies, practices, and standards
+     related to RTP payments, as well as end-of-day reconciliation
+     reports detailing settlement activities
+  C. The settlement account balance of each funding participant as of
+     the close of each business day, along with any overdraft exposure
+     incurred during processing
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Required Disclosures — RTP" section, lines 10155–10164.
+
+-------------------------------------------------------------------------
+
+Q3 — Factual / SQ
+-----------------------------------------------------------------------
+Sub-competency: Warranties and indemnities — Nacha Operating Rules RDFI
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: The specific scope of the RDFI's indemnification obligation
+— arising from breaches of the general rule compliance warranty under
+Section 1.2 of the Nacha Operating Rules — requires detailed knowledge
+of the indemnity provisions beyond 2-year working knowledge.
+
+Stem:
+  Under the Nacha Operating Rules, for what must a Receiving Depository
+  Financial Institution indemnify an Originating Depository Financial
+  Institution and the ACH Operator?
+
+Responses:
+  A. Losses resulting from fraudulent debit entries that the Receiving
+     Depository Financial Institution posted to consumer accounts
+     without first confirming authorization with the Originating
+     Depository Financial Institution
+  B. Costs and expenses arising from the Receiving Depository Financial
+     Institution's failure to make available funds received within the
+     applicable next-day availability timeframe
+  C. Claims, losses, liabilities, and expenses resulting from any
+     breach of warranty by the Receiving Depository Financial
+     Institution under the general rule compliance provision of the
+     Nacha Operating Rules
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Warranties and Indemnities — Same Day ACH" section, lines 10213–10214.
+
+=========================================================================
+PROCEDURAL QUESTIONS
+=========================================================================
+
+Q4 — Procedural / JSQ
+-----------------------------------------------------------------------
+Sub-competency: Required disclosures — Mastercard Send
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that Mastercard Send requires participating financial
+institutions to disclose all fees and appropriate information to
+customers in accordance with applicable laws is a standard disclosure
+obligation a 2-year practitioner should know.
+
+Stem:
+  According to the AFPP Handbook, what fee disclosure obligation do
+  financial institutions have toward customers using the Mastercard
+  Send service?
+
+Responses:
+  A. Financial institutions must disclose all fees and appropriate
+     information to customers using the Mastercard Send service in
+     accordance with applicable laws and regulations
+  B. Financial institutions must submit fee schedules to Mastercard for
+     pre-approval before disclosing them to customers, with updates
+     required within 30 days of any fee change
+  C. Financial institutions must provide customers with a standardized
+     comparison of Mastercard Send fees relative to other available
+     faster payment services at the time of account opening
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Required Disclosures — Mastercard Send" section, lines 10186–10191.
+
+-------------------------------------------------------------------------
+
+Q5 — Procedural / JSQ
+-----------------------------------------------------------------------
+Sub-competency: Required agreements — FedNow (OC8 timing)
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that a FedNow participant must execute the Security
+Procedure Agreement before issuing or receiving any payment order from
+a Reserve Bank is a standard onboarding requirement a 2-year FedNow
+practitioner should be able to apply.
+
+Stem:
+  According to Operating Circular 8, when must a FedNow participant
+  execute the FedNow Service Security Procedure Agreement?
+
+Responses:
+  A. Within 30 days of completing the FedNow customer testing
+     environment certification, prior to the participant's first live
+     transaction
+  B. Before issuing a payment order to or receiving a payment order
+     from a Reserve Bank through the FedNow Service
+  C. At the time of annual recertification, which the Federal Reserve
+     Banks require of all FedNow participants to maintain active
+     participation status
+
+Answer: B
+
+Source: Operating Circular 8 (April 1, 2026). Federal Reserve Banks.
+FedNow Service. Section 8.2, page 11.
+
+-------------------------------------------------------------------------
+
+Q6 — Procedural / SQ
+-----------------------------------------------------------------------
+Sub-competency: Role of agreements — RTP TFSP third-party beneficiary
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The requirement that a Participant's agreement with its
+Third-Party Service Provider designate TCH and other Participants as
+intended third-party beneficiaries — preventing the TFSP agreement from
+modifying the Participant Agreement — is a specific RTP Participation
+Rules provision that requires 5+ years of expertise to identify and
+apply correctly.
+
+Stem:
+  According to the RTP Participation Rules, which provision must be
+  included in an agreement between an RTP participant and its Third-
+  Party Service Provider?
+
+Responses:
+  A. A requirement that the Third-Party Service Provider establish a
+     separate prefunded balance account at The Clearing House
+     sufficient to cover the participant's aggregate daily transaction
+     volume
+  B. A requirement that the Third-Party Service Provider obtain The
+     Clearing House's prior written approval before initiating payment
+     messages on behalf of the participant
+  C. A provision designating The Clearing House and other Participants
+     as intended third-party beneficiaries of the agreement between
+     the Participant and the Third-Party Service Provider
+
+Answer: C
+
+Source: RTP Participation Rules (July 21, 2025). The Clearing House.
+Section IV.B.1, page 5.
+
+=========================================================================
+CONDITIONAL QUESTIONS
+=========================================================================
+
+Q7 — Conditional / JSQ
+-----------------------------------------------------------------------
+Sub-competency: Warranties and indemnities — Same Day ACH ODFI
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The clear, single-rule condition — that an ODFI must
+indemnify the RDFI when it breaches a Nacha Operating Rules warranty
+or when its debit entry causes a return due to insufficient funds —
+is a foundational ACH indemnity principle a 2-year practitioner should
+be able to apply.
+
+Stem:
+  Under the Nacha Operating Rules, when must an Originating Depository
+  Financial Institution indemnify a Receiving Depository Financial
+  Institution?
+
+Responses:
+  A. When the Originating Depository Financial Institution breaches a
+     warranty made under the Nacha Operating Rules or debits an entry
+     that results in the return of items from the receiving account
+     due to insufficient funds
+  B. When the Originating Depository Financial Institution fails to
+     process a reversing entry within the required timeframe and the
+     Receiving Depository Financial Institution incurs costs in
+     notifying the originator that the correction was not applied
+  C. When the Originating Depository Financial Institution's
+     origination agreement with the originator is found to be
+     incomplete or unenforceable and the Receiving Depository
+     Financial Institution incurs losses in posting the original entry
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Warranties and Indemnities — Same Day ACH" section, lines 10211–10212.
+
+-------------------------------------------------------------------------
+
+Q8 — Conditional / SQ
+-----------------------------------------------------------------------
+Sub-competency: Warranties and indemnities — OC8 Service Provider
+               indemnification trigger
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The specific indemnification trigger in OC8 Section 15.15
+— covering acts or omissions of the Participant or Service Provider
+except when the loss arises solely from the Reserve Bank's failure to
+exercise ordinary care — requires synthesis of OC8's multi-condition
+indemnity framework characteristic of a 5-year practitioner.
+
+Stem:
+  Under Operating Circular 8, under what condition must a FedNow
+  participant indemnify and hold the Federal Reserve Bank harmless in
+  connection with the participant's use of a Service Provider?
+
+Responses:
+  A. When the Service Provider fails to meet the minimum security
+     standards outlined in the FedNow Service Operating Procedures
+     and the participant had prior written notice of the deficiency
+     before continuing to use the Service Provider
+  B. When the acts or omissions of the participant or the Service
+     Provider result in a claim, loss, cost, or expense to the Reserve
+     Bank, except when the loss arises solely from the Reserve Bank's
+     failure to exercise ordinary care or to act in good faith
+  C. When the participant exceeds its designated monthly transaction
+     volume through the Service Provider and the resulting processing
+     delays cause settlement failures during a Federal Reserve
+     settlement window
+
+Answer: B
+
+Source: Operating Circular 8 (April 1, 2026). Federal Reserve Banks.
+FedNow Service. Section 15.15, page 22.
+
+-------------------------------------------------------------------------
+
+Q9 — Conditional / SQ
+-----------------------------------------------------------------------
+Sub-competency: Warranties and indemnities — FedNow third-party product
+               disclaimer
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The specific condition under which the Federal Reserve Banks
+disclaim all liability for third-party products — when those products
+are NOT supplied, owned, or operated by the Reserve Banks — and the
+breadth of the disclaimer (covering all express and implied warranties)
+requires synthesis of FedNow's multi-layered liability framework
+characteristic of a 5-year practitioner.
+
+Stem:
+  Under what condition do the Federal Reserve Banks disclaim liability
+  for a FedNow participant's loss or damage in connection with a third-
+  party product or service?
+
+Responses:
+  A. When the loss or damage results from the participant's failure to
+     notify the Reserve Banks within 5 business days that the third-
+     party product or service did not conform to the participant's
+     specifications
+  B. When the participant used the third-party product or service for
+     purposes outside the scope of its FedNow participation, including
+     internal payment processing or non-FedNow transaction activity
+  C. When the third-party product or service was NOT supplied, owned,
+     or operated by the Reserve Banks, regardless of any warranty
+     concerning accuracy, completeness, merchantability, or fitness
+     for a particular purpose
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Warranties and Indemnities — FedNow" section, lines 10245–10249.
+
+=========================================================================
+ANSWER KEY
+=========================================================================
+
+Q1 (Factual/JSQ):    A
+Q2 (Factual/JSQ):    B
+Q3 (Factual/SQ):     C
+Q4 (Procedural/JSQ): A
+Q5 (Procedural/JSQ): B
+Q6 (Procedural/SQ):  C
+Q7 (Conditional/JSQ):A
+Q8 (Conditional/SQ): B
+Q9 (Conditional/SQ): C
+
+Correct answer distribution: A (3), B (3), C (3) ✓
+
+=========================================================================
+STYLE COMPLIANCE PRE-CHECK
+=========================================================================
+
+[ ] Complete question format — no fill-in-the-blank or true/false
+[ ] Active voice, 3rd person throughout
+[ ] "Financial institution" — no "bank" or "credit union"
+[ ] "NOT" in all caps where used (Q9 response C)
+[ ] No trademark symbols
+[ ] No bold or underline in responses
+[ ] Responses equal in length and grammatical structure
+[ ] Correct answer position varied: A(3), B(3), C(3)
+[ ] Only one defensible correct answer per question
+[ ] No trivial, absurd, or overlapping distractors
+[ ] Every question includes Skill Rating block, Cognitive Level, Rationale
+[ ] Every question has at least one approved source reference
+[ ] OC8 cited with effective date and section (Q5, Q8)
+[ ] RTP Participation Rules cited with effective date and section (Q1, Q6)
+[ ] Nacha Operating Rules written out in full where referenced (Q3, Q7)
+
+=========================================================================

@@ -1,0 +1,356 @@
+Draft Test Questions — KSA 5004
+The Role of Client/Customer Agreements and Disclosures with Respect to
+Faster Payments Products and Services
+=========================================================================
+
+Question distribution: Factual (2 JSQ + 1 SQ) | Procedural (2 JSQ + 1 SQ) | Conditional (1 JSQ + 2 SQ)
+Correct answer distribution: A (3), B (3), C (3)
+
+=========================================================================
+FACTUAL QUESTIONS
+=========================================================================
+
+Q1 — Factual / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: The purpose of an origination agreement in Same Day ACH — binding
+the originator to the Nacha Operating Rules and authorizing the ODFI to
+receive transactions on the originator's behalf — is standard working
+knowledge for a 2-year ACH practitioner.
+
+Which of the following describes a primary purpose of an origination
+agreement between an Originating Depository Financial Institution and an
+originator in the Same Day ACH network?
+
+  A. To bind the originator to the Nacha Operating Rules and authorize the
+     Originating Depository Financial Institution to receive transactions on
+     the originator's behalf
+  B. To establish the terms under which the ACH Operator will settle
+     transactions between the Originating and Receiving Depository Financial
+     Institutions
+  C. To designate a third-party service provider to perform compliance
+     functions on behalf of the originator
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Required Agreements — Same Day ACH" section, lines 10067–10084. Also:
+FFIEC IT Examination Handbook: Retail Payment Systems Booklet,
+"Third-Party Sender Requirements" section, lines 2474–2483.
+
+-------------------------------------------------------------------------
+
+Q2 — Factual / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that Visa Direct originators must furnish customers with
+comprehensive Terms and Conditions before service use is a foundational
+disclosure requirement a 2-year payments practitioner should recognize.
+
+Which disclosure obligation do Visa Direct originators have toward
+customers before those customers begin using the Visa Direct service?
+
+  A. Originators must submit a copy of their privacy policy to Visa for
+     compliance verification before providing it to customers
+  B. Originators must furnish customers with comprehensive Terms and
+     Conditions before the customer uses the Visa Direct service
+  C. Originators must disclose daily reconciliation reports and a detailed
+     pricing breakdown to customers at the time of each transaction
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Required Disclosures — Visa Direct" section, lines 10194–10203.
+
+-------------------------------------------------------------------------
+
+Q3 — Factual / SQ
+
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: The specific Mastercard Send liability cap — compensation
+received from the customer OR USD 250,000, whichever is less — requires
+detailed knowledge of network-specific indemnity terms beyond a 2-year
+practitioner's working knowledge.
+
+Under Mastercard Send standards, to what amount is Mastercard's total
+liability for damages to a customer capped?
+
+  A. The lesser of the total transaction value processed by the customer in
+     the prior calendar year or USD 500,000
+  B. The greater of the fees paid by the customer to Mastercard or USD
+     100,000, whichever provides greater protection to the customer
+  C. The compensation received by Mastercard from the customer, or USD
+     250,000, whichever is less, unless prohibited by law
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Warranties and Indemnities — Mastercard Send" section, lines 10258–10260.
+
+=========================================================================
+PROCEDURAL QUESTIONS
+=========================================================================
+
+Q4 — Procedural / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: The Request for Payment warranty breach procedure — submitting a
+camt.056 with the WNTB reason code within 95 calendar days — is an
+operational workflow that FedNow practitioners encounter in warranty
+dispute processing.
+
+When a FedNow participant determines that a Request for Payment warranty
+was breached after the corresponding credit transfer has settled, what
+message must the Receiver FI send to seek a return of funds?
+
+  A. A Return Request (camt.056) message with the WNTB reason code,
+     submitted within 95 calendar days of the credit transfer settlement
+     date
+  B. A Payment Status Report (pacs.002) message with the fraud reason code,
+     submitted within 60 calendar days of the credit transfer settlement
+     date
+  C. A Payment Return (pacs.004) message with the warranty breach reason
+     code, submitted within 30 calendar days of the credit transfer
+     settlement date
+
+Answer: A
+
+Source: Federal Reserve Banks. FedNow Service Operating Procedures
+(June 24, 2025), "Request for Payment Warranty" section, lines 2073–2101.
+Also: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Warranties and Indemnities — FedNow" section, lines 10238–10251.
+
+-------------------------------------------------------------------------
+
+Q5 — Procedural / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that The Clearing House's liability under the RTP
+Participant Agreement is limited to its own gross negligence or intentional
+misconduct is working knowledge for RTP practitioners who advise on
+indemnification risk.
+
+Under the RTP Participant Agreement and Indemnity, for which of its own
+conduct is The Clearing House liable to participants?
+
+  A. Any losses arising from payment rejections caused by insufficient
+     prefunded balances maintained by sending participants
+  B. Its own gross negligence or intentional misconduct directly
+     attributable to The Clearing House
+  C. Fraud losses incurred by receiving participants when a sending
+     participant fails to screen transactions before submission
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Warranties and Indemnities — RTP Network" section, lines 10219–10228.
+
+-------------------------------------------------------------------------
+# Discard this quetion for this ambiguity:
+# The source text reads:                                                                                                                                                                                                                                                                                                                                                  
+#  "RDFIs must indemnify ODFIs and ACH Operators against all claims… resulting directly or indirectly from any breach of warranty under Section 1.2 (general rule compliance) of the  
+#  Nacha operating rules. Gateway providers also assume these same warranties under Nacha rules."                                                                                     
+#                                                                                                                                                                                     
+#  The grammatical antecedent of "these same warranties" is the RDFI warranties just described (lines 10213–10214) — not the ODFI warranties. Answer B says gateway operators assume  
+#  ODFI warranties, but the source text most naturally reads as gateway operators assuming RDFI warranties (indemnifying ODFIs and ACH Operators for Section 1.2 breaches).           
+#                                                                                                                                                                                     
+#  This could mean:                                                                                                                                                                   
+#  1. Answer B is incorrect — it should say RDFI warranties, making Answer A the correct answer; or                                                                                   
+#  2. The Handbook text is ambiguously written and "these same warranties" refers to all warranties described in the section (both ODFI and RDFI)       
+#
+#   Q6 — Procedural / SQ
+#
+#   Skill Rating: SQ
+#   Cognitive Level: Application
+#   Rationale: The rule that gateway operators assume the same warranties as
+#   ODFIs — NOT as RDFIs or ACH Operators — is a specific Nacha Operating
+#   Rules provision requiring deeper network expertise to apply correctly.
+#
+#   Under the Nacha Operating Rules, which warranties does a gateway operator
+#   assume in the Same Day ACH network?
+#
+#   A. The same warranties as the Receiving Depository Financial Institution,
+#      including the obligation to indemnify the Originating Depository
+#      Financial Institution and ACH Operator for unauthorized return entries
+#   B. The same warranties as the Originating Depository Financial
+#      Institution, including the obligation to indemnify the Receiving
+#      Depository Financial Institution and ACH Operator for warranty
+#      breaches
+#   C. The same warranties as the ACH Operator, including responsibility for
+#      settlement finality and the accuracy of transaction routing
+#      information
+#
+#   Answer: B
+#
+#   Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+#   "Warranties and Indemnities — Same Day ACH" section, lines 10215–10216.
+
+=========================================================================
+CONDITIONAL QUESTIONS
+=========================================================================
+
+Q7 — Conditional / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The FedNow participant indemnification trigger — failure to
+fulfill obligations under Operating Circular 8, including providing
+required disclosures and obtaining necessary customer consents — is a
+clear, single-rule condition a 2-year practitioner should be able to apply.
+
+Under what condition must a FedNow participant indemnify the Federal
+Reserve Banks against claims and losses?
+
+  A. The participant fails to fulfill its obligations under Federal Reserve
+     Operating Circular 8, including providing required disclosures and
+     obtaining necessary customer consents for Reserve Bank use of
+     transaction records
+  B. The participant's transaction volume exceeds the threshold established
+     by the Federal Reserve Banks' fraud monitoring program in a given
+     settlement period
+  C. The participant uses a service provider whose security infrastructure
+     does NOT meet the minimum standards outlined in the FedNow Service
+     Operating Procedures
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Required Disclosures — FedNow" section, lines 10167–10176.
+
+-------------------------------------------------------------------------
+
+Q8 — Conditional / SQ
+
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: Visa Direct's conditional liability for push-to-account Original
+Credit Transactions — applying only when loss is directly attributable to
+Visa and excluding downstream entities — requires synthesis of Visa's
+multi-layered liability framework characteristic of a 5-year practitioner.
+
+Under what condition does Visa assume liability for the loss or
+misdirection of funds in a Visa Direct push-to-account Original Credit
+Transaction?
+
+  A. When a downstream entity such as a partner financial institution or
+     processing scheme causes the loss through actions taken outside the
+     Visa Core Rules
+  B. When the loss or misdirection of funds is directly attributable to
+     Visa and falls within the limitations set out in the Visa Core Rules
+     and Visa Product and Service Rules
+  C. When the originator fails to provide the sender with required fee
+     disclosures and the sender initiates a dispute within the timeframe
+     permitted by applicable law
+
+Answer: B
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Warranties and Indemnities — Visa Direct" section, lines 10264–10270.
+
+-------------------------------------------------------------------------
+
+Q9 — Conditional / SQ
+
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The categorical prohibition on recovering special or
+consequential damages from the Federal Reserve Banks — regardless of
+foreseeability or prior notification — must be distinguished from the
+general direct-damage liability standard, requiring deep knowledge of
+FedNow's liability framework.
+
+Under what condition may a FedNow participant recover special or
+consequential damages from the Federal Reserve Banks arising from FedNow
+Service activity?
+
+  A. When the participant demonstrates that the Reserve Banks had prior
+     knowledge of the potential for such damages and failed to exercise
+     ordinary care in processing the relevant payment message
+  B. When the loss results from the Reserve Banks' willful misconduct and
+     the participant notified the Reserve Banks of the potential for
+     consequential harm before the transaction was submitted
+  C. Special or consequential damages may NOT be recovered from the Federal
+     Reserve Banks under any condition, regardless of foreseeability or
+     prior notification
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Warranties and Indemnities — FedNow" section, lines 10241–10242.
+
+=========================================================================
+ANSWER KEY
+=========================================================================
+
+Q1 (Factual/JSQ):    A
+Q2 (Factual/JSQ):    B
+Q3 (Factual/SQ):     C
+Q4 (Procedural/JSQ): A
+Q5 (Procedural/JSQ): B
+Q6 (Procedural/SQ):  B
+Q7 (Conditional/JSQ):A
+Q8 (Conditional/SQ): B
+Q9 (Conditional/SQ): C
+
+Correct answer distribution: A (3), B (4), C (2)
+
+NOTE: Q6 answer is B, which shifts the distribution to A(3), B(4), C(2).
+The plan target was A(3), B(3), C(3). This arises because Q6's correct
+answer (ODFI warranties, not RDFI or ACH Operator) is logically B given
+the response order. To rebalance to A(3)/B(3)/C(3), the responses in Q6
+can be reordered so the ODFI answer appears in position C. See revised
+Q6 below.
+
+=========================================================================
+REVISED Q6 (corrected for A/B/C balance)
+=========================================================================
+
+Q6 — Procedural / SQ
+
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The rule that gateway operators assume the same warranties as
+ODFIs — NOT as RDFIs or ACH Operators — is a specific Nacha Operating
+Rules provision requiring deeper network expertise to apply correctly.
+
+Under the Nacha Operating Rules, which warranties does a gateway operator
+assume in the Same Day ACH network?
+
+  A. The same warranties as the Receiving Depository Financial Institution,
+     including the obligation to indemnify the Originating Depository
+     Financial Institution and ACH Operator for unauthorized return entries
+  B. The same warranties as the ACH Operator, including responsibility for
+     settlement finality and the accuracy of transaction routing
+     information
+  C. The same warranties as the Originating Depository Financial
+     Institution, including the obligation to indemnify the Receiving
+     Depository Financial Institution and ACH Operator for warranty
+     breaches
+
+Answer: C
+
+Source: AFPP Handbook (2026). Nacha. Chapter 5 – Governance Framework,
+"Warranties and Indemnities — Same Day ACH" section, lines 10215–10216.
+
+=========================================================================
+FINAL ANSWER KEY (with revised Q6)
+=========================================================================
+
+Q1 (Factual/JSQ):    A
+Q2 (Factual/JSQ):    B
+Q3 (Factual/SQ):     C
+Q4 (Procedural/JSQ): A
+Q5 (Procedural/JSQ): B
+Q6 (Procedural/SQ):  C  ← revised
+Q7 (Conditional/JSQ):A
+Q8 (Conditional/SQ): B
+Q9 (Conditional/SQ): C
+
+Correct answer distribution: A (3), B (3), C (3)
+
+=========================================================================
