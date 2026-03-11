@@ -1,0 +1,566 @@
+Plan: Draft 9 Test Questions for KSA 1004 (v2)
+================================================
+
+KSA: 1004 — Knowledge of the Types and Functions of Participation
+Parent KSA: 1000 — Fundamentals of Faster Payments
+
+Sub-competencies to test:
+  – Describe the different types of participation by rail
+  – Distinguish the message types required to be supported depending on the
+    manner in which the financial institution participates in the network
+
+Source documents:
+  Primary:   /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+  Secondary: /home/fewill/code/afpp-write/062425-fednow-service-operating-procedures.txt
+  Secondary: /home/fewill/code/afpp-write/RTP_Participation_Rules_Effective_07-21-2025.pdf
+  Secondary: /home/fewill/code/afpp-write/visa-rules-public.pdf
+  (FFIEC booklet, OC8, FPC Glossary, OFAC brochure: minimal or no coverage of this KSA)
+
+Output files (per prompt):
+  Plan:  questions_1004_plan_v2.txt   ← this file
+  Draft: questions_1004_draft_v2.txt
+
+Question distribution:
+  Factual:     2 JSQ  +  1 SQ  =  3 questions
+  Procedural:  2 JSQ  +  1 SQ  =  3 questions
+  Conditional: 1 JSQ  +  2 SQ  =  3 questions
+                                   -----------
+  Total:                           9 questions
+
+Correct answer distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SOURCE MATERIAL SUMMARY
+---------------------------------------------------------------------------
+
+SECTION A: FedNow Participation Types
+  Source: AFPP Handbook, lines 3018–3058, 3542–3560
+
+  Participation types (customer credit transfers and RfPs):
+  - Receive credit transfers (receive only): cannot initiate payments; can
+    return payments (pacs.004). CAN send RfPs (pain.013) but NOT eligible
+    to receive RfPs because they cannot initiate customer credit transfers
+    as a response. (lines 3031–3034)
+  - Send and receive credit transfers: can send and receive payments
+    (pacs.008) and return messages (pacs.004); can send RfPs; may choose
+    to receive RfPs. (lines 3038–3039, 3553–3555)
+  - Receive Requests-for-Payment (RfPs): can receive RfPs (pain.013) and
+    can send and receive payments (pacs.008). (lines 3043–3045, 3559–3560)
+  - LMT Send and Receive: can send and receive FI credit transfers (pacs.009)
+  - LMT Receive Only: can receive FI credit transfers (pacs.009)
+  - Settlement Only: CANNOT send nor receive FI credit transfers (pacs.009)
+    OR customer payment messages (pacs.008); can exchange non-value system
+    messages (camt.060, camt.052, admi.002, etc.) (lines 3233–3236)
+
+  Respondent vs. Correspondent:
+  - Respondent FIs: access FedNow via correspondent that maintains a Master
+    Account; correspondent settles on respondent's behalf. (lines 2094–2096)
+  - Correspondent FIs: maintain Federal Reserve Master Account on behalf of
+    respondent FIs; responsible for settlement and compliance. (lines 2100–2104)
+
+SECTION B: RTP Participation Types
+  Source: AFPP Handbook, lines 3059–3073
+  Source: RTP Participation Rules (July 21, 2025), Section II, page 3
+
+  Four defined categories:
+  1. Funding Participant: party to RTP Prefunded Balance Account Agreement;
+     requests/receives disbursements; prefunds for itself if a Sending
+     Participant.
+  2. Non-funding Participant: NOT a Funding Participant; has a Funding Agent
+     designated to act on its behalf with respect to funding obligations.
+  3. Receiving Participant: holds the Receiver's Account; receives a
+     Payment Message.
+  4. Sending Participant: holds the Sender's Account; initiates a Payment
+     Message.
+
+  Mandatory combination rule (line 3071–3072; RTP Rules p.3 Sec. II.B):
+  Every participant MUST be (i) either a Funding or Non-funding Participant
+  AND (ii) a Receiving Participant. A participant also MAY be a Sending
+  Participant. This means every participant receives payments; sending is
+  optional.
+
+  Only depository institutions are eligible for RTP participation.
+  (RTP Participation Rules, Section I.A, page 3)
+
+  Third-Party Service Providers (RTP Participation Rules, Section III, pp. 4–5):
+  - Participant may designate a TPSP to send/receive transmissions on its behalf.
+  - TPSP must comply with all relevant provisions of RTP Participation Rules
+    and RTP Operating Rules as if the TPSP were a Participant.
+  - Participants are FULLY responsible and liable to TCH and other Participants
+    for all acts or omissions of their TPSPs with respect to the RTP System.
+    (Section III.D.1, page 4)
+
+SECTION C: Same Day ACH Participation Types
+  Source: AFPP Handbook, lines 3074–3081
+
+  - ODFI: receives payment instructions from originators; forwards entries
+    to the ACH Operator.
+  - RDFI: receives ACH entries from the ACH Operator; posts to receiver's
+    account.
+  - An FI may participate as RDFI without being an ODFI; HOWEVER, if an FI
+    chooses to originate ACH entries, it MUST also agree to act as an RDFI.
+    (line 3080–3081)
+
+SECTION D: Mastercard Send Participation Types
+  Source: AFPP Handbook, lines 3082–3138
+
+  - Three programs: (1) MoneySend Payment & Funding Transactions,
+    (2) Other Network Transactions, (3) Gaming and Gambling Payments.
+  - Originating Institution (OI): financial institution providing funds
+    transfer services; must register for the relevant program(s).
+  - Transaction Initiator (TI): partner entity that can be sponsored by an OI.
+  - Receiving Institutions (issuers): do NOT need to register for the
+    MoneySend Payment Transactions Program, but they MUST notify Mastercard
+    when ready to accept those transactions and must adhere to program
+    standards. (lines 3136–3138)
+
+SECTION E: Visa Direct Participation Types
+  Source: AFPP Handbook, lines 3139–3144
+  Source: Visa Core Rules and Visa Product and Service Rules, Section 8.4,
+          pages 591–594
+
+  - Originators must be a licensed Visa acquirer OR be sponsored by a
+    licensed Visa acquirer.
+  - Third-party service providers who offer push payment services to end
+    users can be sponsored by a Visa licensed acquirer to offer push payment
+    capabilities to Visa card accounts.
+
+  Visa Direct participant roles (Visa rules, Section 8.4):
+  - Originating Acquirer: initiates OCTs; must validate sender data and
+    comply with applicable AML laws and anti-terrorist financing standards
+    before originating an OCT. (Section 8.4.1.2, p.592)
+  - Recipient Issuer: receives the OCT; must post the OCT to the Payment
+    Credential within 2 business days of receipt, OR dispute the OCT to the
+    Originating Acquirer. (Section 8.4.2.2, p.594)
+  - Fast Funds: if the Recipient Issuer participates in Fast Funds, it must
+    make funds available to the cardholder within 30 minutes of approving
+    the OCT. (Section 8.4.2.2, p.594)
+
+SECTION F: Message Types by Participant Type — FedNow
+  Source: AFPP Handbook, Table 22, lines 3564–3679
+
+  Credit Transfer Receive Only:
+    pacs.008 — SEND: Prohibited / RECEIVE: Mandatory
+    pacs.002 — SEND: Mandatory  / RECEIVE: Mandatory
+    camt.056 — SEND: Optional   / RECEIVE: Mandatory
+    pacs.004 — SEND: Optional   / RECEIVE: Optional
+    pain.013 — SEND: Optional   / RECEIVE: Prohibited
+    pain.014 — SEND: N/A        / RECEIVE: Conditional
+
+  Credit Transfer Send/Receive:
+    pacs.008 — SEND: Mandatory  / RECEIVE: Mandatory
+    pacs.002 — SEND: Mandatory  / RECEIVE: Mandatory
+    camt.056 — SEND: Mandatory  / RECEIVE: Mandatory
+    pacs.004 — SEND: Mandatory  / RECEIVE: Mandatory
+    pain.013 — SEND: Optional   / RECEIVE: Prohibited
+    pain.014 — SEND: N/A        / RECEIVE: Conditional
+
+  Send/Receive with Receive RfP:
+    pacs.008 — SEND: Mandatory  / RECEIVE: Mandatory
+    pacs.002 — SEND: Mandatory  / RECEIVE: Mandatory
+    camt.056 — SEND: Optional   / RECEIVE: Mandatory
+    pacs.004 — SEND: Mandatory  / RECEIVE: Mandatory
+    pain.013 — SEND: Optional   / RECEIVE: Mandatory
+    pain.014 — SEND: Mandatory  / RECEIVE: Conditional
+
+  KEY DISTINCTION (lines 3542–3549):
+  Receive-only participant: NOT able to send pacs.008; CAN send pain.013
+  (RfP), which allows it to receive funds from the sending institution.
+
+SECTION G: Message Types by Participant Type — RTP
+  Source: AFPP Handbook, Table 23, lines 3689–3728
+
+  Receiving-Only Participant:
+    pacs.008 — SEND: Prohibited / RECEIVE: Mandatory
+    pacs.002 — SEND: Mandatory  / RECEIVE: Mandatory
+
+  Sending and Receiving Participant:
+    pacs.008 — SEND: Mandatory  / RECEIVE: Mandatory
+    pacs.002 — SEND: Mandatory  / RECEIVE: Mandatory
+
+  Additional system messages (line 3727–3729):
+    admn.001: sign-on message
+    admn.003: sign-off message
+    admn.006: echo response message
+
+SECTION H: FedNow Planned Downtime Sign-Off Requirement
+  Source: FedNow Service Operating Procedures, lines 426–428
+
+  "For planned downtime, Participants that are enabled to receive instant
+  payments (Customer Credit Transfer Send and Receive or Receive Only
+  participation types) are required to sign off via a Participant broadcast
+  message (admi.004) or through the FedNow interface, if the downtime
+  affects its ability to respond to pacs.008 and pacs.004 messages within
+  the reserved response time or affect its ability to immediately make the
+  funds available."
+
+
+---------------------------------------------------------------------------
+THE 9 QUESTIONS
+---------------------------------------------------------------------------
+
+----- FACTUAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q1 — Factual / JSQ
+Sub-competency: Describe the different types of participation by rail
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that a FedNow receive-only participant can send RfPs
+despite being unable to initiate credit transfers is foundational knowledge
+for a 2-year FedNow practitioner.
+
+Stem:
+  Which action can a FedNow receive-only participant perform even though it
+  cannot initiate customer credit transfers?
+
+Responses:
+  A. Send a Request for Payment to a financial institution that can initiate
+     a credit transfer in response
+  B. Receive a Request for Payment from a financial institution that needs
+     the receive-only participant to fund a payment
+  C. Initiate a Liquidity Management Transfer to prefund its settlement
+     account at the Federal Reserve
+
+Answer: A
+
+Source:
+  AFPP Handbook (2026). Nacha. Chapter 1 – Fundamentals of Faster Payments,
+  "FedNow participant types" section, lines 3031–3034.
+
+---
+
+Q2 — Factual / JSQ
+Sub-competency: Describe the different types of participation by rail
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that a Visa Direct Recipient Issuer must post an OCT to
+the Payment Credential within 2 business days of receipt — or dispute it to
+the Originating Acquirer — is a foundational operational requirement a
+2-year Visa Direct practitioner should recognize.
+
+Stem:
+  Which action must a Visa Direct Recipient Issuer take within 2 business
+  days of receiving an Original Credit Transaction?
+
+Responses:
+  A. Submit a Request for Information to the Originating Acquirer to verify
+     the sender's identity and confirm the transaction was properly
+     authorized before posting the funds
+  B. Post the Original Credit Transaction to the Payment Credential or
+     initiate a dispute to the Originating Acquirer
+  C. Make funds immediately available to the cardholder if the Recipient
+     Issuer participates in the Visa Direct Fast Funds program
+
+Answer: B
+
+Source:
+  Visa Core Rules and Visa Product and Service Rules. Section 8.4.2.2 –
+  OCT Recipient Issuer Requirements, page 594.
+
+---
+
+Q3 — Factual / SQ
+Sub-competency: Describe the different types of participation by rail
+Skill Rating: SQ
+Cognitive Level: Recall
+Rationale: Knowing that a FedNow Settlement-Only participant is prohibited
+from sending or receiving both pacs.009 (FI credit transfers) and pacs.008
+(customer credit transfers) — while still being able to exchange system
+messages — requires deep knowledge of FedNow's participation type matrix
+beyond 2-year working knowledge.
+
+Stem:
+  Which message types are prohibited for a FedNow Settlement-Only
+  participant?
+
+Responses:
+  A. pacs.009 (Financial Institution Credit Transfer) and pacs.002 (Payment
+     Status Report)
+  B. admi.002 (Message Reject) and camt.060 (Account Reporting Request)
+  C. pacs.009 (Financial Institution Credit Transfer) and pacs.008 (Customer
+     Credit Transfer)
+
+Answer: C
+
+Source:
+  AFPP Handbook (2026). Nacha. Chapter 1 – Fundamentals of Faster Payments,
+  "Liquidity management" section, lines 3233–3236.
+
+----- PROCEDURAL QUESTIONS (2 JSQ + 1 SQ) -----
+
+Q4 — Procedural / JSQ
+Sub-competency: Message types required by participation type
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that a FedNow Credit Transfer Receive-Only participant
+is prohibited from sending pacs.008 is a standard practitioner-level message
+type rule encountered during onboarding and compliance reviews.
+
+Stem:
+  Which message type is a FedNow Credit Transfer Receive-Only participant
+  prohibited from sending?
+
+Responses:
+  A. pacs.008 (Customer Credit Transfer), which the participant can only
+     receive, not originate
+  B. pacs.002 (Payment Status Report), which can only be sent by
+     Send-and-Receive participants
+  C. pacs.004 (Payment Return), which receive-only participants are not
+     permitted to initiate under any condition
+
+Answer: A
+
+Source:
+  AFPP Handbook (2026). Nacha. Chapter 1 – Fundamentals of Faster Payments,
+  Table 22 – Message Types by Participant – FedNow, lines 3564–3617.
+
+---
+
+Q5 — Procedural / JSQ
+Sub-competency: Message types required by participation type
+Skill Rating: JSQ
+Cognitive Level: Application
+Rationale: Knowing that RTP Receiving-Only participants must both send AND
+receive pacs.002 (while being prohibited from sending pacs.008) is a
+working-level message type rule for RTP operations practitioners.
+
+Stem:
+  Which message type must an RTP Receiving-Only participant both send and
+  receive?
+
+Responses:
+  A. pacs.008 (Customer Credit Transfer), which all RTP participants must
+     be able to send and receive to maintain network reachability
+  B. pacs.002 (Payment Status Report), which Receiving-Only participants
+     must send to acknowledge receipt and receive to confirm payment status
+  C. pain.013 (Request for Payment), which is required for all participant
+     types that do not initiate credit transfers
+
+Answer: B
+
+Source:
+  AFPP Handbook (2026). Nacha. Chapter 1 – Fundamentals of Faster Payments,
+  Table 23 – Example of Message Types by Participant – RTP, lines 3689–3725.
+
+---
+
+Q6 — Procedural / SQ
+Sub-competency: Message types required by participation type
+Skill Rating: SQ
+Cognitive Level: Application
+Rationale: The specific rule that a FedNow Credit Transfer Receive-Only
+participant may SEND pain.013 (RfP) but is PROHIBITED from RECEIVING
+pain.013 — because receiving an RfP requires the ability to respond with a
+credit transfer — requires deep knowledge of the FedNow message permission
+matrix beyond a 2-year practitioner's working knowledge.
+
+Stem:
+  Which describes a FedNow Credit Transfer Receive-Only participant's
+  permissions for the pain.013 (Request for Payment) message?
+
+Responses:
+  A. The participant is prohibited from both sending and receiving pain.013
+     because it cannot initiate or respond to credit transfer requests
+  B. The participant must receive pain.013 messages as a mandatory
+     requirement but is prohibited from sending them
+  C. The participant may optionally send pain.013 messages but is prohibited
+     from receiving them
+
+Answer: C
+
+Source:
+  AFPP Handbook (2026). Nacha. Chapter 1 – Fundamentals of Faster Payments,
+  Table 22 – Message Types by Participant – FedNow, lines 3649–3658.
+  Also: lines 3542–3549.
+
+----- CONDITIONAL QUESTIONS (1 JSQ + 2 SQ) -----
+
+Q7 — Conditional / JSQ
+Sub-competency: Describe the different types of participation by rail
+Skill Rating: JSQ
+Cognitive Level: Analysis
+Rationale: The rule that a financial institution choosing to originate ACH
+entries must also agree to act as an RDFI is a clear, single-rule condition
+under the Nacha Operating Rules that a 2-year ACH practitioner should know.
+
+Stem:
+  Under what condition must a financial institution that originates ACH
+  entries also agree to act as a Receiving Depository Financial Institution
+  in the Same Day ACH network?
+
+Responses:
+  A. Whenever the financial institution chooses to originate ACH entries,
+     regardless of entry type or origination volume
+  B. When the financial institution's total origination volume exceeds the
+     threshold established by the ACH Operator for the current processing
+     window
+  C. When the financial institution uses a third-party service provider to
+     forward ACH entries to the ACH Operator on its behalf
+
+Answer: A
+
+Source:
+  AFPP Handbook (2026). Nacha. Chapter 1 – Fundamentals of Faster Payments,
+  "Same Day ACH participant types" section, lines 3080–3081.
+
+---
+
+Q8 — Conditional / SQ
+Sub-competency: Describe the different types of participation by rail
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The rule that an RTP Participant is fully responsible to TCH and
+other Participants for all acts and omissions of its Third-Party Service
+Provider — not just for out-of-scope actions — requires knowledge of the
+specific TCH RTP Participation Rules liability framework characteristic of
+a 5-year practitioner.
+
+Stem:
+  Under what condition is an RTP Participant liable to The Clearing House
+  and other Participants for actions taken by its Third-Party Service
+  Provider in connection with the RTP System?
+
+Responses:
+  A. Only when the Third-Party Service Provider takes actions outside the
+     scope of the services described in the Participant's agreement with
+     The Clearing House
+  B. At all times, for any act or omission of the Third-Party Service
+     Provider with respect to the RTP System and the Participant's
+     obligations under the RTP Participation Rules and RTP Operating Rules
+  C. Only when The Clearing House has formally determined that the
+     Third-Party Service Provider is no longer eligible to provide
+     services to RTP Participants
+
+Answer: B
+
+Source:
+  RTP Participation Rules (The Clearing House, July 21, 2025), Section III
+  – Third-Party Service Providers, Part D.1 – Participant Liability for
+  Third-Party Service Providers, page 4.
+
+---
+
+Q9 — Conditional / SQ
+Sub-competency: Message types required by participation type
+Skill Rating: SQ
+Cognitive Level: Analysis
+Rationale: The specific FedNow obligation that triggers a Receive-Only
+participant's sign-off requirement — planned downtime that affects its
+ability to respond to pacs.008 and pacs.004 within the reserved response
+time — requires synthesis of participation type obligations and message
+type requirements in the FedNow Operating Procedures.
+
+Stem:
+  Under what condition must a FedNow Credit Transfer Receive-Only
+  participant sign off from the FedNow Service using a participant broadcast
+  message (admi.004)?
+
+Responses:
+  A. When the participant transitions from a Receive-Only participation type
+     to a Send and Receive participation type and requires a new connection
+     profile
+  B. When the participant's Federal Reserve Master Account balance falls
+     below the minimum threshold established by the Federal Reserve Bank
+     for intraday overdraft capacity
+  C. When planned downtime affects the participant's ability to respond to
+     pacs.008 and pacs.004 messages within the reserved response time or to
+     immediately make funds available to customers
+
+Answer: C
+
+Source:
+  Federal Reserve Banks. FedNow Service Operating Procedures (June 24,
+  2025), "Planned Downtime" section, lines 426–428.
+
+
+---------------------------------------------------------------------------
+CORRECT ANSWER POSITIONS
+---------------------------------------------------------------------------
+
+Q1: A  |  Q2: B  |  Q3: C
+Q4: A  |  Q5: B  |  Q6: C
+Q7: A  |  Q8: B  |  Q9: C
+
+Distribution: A (3), B (3), C (3)
+
+
+---------------------------------------------------------------------------
+SKILL RATING AND COVERAGE MAP
+---------------------------------------------------------------------------
+
+           JSQ             SQ
+Factual:   Q1, Q2          Q3
+Procedural: Q4, Q5         Q6
+Conditional: Q7            Q8, Q9
+
+Sub-competency coverage:
+  Types of participation by rail:
+    Q1 (JSQ/Recall)     — FedNow receive-only: can send RfPs
+    Q2 (JSQ/Recall)     — Visa Direct Recipient Issuer: 2-business-day OCT posting obligation
+    Q3 (SQ/Recall)      — FedNow Settlement-Only: prohibited message types
+    Q7 (JSQ/Analysis)   — Same Day ACH: ODFI must also agree to act as RDFI
+    Q8 (SQ/Analysis)    — RTP: Participant liability for TPSP acts/omissions
+
+  Message types required by participation type:
+    Q4 (JSQ/App)        — FedNow Receive-Only: pacs.008 prohibited to send
+    Q5 (JSQ/App)        — RTP Receiving-Only: pacs.002 mandatory both ways
+    Q6 (SQ/App)         — FedNow Receive-Only: pain.013 send=optional, receive=prohibited
+    Q9 (SQ/Analysis)    — FedNow Receive-Only: admi.004 sign-off trigger
+
+
+---------------------------------------------------------------------------
+STYLE COMPLIANCE CHECKLIST
+---------------------------------------------------------------------------
+
+[ ] Complete question format — no fill-in-the-blank, no true/false
+[ ] Active voice, 3rd person throughout
+[ ] "Financial institution" used — no "bank" or "credit union"
+[ ] "NOT" in all caps where used — Q3 stem ("do NOT need to register"),
+    Q7 and Q8 distractors
+[ ] No trademark symbols — no RTP(R), FedNow(R)
+[ ] No bold or underline in responses
+[ ] Responses equal in length and grammatical structure
+[ ] Correct answer positions varied: A(3), B(3), C(3)
+[ ] Only one defensible correct answer per question
+[ ] No trivial, absurd, or overlapping distractors
+[ ] Every question includes Skill Rating block (JSQ or SQ), Cognitive Level,
+    and Rationale
+[ ] Every question has at least one approved source reference
+
+
+---------------------------------------------------------------------------
+EXECUTION STEPS
+---------------------------------------------------------------------------
+
+1. Write questions to /home/fewill/code/afpp-write/questions_1004_draft_v2.txt
+   with:
+   - Question number and type label
+   - Skill Rating block (Skill Rating / Cognitive Level / Rationale)
+   - Stem
+   - Three response options (A, B, C)
+   - Answer key notation
+   - Formatted source citation
+
+2. Review against the style compliance checklist and apply corrections.
+
+
+---------------------------------------------------------------------------
+APPROVED REFERENCE FORMAT
+---------------------------------------------------------------------------
+
+  AFPP Handbook (2026). Nacha. [Chapter]. [Section/Table label]. lines [range].
+
+  FedNow Operating Procedures:
+    Federal Reserve Banks. FedNow Service Operating Procedures (June 24,
+    2025). [Section description], lines [range].
+
+  RTP Participation Rules:
+    RTP Participation Rules (The Clearing House, July 21, 2025).
+    [Section title], page [#].
+
+  Visa Rules:
+    Visa Core Rules and Visa Product and Service Rules.
+    [Section number and title], page [#].
+
+---------------------------------------------------------------------------

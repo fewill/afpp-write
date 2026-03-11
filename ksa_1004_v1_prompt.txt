@@ -1,0 +1,620 @@
+I want to draft 7 test questions. Here is the information for the first test question.  
+
+The KSA for this question is: 
+
+1004: The types and functions of participation which is a subpart of 1000: Fundamentals of Faster Payments.
+The question will focus on the Types and Function of Particpation in Faster Payment Rails.
+1000: Fundamentals of Faster Payments
+    1004: Knowledge of the types and functions of participation
+        – Describe the different types of participation by rail
+        – Distinguish the message types required to be supported depending on the manner in which the financial institution participates in the network (e.g., receive only must certify for receiving PACS.008)
+
+The test question must have the following characteristics:
+
+It must be in the multiple choice format with a maximum of three choices. Only one choice can be true. The other two choices
+are referred two as distractors. 
+
+The process for drafting the question is as follows:
+
+    Step 1: Select information in the sourc material releated to our KSA. 
+    Step 2: Select a Focus: Factual, Procedural, or Conditional. Search chapters or sections that aling with the KSA. 
+            Search for passages of text that align with the chosen focus. 
+    Step 3: Look for statements that express defensible statements related to the KSA and the chosen focus. 
+            A defensible statement is supported by fact, law, or logical reasoning 
+                defensible: "social media use can negatively affect mental health"
+                indefensible: "social media use is destroying our souls"
+    Step 4: Transform the passages into a question stem and keyed response. 
+    Step 5: Add distractors that answer the question but a incorrect responses. 
+
+
+Questions can be one of three basic types: Factual, Procedural, or Conditional. 
+
+    Factual Example:
+        Which payment rail requires Sending Participants to maintain balances in a Prefunded Balance Account at the Federal Reserve Bank of New York?
+             FedNow
+             RTP
+             Visa Direct
+
+    Procedural Example: 
+        Which is the last step in the flow of faster payments?
+             Clearing
+             Routing
+             Posting
+
+    Conditional Example:
+        When is a sending financial institution liable for refunding a non-consumer sender for a Request for Return of funds sent on their behalf?
+             The transaction is related to fraud.
+             The transaction was sent in error.
+             The requested funds are received.
+
+
+
+We will use the 2026-AFPP-HANDBOOK-FINAL.txt in this directory as the "source document" for the question. 
+
+We want to determine what to focus on for the question: Facts, Procedures, or Conditions.
+
+Facts: 
+Please read 2026-AFPP-HANDBOOK-FINAL.txt and identify the types and functions of particpation.
+
+$ grep -n -i "participation\|participant" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt | head -50
+   ↪ 51 lines...
+
+ ✓ $ sed -n '101,120p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 20 lines...
+
+ ✓ $ grep -n "^FedNow participant types" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 3 lines...
+
+ ✓ $ sed -n '3018,3150p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 134 lines...
+
+
+FedNow Participant Types:
+
+   Customer Credit Transfers & RfPs:
+
+     - Receive-only - Can receive payments and send RfPs, but cannot initiate payments (except returns)
+     - Send and receive credit transfers - Can send/receive payments, returns, and send RfPs
+     - Receive RfPs - Can receive Request-for-Payments (only if enabled to send payments)
+
+   Liquidity Management:
+
+     - Send and receive FI Liquidity Management Transfers
+     - Receive-only FI Liquidity Management Transfers
+
+   Settlement Only - Provides settlement services as agents for other FIs
+
+   RTP Participant Types:
+
+     - Funding Participant - Party to Prefunded Balance Account, manages own prefunding
+     - Non-funding Participant - Uses Funding Manager or Funding Provider for funding obligations
+     - Receiving Participant - Holds receiver's account and receives payment messages
+     - Sending Participant - Holds sender's account and initiates RTP payments
+
+   (Participants must be either Funding or Non-funding AND a Receiving Participant;
+   may also be Sending)
+
+   Same Day ACH:
+
+     - ODFI (Originating Depository FI) - Receives instructions from originators, forwards to ACH Operator
+     - RDFI (Receiving Depository FI) - Receives ACH entries, posts to receiver's account
+
+   Mastercard Send:
+
+     - Originating Institution (OI) - Provides funds transfer services to customers/senders
+     - Transaction Initiator (TI) - Partner facilitated by OI for funds transfers
+     - Receiving Institution - Mastercard issuers accepting payment transactions
+
+   Visa Direct:
+
+     - Originators (must be licensed Visa acquirer or sponsored by one)
+     - Third-party service providers (sponsored by Visa acquirer)
+
+Procedures
+Please read the document AFPP Handbook looking for prodecures associate with Participation.
+
+✓ Search for participation procedures
+   $ grep -n -i "procedure\|process\|requirement\|eligib" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt | grep -i "particip" | head -40
+   ↪ 41 lines...
+
+ ✓ View participant eligibility requirements section
+   $ sed -n '2433,2650p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 219 lines...
+
+ ✓ View participant requirements and procedures section
+   $ sed -n '3914,4100p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 188 lines...
+
+   Search for onboarding and setup procedures
+   $ grep -n "onboarding\|certification\|testing\|sign-on\|enrollment" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt | grep -i "particip\|process\|procedure\|requirement" 
+   | head -30
+   ↪ 10 lines...
+
+ ✓ View sign-on procedures
+   $ sed -n '3918,3990p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 74 lines...
+
+ ✓ Search for settlement and liquidity procedures
+   $ grep -n -A 5 -B 5 "liquidity management\|prefund\|settlement account\|master account" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt | grep -i 
+   "procedure\|process\|requirement" | head -30
+   ↪ 31 lines...
+
+ ✓ View onboarding procedures section
+   $ sed -n '8100,8300p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 153 lines...
+
+LIGIBILITY & ONBOARDING PROCEDURES:
+
+   General Requirements:
+
+     - Comply with participant rules, technical specifications, and risk management requirements
+     - Complete registration/application process specific to each network
+     - Establish appropriate profile type based on business needs
+     - Complete testing and auditing procedures
+
+   FedNow:
+
+     - Establish Participation Profile and/or Authorized Connection Profile
+     - Apply for Federal Reserve Master Account (or arrange correspondent settlement)
+     - Complete FedLine security requirements assessment (annual)
+
+   RTP:
+
+     - Get approved by The Clearing House (TCH) as a Participant
+     - Must be supervised/regulated by US authorities and located in USA
+     - Establish Federal Reserve Master Account or arrangement with Funding Agent
+
+   Same Day ACH:
+
+     - Agreement to Terms and General Participant Information
+     - Sign Reserve Bank Operating Circular 4
+     - Execute FedACH Participation Agreement
+     - Conduct annual audit of compliance with General Rules
+
+   Mastercard Send:
+
+     - Register for required programs (MoneySend, Other Network Transactions, Gaming/Gambling)
+     - Get approved and onboarded (receive keys and partner reference ID)
+     - Cannot access test or production environments until approved
+
+   PRE-OPERATIONAL PROCEDURES:
+
+   Sign-On Requirements (FedNow & RTP):
+
+     - Transmit sign-on request message (admn.001 in ISO 20022 format)
+     - Confirms full connection and active participation status
+
+   Settlement Account Setup:
+
+     - Designate settlement account (Master Account or correspondent-maintained)
+     - RTP: Fund the Prefunded Balance Account per prefunding requirements
+
+   Security & Compliance Setup:
+
+     - Implement digital signature capabilities (public/private key pairs for FedNow)
+     - Establish information security program
+     - Implement BSA/AML compliance program
+     - Establish OFAC sanctions screening procedures
+     - For card networks: Comply with PCI Data Security Standards
+
+   Operational Readiness:
+
+     - Ensure continuous system availability (24/7/365 for RTP)
+     - Establish monitoring and alerting capabilities
+     - Notify network if unable to send/receive messages
+     - Ensure ability to make funds immediately available (FedNow)
+
+   ONGOING OPERATIONAL PROCEDURES:
+
+   Liquidity Management:
+
+     - Monitor and forecast liquidity needs
+     - Maintain adequate prefunding (RTP participants)
+     - Use liquidity management transfers as needed
+
+   Transaction Processing:
+
+     - Validate messages comply with technical specifications
+     - Screen against sanctions lists before sending
+     - Conduct fraud checks and risk assessments
+     - For RTP sending participants: Provide sender with receiver name (consumer transactions)
+
+   Risk Management:
+
+     - Conduct annual compliance assessments
+     - Maintain transaction monitoring based on risk ratings
+     - Apply velocity limits and transaction controls
+     - Screen for suspicious activity
+
+   Customer Identification Program (CIP) Procedures:
+
+     - Collect customer information at account opening (name, DOB, address, ID number)
+     - Verify identity through risk-based procedures
+     - Maintain records for 5 years after account closure
+     - Check customers against government sanctions lists (OFAC SDN List)
+     - File suspicious activity reports when CIP fails
+
+   Vendor/Third-Party Management:
+
+     - Conduct due diligence when selecting service providers
+     - Ensure third parties adhere to all compliance requirements
+     - Establish oversight processes
+
+   MESSAGE VALIDATION PROCEDURES:
+
+     - Validate message format and required fields
+     - Check sufficient liquidity to settle
+     - Verify receiving account validity
+     - Screen for fraud and sanctions compliance
+
+   These procedures ensure participants operate safely, securely, and in compliance
+   with network rules and regulatory requirements.
+
+Conditions
+Please read the document AFPP Handbook looking for conditions associated with participation.
+
+ ✓ Search for participation conditions
+   $ grep -n -i "condition\|prerequisite\|must\|required\|obligation" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt | grep -i "particip" | head -50
+   ↪ 51 lines...
+
+ ✓ View general participant conditions
+   $ sed -n '2434,2520p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 87 lines...
+
+ ✓ View RTP and ACH eligibility conditions
+   $ sed -n '2520,2680p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 160 lines...
+
+ ✓ View Visa Direct conditions
+   $ sed -n '2680,2800p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 121 lines...
+
+ ✓ Search for availability conditions
+   $ grep -n "availability\|uptime\|24/7\|continuous" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt | grep -i "particip\|requirement\|must" | head -30
+   ↪ 21 lines...
+
+ ✓ View system and participant availability standards
+   $ sed -n '2938,3000p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 64 lines...
+
+ ✓ View specific participant availability requirements
+   $ sed -n '7330,7400p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 72 lines...
+
+ ✓ Search for transaction limit conditions
+   $ grep -n "transaction limit\|velocity limit\|maximum amount\|minimum amount" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt | head -40
+   ↪ 22 lines...
+
+ ✓ View transaction limit details
+   $ sed -n '9400,9500p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 102 lines...
+
+ ✓ Search for liquidity and settlement conditions
+   $ grep -n "liquidity\|prefund\|settlement" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt | grep -i "requirement\|must\|condition\|obligation" | head -40
+   ↪ 24 lines...
+
+ ✓ View prefunding requirements details
+   $ sed -n '8140,8220p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 82 lines...
+
+ ✓ Search for security and authentication conditions
+   $ grep -n "authentication\|digital signature\|security" /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt | grep -i "requirement\|must\|condition" | head -40
+   ↪ 12 lines...
+
+ ✓ View authentication requirements table
+   $ sed -n '1566,1650p' /home/fewill/code/afpp-write/2026-AFPP-HANDBOOK-FINAL.txt
+   ↪ 86 lines...
+
+ ● Based on my comprehensive review of the 2026 AFPP Handbook, here are the key
+   conditions associated with participation:
+
+NETWORK-SPECIFIC CONDITIONS:
+
+   FedNow Conditions:
+
+   Business Conditions:
+
+     - Be eligible for Federal Reserve Financial Services
+     - Have access to Federal Reserve Master Account OR use correspondent FI for settlement
+     - Establish participant profile according to business needs and risk tolerance
+
+   Operational Conditions:
+
+     - Available 24/7/365 - continuous operations each calendar day including weekends/holidays
+     - Planned downtime limits:
+       - Maximum 2 consecutive hours
+       - Maximum 24 hours total per quarter
+       - Must occur only on Sundays between 2-6 AM ET
+     - Notify Federal Reserve if unable to send/receive messages
+     - Make funds immediately available to customers
+
+   Technical Conditions:
+
+     - Follow FedNow operating procedures and technical specifications
+     - Use public/private key pairs for digital message signing
+     - All messages require digital signature
+     - Conduct annual assessment of FedLine security compliance
+     - Establish monitoring and alerting capabilities
+
+   Compliance Conditions:
+
+     - Maintain procedures for screening sanction lists
+     - Implement compliance program
+     - Implement BSA/AML compliance program
+     - Have information security program for physical and logical system components
+
+   Transaction Limits:
+
+     - Default send limit: $100,000
+     - Maximum configurable limit: $10,000,000 (as of November 2025)
+     - Sending participants may set lower limits; receiving participants cannot
+     - Timeout: 20 seconds maximum for transaction to settle or be rejected
+
+   -------------------------------------------------------------------------------
+
+   RTP Network Conditions:
+
+   Business Conditions:
+
+     - Business located in USA
+     - Supervised and regulated by US regulatory authorities
+     - Has Federal Reserve Master Account OR arrangement with Funding Agent
+     - Approved by The Clearing House (TCH) as a Participant
+
+   Operational Conditions:
+
+     - Operate 24/7/365 - continuous basis (directly or through third-party service provider)
+     - 99.5% continuous connectivity standard measured monthly
+     - Permissible maintenance window: Sundays 2:00-6:00 AM ET only
+     - Must transmit sign-on request (admn.001 message) to be reachable
+
+   Prefunding Conditions:
+
+     - Satisfy prefunding requirements determined by TCH based on total U.S. Transactional Deposits
+     - Transfer funds equal to or greater than prefunded requirement via Fedwire BEFORE originating payments
+     - Non-funding participants must have arrangement with Funding Manager or Funding Provider
+     - Monitor Current Prefunded Position (CPP) - payments rejected if insufficient liquidity
+
+   Technical Conditions:
+
+     - Comply with RTP Operating Rules and technical specifications (must be tested and audited)
+     - Ensure payment messages comply with applicable operating rules
+     - Specify settlement account with adequate funds
+
+   Compliance Conditions:
+
+     - Implement OFAC compliance program
+     - Provide sender with receiver name for consumer-originated payments
+     - Multi-factor authentication required (minimum) for customer identity verification
+     - Perform appropriate fraud monitoring before submitting payments
+     - Conduct periodic reviews/updates of fraud monitoring procedures
+
+   Transaction Conditions:
+
+     - Maximum limit: $10,000,000
+     - Sending participants may set lower limits; receiving participants must accept up to $10M
+     - Timeout: 15 seconds (from RTP receiving message to receiving FI response)
+     - Must respond to Request for Return of Funds within 10 banking days
+
+   -------------------------------------------------------------------------------
+
+   Same Day ACH Conditions:
+
+   Business Conditions:
+
+     - Agreement to Terms and General Participant Information
+     - Execute Reserve Bank Operating Circular 4
+     - Execute FedACH Participation Agreement
+
+   Operational Conditions:
+
+     - Able to initiate ACH files in format established by Nacha Operating Rules
+     - If FI originates ACH entries, must also agree to act as RDFI
+
+   Compliance Conditions:
+
+     - Comply with U.S. law including sanctions programs
+     - Conduct annual audit of compliance with General Rules
+     - Retain proof of completion of annual audit
+     - Conduct risk assessment of ACH activities
+     - Implement risk management program accordingly
+     - Have security policies/procedures for initiation, processing, and storage
+     - Verify originator or third-party sender identity
+     - Enter into origination agreement with each originator
+
+   Availability:
+
+     - Network open 23¼ hours every business day
+     - Settlement only during Same Day ACH cycles
+     - Settlement requires Federal Reserve settlement service to be open (closed weekends, holidays, 6:30 PM - 7:30 AM ET)
+
+   -------------------------------------------------------------------------------
+
+   Mastercard Send Conditions:
+
+   Business Conditions:
+
+     - Register for required programs based on intended solution
+     - Meet program eligibility requirements
+     - Be approved and onboarded (receive keys and partner reference ID)
+
+   Operational Conditions:
+
+     - Adhere to Mastercard Send Program Standards and Rules
+     - Ensure all connected Third Parties adhere to standards
+     - Cannot use APIs in test or production until approved and onboarded
+
+   Receiving Institution Conditions:
+
+     - No need to register for MoneySend Payment Transactions Program
+     - Must notify Mastercard when ready to accept payment transactions
+     - Must adhere to Program Standards
+
+   Compliance Conditions:
+
+     - Establish settlement account
+     - Follow applicable agreements and licenses
+
+   -------------------------------------------------------------------------------
+
+   Visa Direct Conditions:
+
+   Business Conditions:
+
+     - Must be licensed Visa acquirer OR sponsored by one
+     - Third-party service providers must be sponsored by licensed acquirer
+
+   Technical Conditions:
+
+     - Card Capture and Verification Functionalities
+     - Customer Support requirements
+     - Financial and Back Office Management functionalities
+     - Make connection to Visa via ISO or API connection
+
+   Operational Conditions:
+
+     - Ensure all stages of transaction processing in place (submission, settlement, dispute management, reporting)
+     - Validate sender data
+     - Perform KYC, fraud, and eligibility checks on sender/recipient
+     - Screen transactions for high-risk/sanctioned transactions
+     - Set velocity limits
+
+   Compliance Conditions:
+
+     - Comply with anti-money laundering laws and regulations
+     - Comply with anti-terrorist financing standards
+     - Provide proper disclosure to sender regarding data collection
+     - Notify Visa before starting to process OCTs
+     - Ensure PCI Data Security Standards compliance
+     - Ensure compliance with applicable law(s)
+
+   Authentication Conditions:
+
+     - Two-Way SSL (Mutual SSL) authentication
+     - Channel encryption
+     - Provide username, password, and X509 security certificate issued by Visa
+     - Message-level encryption
+
+   -------------------------------------------------------------------------------
+
+   COMMON CONDITIONS ACROSS NETWORKS:
+
+   Liquidity Conditions:
+
+     - Maintain sufficient liquidity to settle payments
+     - Forecast liquidity needs (especially for 24/7/365 systems)
+     - Monitor incoming/outgoing funds
+
+   Message Validation Conditions:
+
+     - Validate messages comply with technical specifications
+     - Ensure message format correctness
+     - Check transaction doesn't exceed limits
+     - Verify sufficient funds before submission
+
+   Customer Identification Program (CIP) Conditions:
+
+     - Collect customer information at account opening
+     - Verify identity through risk-based procedures
+     - Maintain records for 5 years after account closure
+     - Check customers against government sanctions lists (OFAC SDN)
+     - File suspicious activity reports when appropriate
+
+   Ongoing Monitoring Conditions:
+
+     - Continuous transaction monitoring based on risk ratings
+     - Monitor volume, value, and frequency changes
+     - Screen for suspicious activities
+     - Apply validation for both originators and receivers
+
+   These conditions ensure safe, secure, compliant, and efficient participation in
+   Faster Payments networks.
+
+
+Refining and Improving Items
+
+    Pose a complete, unambiguous question.
+        Use a complete question format and avoid the incomplete sentence format. Most of the text you write should appear in the stem (not the response options).
+        Do NOT try to trick the test taker with complex or confusing clauses and sentence structures.
+        Avoid the use of negatively phrased questions unless absolutely necessary.
+        Fill-in-the-blank and True/False questions are NOT allowed.
+
+        A good example: 
+            Which participant is involved in the Same Day ACH process flow?
+                 Sending Participant
+                 Operator
+                 Receiving FI
+        
+        A bad example:
+            Sender, Sending Participant, and _____ are NOT:
+                 Receiving Participant; involved in the Same Day ACH process flow.
+                 Originator; required to execute agreements with each RDFI.
+                 Operator; owners of settlement accounts at the Federal Reserve.
+
+    Make sure the stem is easy to read and understand.
+        Use active voice.
+        Write from the 3rd person perspective.
+            Use generic position titles (e.g., risk manager, board of directors, leadership); do NOT use “he” or “she”.
+
+        A good example: The key advantage of the FraudClassifier℠ model is the ability to classify fraud independently of payment type, characteristics, and:
+             channel.
+             product.
+             sender.
+
+        A bad example: 
+            Focusing on a series of questions, gaining a holistic fraudulent events view sophisticatedly applied across the industry, the FraudClassifier model has key advantages. Which of the following do you think is a key advantage of the model?
+                 Independent fraud classification by payment type,characteristics, and channel
+                 Independent fraud classification by payment type, characteristics, and product
+                 Independent fraud classification by payment type, characteristics, and sender
+
+    Make sure the responses are properly structured.
+        Write responses that are logical answers to the specific question you’re asking. Do NOT include responses that are silly, absurd, impractical, ridiculous, or fake.
+        Make the responses equal in length and grammatical structure.
+        Ensure there is only one correct response.
+            Ensure they do not cover overlapping content.
+            Vary the position of the correct response.
+
+    A good example:
+        When can a receiving financial institution use an Accept Without Posting response to an instant credit transfer sent to one of its customer accounts?
+             The receiving financial institution's system requires more time to post funds in its core banking system.
+             The identified recipient is not entitled or permitted to receive the payment for legal or compliance reasons.
+             The sending or receiving routing or account number is on the financial institution's negative list.
+
+    A bad example: 
+        When can a receiving financial institution use an Accept Without Posting response to an instant credit transfer sent to one of its customer accounts?
+             The receiving financial institution's system requires more time to post funds in its core banking system because its communication system is disrupted by a passing asteroid.
+             If the recipient is not entitled.
+             When the sending or receiving routing or account number is on the financial institution's negative list
+
+    Avoid questions that focus on trivial topics or opinions.
+        Write questions that test relevant and important topics.
+            WHO, WHAT, WHEN: Facts, useful definitions of terms, critical dates or time frames, monetary limits, significantevents, etc.
+            HOW: Proper sequences of actions or behaviors, the next or first step in a process, the most effective technique to use for a given objective/task, etc.
+            WHY, SO WHAT: The value of different pieces of information relative to a cause/objective, the rationale for doing something in a particular way, the legal basis for a policy or task, etc.
+
+        [Add examples]
+
+    NACHA Style Guidlines: 
+        Word Usage
+            Use mitigate in relation to risk rather than “prevent”.​
+            Use financial institution instead of specific types of financial institutions (e.g., bank, credit union), unless the type has a bearing on the correct response.​
+            Use should instead of “would,” “could,” “might,” or “may.”
+        Formatting
+            Use italics to emphasize FFIEC source references that are included in the stem. For example:​
+                According to the FFIEC IT Examination Handbook: Retail Payment Systems Booklet…​
+            Write the word “not” in all capital letters (i.e., NOT).
+            Do NOT use underlining or boldface type.
+            NEW! Do NOT use the registered trademark or copyright symbols (e.g., RTP®, FedNow®)
+        Citations
+            Cite the source in the stem if the answer varies depending on which source or perspective one takes.
+                Example: “According to Operating Circular 4,…”
+            If using a citation to the FFIEC IT Examination Handbook, identify the specific booklet.
+                Example: “According to the FFIEC IT Examination Handbook: Retail Payment Systems Booklet…​”
+            When referencing the Nacha Operating Rules in an item, always write the full name.
+                Do NOT use shortened versions such as ACH Rules or Nacha Rules.​
+
+
+Reporting Source References
+    Every item MUST have at least one approved reference recorded in the item bank.
+        For example:
+            AFPP Handbook (2024). Nacha. 2006.2 Cross-border payments through Faster Payments rails Table labeled: Status of payment rails in terms of cross border payments availability p. 105

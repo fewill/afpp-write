@@ -1,0 +1,135 @@
+KSA 1004: Types and Functions of Participation
+Draft Test Questions
+---------------------------------------------------------------------------
+
+Q1 — Factual
+
+Which action can a FedNow receive-only participant perform without the ability to initiate credit transfer payments?
+
+A. Send a Request for Payment
+B. Originate a customer credit transfer
+C. Initiate a liquidity management transfer
+
+Answer: A
+
+Source: 2026 AFPP Handbook, FedNow participant types section, approximately line 3031.
+"Receive-only participants have the ability to send RfPs but are not eligible to receive RfPs
+because they cannot initiate customer credit transfers as a response to a payment request."
+
+---------------------------------------------------------------------------
+
+Q2 — Factual
+
+Which combination of participant roles is required of all participants in the RTP network?
+
+A. Sending Participant and Receiving Participant
+B. Funding or Non-funding Participant and Receiving Participant
+C. Funding Participant and Non-funding Participant
+
+Answer: B
+
+Source: 2026 AFPP Handbook, RTP participant types section, approximately line 3071.
+"Any participant must be (i) either a Funding Participant or a Non-funding Participant, and
+(ii) a Receiving Participant. A participant also may be a Sending Participant."
+
+---------------------------------------------------------------------------
+
+Q3 — Factual
+
+When a financial institution participates as a receive-only participant in the FedNow network,
+which message type is it required to receive?
+
+A. pacs.002 (Payment Status Report)
+B. pacs.004 (Payment Return)
+C. pacs.008 (Customer Credit Transfer)
+
+Answer: C
+
+Source: 2026 AFPP Handbook, Table 22: Message Types by Participant – FedNow, approximately
+lines 3564–3617. For the receive-only participant type, pacs.008 is listed as Prohibited to send
+and Mandatory to receive.
+
+---------------------------------------------------------------------------
+
+Q4 — Conditional
+
+Which role must a financial institution also agree to fulfill when it originates ACH entries in
+the Same Day ACH network?
+
+A. ACH Operator
+B. Receiving Depository Financial Institution
+C. Third-party sender
+
+Answer: B
+
+Source: 2026 AFPP Handbook, Same Day ACH participant types section, approximately line 3080.
+"An FI may participate in the ACH Network as an RDFI without also being an ODFI; however,
+if an FI chooses to originate ACH entries, it must also agree to act as an RDFI."
+
+---------------------------------------------------------------------------
+
+Q5 — Procedural
+
+Which message type must an RTP participant transmit to confirm full connection and active
+participation status on the network?
+
+A. admn.001
+B. pacs.002
+C. pacs.008
+
+Answer: A
+
+Source: 2026 AFPP Handbook, RTP requirements prior to receiving/originating transactions,
+approximately line 3985. "Participants must first transmit a sign-on request (ISO 20022 message
+ID: admn.001) message to be reachable on the RTP Network."
+
+---------------------------------------------------------------------------
+
+Q6 — Conditional
+
+Under what condition will the RTP network reject a payment submitted by a sending participant?
+
+A. The sending participant has not established a Federal Reserve Master Account
+B. The receiving participant's internally configured transaction limit is set below the payment amount
+C. The sending participant's Current Prefunded Position is insufficient to cover the payment
+
+Answer: C
+
+Source: 2026 AFPP Handbook, Reasons for implementing prefunding requirements, approximately
+line 8165. "RTP verifies the sending participant's Current Prefunded Position (CPP). RTP will
+reject the payment if the sending participant has insufficient liquidity to cover the payment."
+
+---------------------------------------------------------------------------
+
+Q7 — Conditional
+
+Under what condition may a third-party service provider participate as an originator in the
+Visa Direct network?
+
+A. The third-party service provider has established a direct settlement account with Visa
+B. The third-party service provider is sponsored by a licensed Visa acquirer
+C. The third-party service provider has completed registration for the Visa Direct program
+
+Answer: B
+
+Source: 2026 AFPP Handbook, Visa Direct participant types section, approximately line 3142.
+"Third-party service providers who offer push payment services to end users (consumers or
+businesses) can be sponsored by a Visa licensed acquirer to offer push payment capabilities
+to Visa card accounts."
+
+---------------------------------------------------------------------------
+
+STYLE COMPLIANCE REVIEW
+
+[X] Complete question format — all 7 questions use a complete interrogative stem
+[X] Active voice, 3rd person — verified throughout
+[X] "Financial institution" used where appropriate (Q4, Q3 stem) — no "bank" or "credit union"
+[X] "NOT" in all caps where used — not applicable (no negatively phrased questions)
+[X] No trademark symbols — no RTP(R), FedNow(R), or similar
+[X] No bold or underline in responses — plain text only
+[X] Responses equal in length and grammatical structure — parallel structure confirmed per question
+[X] Correct answer positions varied: Q1=A, Q2=B, Q3=C, Q4=B, Q5=A, Q6=C, Q7=B
+[X] Only one defensible correct answer per question — confirmed against source text
+[X] No trivial, absurd, or overlapping distractors — all distractors are plausible but incorrect
+
+---------------------------------------------------------------------------
