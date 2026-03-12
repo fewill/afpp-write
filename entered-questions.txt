@@ -1,6 +1,6 @@
 entered questions
 
-KSA 1004 - Source: ksa_1004_v2_draft.txt ✅ ENTERED
+KSA 1004 - source: ksa_1004_v2_draft.txt ✅ ENTERED
 
 Q1 — Factual / JSQ
 
@@ -80,7 +80,7 @@ Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations for
 
 _____
 
-KSA 5002 - source: ksa_5002_v2_draft.txt
+KSA 5002 - source: ksa_5002_v2_draft.txt ✅ ENTERED
 
 Q4 — Procedural / JSQ
 
@@ -100,7 +100,7 @@ Source: Operating Circular 8 (April 1, 2026). Federal Reserve Banks. FedNow Serv
 
 _____
 
-KSA 5003 - source: ksa_5003_v2_draft.txt
+KSA 5003 - source: ksa_5003_v2_draft.txt ✅ ENTERED
 
 Q5 — Procedural / JSQ
 
@@ -120,7 +120,7 @@ Source: 12 CFR Part 1005 (Regulation E). Consumer Financial Protection Bureau. S
 
 _____
 
-KSA 5004 - source: ksa_5004_v2_draft.txt
+KSA 5004 - source: ksa_5004_v2_draft.txt ✅ ENTERED
 
 Q4 — Procedural / JSQ
 
