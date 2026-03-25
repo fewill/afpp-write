@@ -8,7 +8,7 @@ Skill Rating: JSQ
 Cognitive Level: Recall
 Rationale: Knowing that a FedNow receive-only participant can send RfPs despite being unable to initiate credit transfers is foundational knowledge for a 2-year FedNow practitioner.
 
-Which action can a FedNow receive-only participant perform even though it cannot initiate customer credit transfers?
+Which action is a FedNow receive-only participant allowed to perform?
 
   A. Send a Request for Payment to a financial institution that can initiate a credit transfer in response
   B. Receive a Request for Payment from a financial institution that needs the receive-only participant to fund a payment
@@ -50,13 +50,33 @@ Rationale: Knowing that the FedNow Service is the only U.S. faster payment rail 
 
 According to the AFPP Handbook, on which U.S. faster payment rail is a liquidity management overlay service available?
 
-  A. Same Day ACH, because the Nacha Operating Rules require participants to access liquidity management tools to manage settlement exposure between processing windows
-  B. The RTP network, because The Clearing House designed its prefunding model to integrate with a centralized liquidity management system for Funding Participants
-  C. FedNow, because the FedNow Service provides participants with tools to make internal adjustments and monitor cash flows to support their liquidity needs
+  A. Same Day ACH
+  B. The RTP network
+  C. FedNow
 
 Answer: C
 
 Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations for Enabling Faster Payments, "Liquidity Management" subsection, p. 134; Table 58 – Faster Payment Overlay Services in the US, p. 135.
+
+_____
+
+KSA 4004 - source: ksa_4004_v2_draft.txt ✅ ENTERED (Q5 — reviewer feedback, second item)
+
+Q — Factual / JSQ
+
+Skill Rating: JSQ
+Cognitive Level: Recall
+Rationale: Knowing that a liquidity management overlay service allows participants to make internal adjustments or source funds from other financial institutions is foundational knowledge for a 2-year faster payments practitioner.
+
+According to the AFPP Handbook, what does a liquidity management overlay service allow a faster payment participant to do to address liquidity needs stemming from payment activities?
+
+  A. Make internal adjustments or source funds from other financial institutions to support its liquidity needs
+  B. Request emergency settlement credits from the central infrastructure provider during periods of peak payment volume
+  C. Suspend outgoing payment messages until its prefunded balance is restored to the minimum threshold required by the network
+
+Answer: A
+
+Source: AFPP Handbook (2026). Nacha. Chapter 4 – Technology Considerations for Enabling Faster Payments, "Liquidity Management" subsection, p. 134.
 
 _____
 
